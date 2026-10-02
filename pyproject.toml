@@ -1,6 +1,6 @@
 [project]
-name = "lightning-talk"
+name = "cng-global-ftw-preview"
 version = "0.1.0"
-description = "CNG Lightning Talk Quarto Template"
+description = "Global FTW second-edition preview for the CNG lightning talk"
 requires-python = ">=3.11"
 dependencies = []

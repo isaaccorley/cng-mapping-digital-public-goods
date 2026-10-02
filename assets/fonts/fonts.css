@@ -1,0 +1,70 @@
+/*
+ * FTW brand fonts — self-hosted.
+ * Fonts sourced from Fontsource (https://fontsource.org), Latin subset only.
+ * Both fonts are licensed under the SIL Open Font License 1.1.
+ *
+ * Usage:
+ *   <link rel="stylesheet" href="/path/to/assets/fonts/fonts.css">
+ *   body { font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif; }
+ *   h1, h2, h3, h4, h5 { font-family: 'Sora', ui-sans-serif, system-ui, sans-serif; }
+ */
+
+/* ---- Sora (headings — Medium 500, SemiBold 600 per brand guide) ---- */
+
+@font-face {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./sora/sora-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./sora/sora-latin-500-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./sora/sora-latin-600-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./sora/sora-latin-700-normal.woff2') format('woff2');
+}
+
+/* ---- Manrope (body — Medium 500 per brand guide) ---- */
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./manrope/manrope-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./manrope/manrope-latin-500-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./manrope/manrope-latin-600-normal.woff2') format('woff2');
+}

@@ -1,48 +1,56 @@
-# CNG Lightning Talk Template (Quarto)
+# Global FTW · 2nd edition sneak peek
 
-A [Quarto RevealJS](https://quarto.org/docs/presentations/revealjs/) template for 5-minute [Cloud Native Geospatial Forum](https://cloudnativegeo.org) lightning talks. Slides auto-advance every 15 seconds. 20 slides × 15 seconds = 5 minutes.
+A Quarto RevealJS lightning talk for the Cloud Native Geospatial Forum.
+**20 slides × 15 seconds = 5 minutes**, plus an untimed cover and closing slide.
 
-**Live demo:** [https://cloudnativegeo.github.io/lightning-talk-quarto-TEMPLATE/](https://cloudnativegeo.github.io/lightning-talk-quarto-TEMPLATE/)
+## Present and review
 
----
-
-## Create your own deck
-
-1. Create a new repository under your account:
-  - Select from the upper right of the page: **Use this template → Create a new repository**
-  - Give the repository a name.
-  - Choose Public visibility (so you can create GitHub Pages)
-  - Click **Create repository**
-2. Wait for the **Publish Slides** workflow to finish (see the **Actions** tab). The `gh-pages` branch only exists after this first run.
-3. Enable GitHub Pages:
-  - Go to **Settings → Pages** in your new repo
-  - Under **Source**, select **Deploy from a branch**
-  - Under **Branch**, select `gh-pages` and `/ (root)`, then click **Save**
-  - Your deck will be live at `https://<your-username>.github.io/<repo-name>/` after a minute or two
-    - You can display this URL on the main page by clicking the gear icon in the **About** section, and checking the **Use your GitHub Pages website** checkbox.
-    - [ ] Share this URL with the CNG event organizers
-
-
-
-## What to edit
-
-- The main file to edit is the `index.qmd` file which defines the content of the slides.
-- Push any changes to `main` either using the GitHub.com website or by editing content locally (see below) — the workflow in `.github/workflows/publish.yml` will rerender the slides, push the resulting website to a `gh-pages` branch, and update the website automatically!
-
-
-
-## Local Setup / Development
-
-To develop the content locally, clone your repo and run quarto in "preview" mode:
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+```sh
 uv sync
-uv run quarto preview
+uv run quarto preview index.qmd
 ```
 
-Open the preview URL in your browser. The deck auto-advances — to turn off auto-advance during editing, add `?autoSlide=0` right after the `/`, **before** the `#` (e.g. `http://localhost:4200/?autoSlide=0#/slide-05`). Anything after the `#` is ignored, so `http://localhost:4200/#/slide-05?autoSlide=0` will not work. The countdown bar is hidden while auto-advance is off.
+Advance once from the cover to start the timed talk. For manual review, add
+`?autoSlide=0` **before** the hash: `http://localhost:4200/?autoSlide=0#/slide-04`.
+Press `S` for speaker notes. Each film restarts when its slide is entered.
 
----
+```sh
+uv run quarto render index.qmd
+python3 -m http.server 8765 --bind 127.0.0.1
+```
 
+Open `http://127.0.0.1:8765/docs/index.html?autoSlide=0` for the rendered deck,
+or `http://127.0.0.1:8765/docs/media.html` for the clip gallery.
+All images, fonts, and videos are local. Keep the entire `docs/` directory
+when copying the presentation to another machine. PDF exports show posters;
+the HTML deck plays the videos.
+
+## Media
+
+Six silent, 12-second H.264 MP4 loops, 1280 × 720 at 30 fps, in
+`assets/media/`. Their posters are suitable for a static export.
+
+| Clip | Comparison |
+|---|---|
+| `brazil-editions.mp4` | Original alpha → 2nd edition, Sorriso, 2025 |
+| `netherlands-editions.mp4` | Original alpha → 2nd edition, Flevoland, 2025 |
+| `usa-editions.mp4` | Original alpha → 2nd edition, Iowa, 2024 |
+| `egypt-change.mp4` | Toshka irrigation expansion, Q3 imagery, 2017 → 2025 |
+| `brazil-change.mp4` | Sorriso urban expansion, Q3 imagery, 2017 → 2025 |
+| `brazil-predictions.mp4` | Sorriso annual field probabilities, 2017 → 2025 |
+
+Screenshots include the COG boundary layer, a real GeoParquet table, PMTiles
+aggregates, Source Cooperative, and the Portolan registry. Exact camera
+positions, sources, interpretation limits, and reconstruction steps are in
+[MEDIA.md](MEDIA.md) and [assets/scenes.json](assets/scenes.json).
+
+## Preview status
+
+This is a sneak peek, not a release announcement or global accuracy claim.
+On 2 October 2026 the viewer still read `ftw/global-data-beta`; the new
+`global-data-2e` catalog path was not populated. The Source Cooperative
+preview was unlisted. The Portolan screenshot shows the existing Global FTW
+catalog, not a verified registration of the second edition.
+
+The existing GitHub Actions workflow publishes on a push to `main`. Local
+rendering does not publish anything.

@@ -5,3 +5,5 @@ __pycache__/
 .venv/
 
 **/*.quarto_ipynb
+/.capture/
+/qa/

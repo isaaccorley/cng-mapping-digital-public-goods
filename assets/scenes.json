@@ -1,0 +1,13 @@
+{
+  "captured": "2026-10-02",
+  "viewer": "https://isaac.earth/ftw-s2-quarterly/web/",
+  "preview_data": "https://data.source.coop/ftw/global-data-beta",
+  "clips": [
+    {"id":"brazil-editions","place":"Sorriso, Brazil","detail":"Large fields · 2025","before":"brazil-alpha","after":"brazil-2e","before_label":"Original FTW (alpha)","after_label":"2nd edition · preview","lat":-12.58,"lon":-55.72,"zoom":13,"year":2025,"quarter":"Q3","kind":"edition"},
+    {"id":"netherlands-editions","place":"Flevoland, Netherlands","detail":"Dense field network · 2025","before":"netherlands-alpha","after":"netherlands-2e","before_label":"Original FTW (alpha)","after_label":"2nd edition · preview","lat":52.65,"lon":5.68,"zoom":14,"year":2025,"quarter":"Q3","kind":"edition"},
+    {"id":"usa-editions","place":"Iowa, United States","detail":"Mixed field sizes · 2024","before":"usa-alpha","after":"usa-2e","before_label":"Original FTW (alpha)","after_label":"2nd edition · preview","lat":41.98,"lon":-93.72,"zoom":13,"year":2024,"quarter":"Q3","kind":"edition"},
+    {"id":"egypt-change","place":"Toshka, Egypt","detail":"Expansion of circular irrigation fields","before":"egypt-image-2017","after":"egypt-image-2025","before_label":"2017 · Q3","after_label":"2025 · Q3","lat":22.70,"lon":31.21,"zoom":12.6,"quarter":"Q3","kind":"imagery"},
+    {"id":"brazil-change","place":"Sorriso, Brazil","detail":"Urban growth along the agricultural edge","before":"brazil-image-2017","after":"brazil-image-2025","before_label":"2017 · Q3","after_label":"2025 · Q3","lat":-12.60,"lon":-55.735,"zoom":14,"quarter":"Q3","kind":"imagery"},
+    {"id":"brazil-predictions","place":"Sorriso, Brazil","detail":"Annual field probability · candidate changes","before":"brazil-field-2017","after":"brazil-field-2025","before_label":"2017 prediction","after_label":"2025 prediction","lat":-12.60,"lon":-55.735,"zoom":14,"quarter":"Q3","kind":"probability"}
+  ]
+}

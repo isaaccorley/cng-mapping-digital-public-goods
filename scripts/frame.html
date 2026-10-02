@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>FTW film frame</title>
+<link rel="stylesheet" href="../assets/fonts/fonts.css">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#004747;color:white;font-family:Manrope,sans-serif}
+.frame{position:relative;width:100vw;height:100vh;overflow:hidden}
+img{width:100%;height:100%;object-fit:cover}
+header{position:absolute;inset:0 0 auto;background:#004747;display:flex;justify-content:space-between;align-items:center;padding:19px 28px;height:96px}
+h1{font:500 27px Sora,sans-serif;margin:0 0 6px}p{font-size:16px;margin:0;color:#b5e1e6}
+.state{font:600 21px Sora,sans-serif;color:#c0d85b;text-align:right;max-width:42%}
+.stamp{position:absolute;top:112px;padding:9px 15px;background:#004747;color:#c0d85b;font:600 20px Sora,sans-serif}
+.stamp.before{right:20px}.stamp.after{left:20px}
+footer{position:absolute;bottom:0;left:0;max-width:83%;padding:10px 20px;background:#004747;font-size:11px;color:#fff}
+</style>
+<div class="frame"><img id="map" alt=""><header><div><h1></h1><p></p></div><div class="state"></div></header><div class="stamp"></div><footer></footer></div>
+<script type="module">
+const query=new URLSearchParams(location.search);
+const data=await (await fetch('../assets/scenes.json')).json();
+const scene=data.clips.find(s=>s.id===query.get('scene'));
+const side=query.get('side')==='after'?'after':'before';
+document.querySelector('h1').textContent=scene.place;
+document.querySelector('p').textContent=scene.detail;
+document.querySelector('.state').textContent=scene.kind==='edition'?'Edition comparison':'2017 → 2025';
+document.querySelector('.stamp').textContent=scene[`${side}_label`];
+document.querySelector('.stamp').classList.add(side);
+const img=document.querySelector('img');img.src=`../assets/stills/${scene[side]}.jpg`;img.alt=`${scene.place}, ${scene[`${side}_label`]}`;
+document.querySelector('footer').textContent=scene.kind==='edition'
+ ? 'FTW predictions (CC BY 4.0) · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Identical symbology; selected qualitative example'
+ : scene.kind==='probability'
+ ? 'FTW predictions (CC BY 4.0) · p(field) ≥ 0.5 · Sentinel-2 Q3 background · Changes require imagery / reference checks'
+ : 'Sentinel-2 / Copernicus / CDSE · Quarterly RGB mosaics · Hosted by Taylor Geospatial on Source Cooperative · Same season and camera';
+await img.decode();await document.fonts.ready;document.body.dataset.ready='true';
+</script>
+</html>
