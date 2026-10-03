@@ -39,40 +39,59 @@ About 10 seconds. The agenda lists this seven-minute talk on 8 October 2026 at 1
 
 ```{=html}
 <div class="overview">
-<div><p class="eyebrow">For the Digital Public Good</p><h2>Open datasets,<br>models, and tools<br>for mapping the world.</h2>
-<p class="overview-body">Research partnerships.<br>Global maps people can reuse.<br>Shared ways to evaluate them.</p></div>
-<div class="overview-map"><img src="assets/stills/netherlands-2e.jpg" alt="Global FTW field boundaries in the Netherlands"><p>Today’s main example<br><strong>Global Fields of The World · 2nd edition</strong></p></div>
+<div><p class="eyebrow">Taylor Geospatial</p><h2>Geospatial mapping<br>and model evaluation</h2>
+<p class="overview-body">We develop open datasets, models, and tools with research and application partners.</p>
+<p class="overview-body">Our work includes global feature maps and shared methods for evaluating geospatial models.</p></div>
+<div class="overview-map"><img src="assets/stills/netherlands-2e.jpg" alt="Global FTW field boundaries in the Netherlands"><p>Predicted field boundaries in Flevoland, Netherlands.<br><span>Global FTW · 2nd edition preview · 2025</span></p></div>
 </div>
 ```
 
 ::: {.notes}
-About 30 seconds. Taylor Geospatial is a nonprofit working with research and application partners on open geospatial AI. The focus today is what people can use: data, models, and tools. Most of the talk is a preview of the second global FTW map edition. Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda. Avoid introducing Taylor Geospatial as Taylor Geospatial Institute.
+About 30 seconds.
+Taylor Geospatial is a nonprofit working with research and application partners on open geospatial AI.
+We develop datasets, models, and tools for mapping and model evaluation.
+Most of this talk covers the second global FTW map edition.
+Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 :::
 
-## Features, benchmarks, and shared evaluation {#research .tg-light}
+## Related mapping and evaluation research {#research .tg-light}
 
 ```{=html}
 <div class="research-overview">
-<div class="research-projects"><article><h3>Features of The World</h3><p>Extending the mapping work to roads,<br>buildings, solar panels, and trees.</p><small>Active research</small></article>
-<article><h3>Benchmarks of The World</h3><p>Shared evaluation of model quality,<br>geographic generalization, and compute.</p><small>Research and evaluation tools</small></article></div>
-<div class="paper"><p class="eyebrow">Accepted at NeurIPS 2026</p><h3>No One Knows the State of the Art in Geospatial Foundation Models</h3><p>Shared protocols and reproducible comparisons<br>for choosing models people can use.</p><a href="https://arxiv.org/abs/2605.12678">Corley et al. · arXiv:2605.12678</a></div>
+<div class="research-projects"><article><h3>Features of The World</h3><p>The project extends feature mapping to roads, buildings, solar panels, and trees.</p><small>Active research</small></article>
+<article><h3>Benchmarks of The World</h3><p>The project develops tools to evaluate model quality, geographic generalization, and compute requirements.</p><small>Research and evaluation tools</small></article></div>
+<div class="paper"><p class="eyebrow">Accepted at NeurIPS 2026</p><h3>No One Knows the State of the Art in Geospatial Foundation Models</h3><p>The paper calls for shared evaluation setups and reproducible comparisons to inform model selection.</p><a href="https://arxiv.org/abs/2605.12678">Corley et al. · arXiv:2605.12678</a></div>
 </div>
 ```
 
 ::: {.notes}
-About 50 seconds. Briefly mention the broader work together on this one slide. Features of The World is extending feature mapping beyond fields. Benchmarks of The World concerns useful, comparable model evaluation. The position paper argues for shared evaluation protocols and reproducible comparisons; NeurIPS acceptance was confirmed by Isaac for this talk. Do not quote numerical audit results from the older preprint while revisions are in progress. Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/ ; https://arxiv.org/abs/2605.12678.
+About 50 seconds.
+Features of The World extends feature mapping beyond fields.
+Benchmarks of The World develops tools for comparing model quality, geographic generalization, and compute requirements.
+The position paper argues for shared evaluation setups and reproducible comparisons.
+Isaac confirmed its NeurIPS acceptance for this talk.
+The slide omits numerical audit results from the older preprint while revisions are in progress.
+Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/ ; https://arxiv.org/abs/2605.12678.
 :::
 
 ## Global FTW · 2nd edition {#ftw-preview .full}
 
 ```{=html}
 <div class="image-slide"><img src="assets/stills/netherlands-2e.jpg" alt="Second-edition FTW field polygons in Flevoland">
-<div class="image-head"><h2>Global FTW · 2nd edition</h2><p>Sneak peek · annual probabilities, 2017–2025 · field polygons</p></div>
+<div class="image-head"><h2>Global FTW · 2nd edition</h2><p>The preview includes annual field probabilities for 2017–2025 and extracted field polygons.</p></div>
 <div class="image-credit">Sentinel-2 inputs at 10 m · prediction grid at 2.5 m · selected qualitative examples · FTW / Copernicus / CDSE / Source Cooperative</div></div>
 ```
 
 ::: {.notes}
-About 25 seconds. Fields of The World is an open ecosystem of data, models, and tools. This section previews the second global map edition, separate from benchmark-dataset versioning. The annual raster series covers 2017 through 2025. The 2.5 m output grid comes from 10 m Sentinel-2 inputs. Edition comparisons use the same imagery, camera, and line styling; archive simplification and extraction also affect their appearance. These examples do not establish global accuracy. Source: preview catalog README.
+About 25 seconds.
+Fields of The World provides open data, models, and tools for agricultural field mapping.
+This is the second global map edition, separate from benchmark-dataset versioning.
+The annual raster series covers 2017 through 2025.
+The 2.5 m output grid comes from 10 m Sentinel-2 inputs.
+Edition comparisons use the same imagery, camera, and line styling.
+Archive simplification and extraction also affect the rendered boundaries.
+These selected examples do not establish global accuracy.
+Source: preview catalog README.
 :::
 
 ## Brazil · large fields {#brazil-editions .full}
@@ -195,7 +214,7 @@ About 12 seconds, one loop. Narrow fields are a different test of the representa
 About 12 seconds, one loop. Now switch from comparing editions to comparing years. New circular irrigation fields are visible between the 2017 and 2025 Q3 mosaics in Toshka. These are dated satellite backgrounds, not a model-derived change map. Camera: 22.7, 31.21; zoom 12.6; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
 :::
 
-## Egypt · another irrigation scheme {#delta-change .full}
+## Egypt · center-pivot irrigation {#delta-change .full}
 
 ```{=html}
 <div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/delta-change-poster.jpg" aria-label="Western Desert, Egypt: New centre-pivot fields west of the Nile Delta"><source src="assets/media/delta-change.mp4" type="video/mp4"></video></div>
@@ -255,7 +274,7 @@ About 12 seconds, one loop. In Sorriso, new streets and buildings occupy parts o
 About 12 seconds, one loop. The same Sorriso location with annual field probabilities. Some changes align with development. Treat differences as candidates to check against imagery, rather than subtracting polygons and declaring confirmed land-use change. Annual IDs are independent. Camera: -12.6, -55.735; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
 :::
 
-## Brazil · another growing agricultural town {#primavera-change .full}
+## Brazil · urban growth in Primavera do Leste {#primavera-change .full}
 
 ```{=html}
 <div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/primavera-change-poster.jpg" aria-label="Primavera do Leste, Brazil: New development around an agricultural town"><source src="assets/media/primavera-change.mp4" type="video/mp4"></video></div>
@@ -265,14 +284,19 @@ About 12 seconds, one loop. The same Sorriso location with annual field probabil
 About 12 seconds, one loop. A second Brazilian city, Primavera do Leste. New development fills out the road network around the town between 2017 and 2025. Camera: -15.565, -54.275; zoom 13.8; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
 :::
 
-## Brazil · check probability changes against imagery {#primavera-predictions .full}
+## Brazil · annual prediction changes {#primavera-predictions .full}
 
 ```{=html}
 <div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/primavera-predictions-poster.jpg" aria-label="Primavera do Leste, Brazil: Annual field probability · compare with the imagery"><source src="assets/media/primavera-predictions.mp4" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. A useful check: the large field in the northeast exists in both years, but its predicted probability changes substantially. Annual prediction change can come from model response and observations as well as land-use change. The imagery comparison prevents us calling that a newly created field. Camera: -15.565, -54.275; zoom 13.8; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
+About 12 seconds, one loop.
+The large field in the northeast exists in both years, but its predicted probability changes substantially.
+Annual prediction change can reflect model response, observations, or land-use change.
+The imagery shows that this field was already present in 2017.
+Camera: -15.565, -54.275; zoom 13.8; Q3.
+Source and capture details: MEDIA.md and assets/scenes.json.
 :::
 
 ## COG, GeoParquet, and PMTiles {#formats .tg-light}
@@ -281,31 +305,43 @@ About 12 seconds, one loop. A useful check: the large field in the northeast exi
 <div class="format-maps"><div><p><strong>COG</strong>Field and boundary probabilities</p><img src="assets/stills/france-field-2025.jpg" alt="COG field probabilities"></div><div><p><strong>PMTiles</strong>Regional summaries and field polygons</p><img src="assets/stills/pmtiles-overview.jpg" alt="PMTiles regional coverage map"></div></div>
 <p class="format-table-label"><strong>GeoParquet</strong> · Geometry and per-field attributes</p>
 <img class="format-table" src="assets/stills/geoparquet-table.jpg" alt="Actual GeoParquet table preview showing identifiers, geometry, bounding boxes, metrics, and scores">
-<p class="format-note">Open files over HTTPS · bring them into your own analysis</p>
+<p class="format-note">The data are distributed as open files over HTTPS.</p>
 ```
 
 ::: {.notes}
-About 30 seconds. These are three views of reusable data: probabilities in cloud-optimized GeoTIFF, geometry and attributes in GeoParquet, and fast browsing in PMTiles. The screenshots are the actual preview data. The field score is not calibrated accuracy. Raster years span 2017–2025; the vector publication is still being completed, so do not claim all nine vector years are ready. Source: preview catalog metadata.
+About 30 seconds.
+Cloud-optimized GeoTIFFs store probabilities, GeoParquet stores geometry and attributes, and PMTiles provides fast map browsing.
+The screenshots show the preview data.
+The field score is not calibrated accuracy.
+Raster years span 2017–2025, and vector publication is still in progress.
+All nine vector years should not be described as available yet.
+Source: preview catalog metadata.
 :::
 
 ## Source Cooperative and Portolan {#distribution .tg-light}
 
 ```{=html}
 <div class="distribution">
-<div><h3>Source Cooperative</h3><p>Hosts the data and documentation.</p><img class="catalog-shot" src="assets/stills/source-catalog.jpg" alt="Source Cooperative FTW preview catalog"></div>
-<div><h3>Portolan</h3><p>Catalog discovery through STAC<br>and cloud-optimized files.</p><img class="registry-shot" src="assets/stills/portolan-registry.jpg" alt="Existing Global FTW catalog in the Portolan registry"><p class="small">Thank you to the Portolan community.</p></div>
+<div><h3>Source Cooperative</h3><p>The preview catalog hosts the files and documentation.</p><img class="catalog-shot" src="assets/stills/source-catalog.jpg" alt="Source Cooperative FTW preview catalog"></div>
+<div><h3>Portolan</h3><p>Portolan provides catalog discovery<br>for STAC and cloud-optimized files.</p><img class="registry-shot" src="assets/stills/portolan-registry.jpg" alt="Existing Global FTW catalog in the Portolan registry"><p class="small">Thank you to the Portolan community.</p></div>
 </div>
-<p class="source-note">Preview on Source Cooperative · Portolan listing shown is the existing Global FTW catalog</p>
+<p class="source-note">The Portolan screenshot shows the existing Global FTW catalog.</p>
 ```
 
 ::: {.notes}
-About 20 seconds. Source Cooperative hosts the files. Portolan makes the catalog part of a wider, documented cloud-native ecosystem. The registry screenshot is the existing FTW catalog, not a claim that the second edition is already registered. This remains a sneak peek; the viewer currently uses the beta path. Sources: https://source.coop/ftw/global-data-beta and https://www.portolan-sdi.org/blog/introducing-portolan.
+About 20 seconds.
+Source Cooperative hosts the files and documentation.
+Portolan provides catalog discovery through STAC and cloud-optimized files.
+The registry screenshot shows the existing FTW catalog.
+Registration of the second edition is not confirmed here.
+The viewer uses the beta path for this sneak peek.
+Sources: https://source.coop/ftw/global-data-beta and https://www.portolan-sdi.org/blog/introducing-portolan.
 :::
 
-## Links {#end .tg-dark}
+## Data and research {#end .tg-dark}
 
 ```{=html}
-<div class="closing"><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Mapping the World<br>as a Digital Public Good</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://fieldsofthe.world/">fieldsofthe.world</a><a href="https://taylorgeospatial.org/innovation-program/">Taylor Geospatial research</a><a href="media.html">All 20 comparison clips</a></div></div>
+<div class="closing"><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://fieldsofthe.world/">FTW data and code</a><a href="https://taylorgeospatial.org/innovation-program/">Taylor Geospatial research</a><a href="media.html">20 comparison clips</a></div></div>
 ```
 
 ::: {.notes}

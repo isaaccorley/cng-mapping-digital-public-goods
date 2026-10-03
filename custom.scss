@@ -93,16 +93,18 @@ $presentation-h2-font-size: 1.5em;
 .reveal .overview { display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;height:790px; }
 .reveal #taylor-geospatial>h2 { display:none; }
 .reveal .overview h2 { font-size:61px;margin:25px 0 38px; }
+.reveal .overview .eyebrow { text-transform:none;letter-spacing:0; }
 .reveal .overview-body { font-size:29px;line-height:1.55; }
 .reveal .overview-map img { width:100%;height:560px;object-fit:cover; }
 .reveal .overview-map p { font-size:24px;line-height:1.45; }
+.reveal .overview-map p span { font-size:21px;color:#6c514e; }
 .reveal .research-overview { display:grid;grid-template-columns:1fr 1.1fr;gap:85px;align-items:start;padding-top:35px; }
 .reveal .research-projects article { border-top:2px solid #3b1e1c;padding-top:22px;margin-bottom:52px; }
 .reveal .research-projects h3 { font-size:36px;margin:0 0 17px; }
 .reveal .research-projects p { font-size:27px;line-height:1.45;margin:0 0 15px; }
 .reveal .research-projects small { font-size:19px;color:#6c514e; }
 .reveal .paper { border-left:3px solid #80a0d8;padding-left:45px; }
-.reveal .paper .eyebrow { color:#6c514e;margin:0 0 28px; }
+.reveal .paper .eyebrow { color:#6c514e;margin:0 0 28px;text-transform:none;letter-spacing:0; }
 .reveal .paper h3 { font-size:47px;line-height:1.16;margin:0 0 28px; }
 .reveal .paper p { font-size:27px;line-height:1.4; }
 .reveal .paper a { font-size:20px; }
