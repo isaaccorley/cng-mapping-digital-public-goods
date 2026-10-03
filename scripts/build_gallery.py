@@ -7,9 +7,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / "assets/scenes.json").read_text())
 scenes = manifest["clips"]
-version = manifest["captured"].replace("-", "")
+version = manifest.get("media_version", manifest["captured"].replace("-", ""))
 groups = [
-    ("change", "2017 → 2025", {"imagery", "probability"}),
+    ("change", "2018 → 2025", {"outlines"}),
     ("editions", "Original FTW → 2nd edition", {"edition"}),
     ("layers", "Probability masks → PMTiles", {"layers"}),
 ]
@@ -51,12 +51,12 @@ a{color:#3b1e1c;text-underline-offset:4px}nav{display:flex;gap:30px;flex-wrap:wr
 @media(max-width:850px){.clips{grid-template-columns:1fr}main{padding:30px 20px}}
 </style><main><div class="eyebrow">Taylor Geospatial · CNG Forum 2026</div>
 <h1>Mapping the World<br>as a Digital Public Good</h1>
-<p>20 FTW comparison clips · silent 12-second loops · 1280 × 720</p>
-<nav><a href="index.html">Slide deck</a><a href="#change">2017 → 2025</a><a href="#editions">Edition comparisons</a><a href="#layers">Masks and polygons</a></nav>
+<p>13 FTW comparison clips · silent 10-second loops · 1280 × 720</p>
+<nav><a href="index.html">Slide deck</a><a href="#change">2018 → 2025</a><a href="#editions">Edition comparisons</a><a href="#layers">Masks and polygons</a></nav>
 """
     + "\n".join(parts)
     + """
-<footer>Selected examples from the Global FTW second-edition preview. Imagery change and prediction change are labelled separately. Sources, camera positions, rendering thresholds, and exclusions are documented in MEDIA.md in the repository.</footer></main></html>
+<footer>Selected examples from the Global FTW second-edition preview. Change clips show each year’s extracted outlines over that year’s satellite mosaic. Sources, camera positions, rendering thresholds, and exclusions are documented in MEDIA.md in the repository.</footer></main></html>
 """
 )
 (ROOT / "media.html").write_text(page)

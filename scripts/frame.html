@@ -17,19 +17,21 @@ footer{position:absolute;bottom:0;left:0;max-width:83%;padding:10px 20px;backgro
 .legend{position:absolute;bottom:50px;left:20px;background:#3b1e1c;padding:10px 13px;font-size:12px;display:none}
 .legend i{display:block;width:180px;height:9px;margin:7px 0;background:linear-gradient(90deg,#3b1e1c,#80a0d8,#a7d0dc)}
 .legend span{display:flex;justify-content:space-between}
+body.panel header,body.panel footer{display:none}body.panel .stamp{top:22px;font-size:36px;padding:12px 20px}body.panel .stamp.before{right:24px}body.panel .stamp.after{left:24px}
 </style>
 <div class="frame"><img id="map" alt=""><header><div><h1></h1><p></p></div><div class="state"></div></header><div class="stamp"></div><div class="legend">Field probability<i></i><span><b>0.5</b><b>1</b></span></div><footer></footer></div>
 <script type="module">
 const query=new URLSearchParams(location.search);
 const data=await (await fetch('../assets/scenes.json')).json();
 const scene=data.clips.find(s=>s.id===query.get('scene'));
+if(scene.panel) document.body.classList.add('panel');
 const side=query.get('side')==='after'?'after':'before';
 document.querySelector('h1').textContent=scene.place;
 document.querySelector('p').textContent=scene.detail;
-document.querySelector('.state').textContent=scene.kind==='edition'?'Edition comparison':scene.kind==='layers'?'Probability → polygons':'2017 → 2025';
+document.querySelector('.state').textContent=scene.kind==='edition'?'Edition comparison':scene.kind==='layers'?'Probability → polygons':(scene.years||[2017,2025]).join(' → ');
 document.querySelector('.stamp').textContent=scene[`${side}_label`];
 document.querySelector('.stamp').classList.add(side);
-const img=document.querySelector('img');img.src=`../assets/stills/${scene[side]}.jpg?v=${data.captured}`;img.alt=`${scene.place}, ${scene[`${side}_label`]}`;
+const img=document.querySelector('img');img.src=`../assets/stills/${scene[side]}.jpg?v=${data.media_version||data.captured}`;img.alt=`${scene.place}, ${scene[`${side}_label`]}`;
 document.querySelector('footer').textContent=scene.kind==='edition'
  ? 'FTW predictions (CC BY 4.0) · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Identical symbology; selected qualitative example'
  : scene.kind==='layers'

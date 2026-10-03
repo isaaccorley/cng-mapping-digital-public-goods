@@ -1,0 +1,55 @@
+[
+  {
+    "name": "torchgeo",
+    "file": "assets/logos/torchgeo.svg",
+    "source": "https://github.com/torchgeo/torchgeo/blob/main/docs/_static/logo/logo-color.svg",
+    "sha": "8e493f798e497bd136cca103bb37c44a06c3d6e3"
+  },
+  {
+    "name": "gdal",
+    "file": "assets/logos/gdal.svg",
+    "source": "https://github.com/OSGeo/gdal/blob/master/data/GDALLogoColor.svg",
+    "sha": "da311ad81009d52f19cd39cab5c94644cb6e7998"
+  },
+  {
+    "name": "geopandas",
+    "file": "assets/logos/geopandas.svg",
+    "source": "https://github.com/geopandas/geopandas/blob/main/doc/source/_static/logo/geopandas_logo.svg",
+    "sha": "42ae2113d543dade605e979514e1034850cab36f"
+  },
+  {
+    "name": "duckdb",
+    "file": "assets/logos/duckdb.svg",
+    "source": "https://github.com/duckdb/duckdb-web/blob/main/images/duckdb_logo_dl.svg",
+    "sha": "e7e0cd8283901fbdd7d13e4dc67e69b18a4c7c7f"
+  },
+  {
+    "name": "openlayers",
+    "file": "assets/logos/openlayers.svg",
+    "source": "https://github.com/openlayers/openlayers/blob/main/site/src/theme/img/logo-dark.svg",
+    "sha": "9a4bad65e5d34bc59a149701fba4f6ba3e22cc80"
+  },
+  {
+    "name": "onnxruntime",
+    "file": "assets/logos/onnxruntime.png",
+    "source": "https://github.com/microsoft/onnxruntime/blob/main/docs/images/ONNX_Runtime_logo.png",
+    "sha": "0b9312e644ef3fb520e9b820ababe435d2dab1c0"
+  },
+  {
+    "name": "numpy",
+    "file": "assets/logos/numpy.svg",
+    "source": "https://github.com/numpy/numpy/blob/main/branding/logo/primary/numpylogo.svg",
+    "sha": "aeae1cd1fb48dbdefb661f5880cc2d1ae262dd99"
+  },
+  {
+    "name": "pytorch",
+    "file": "assets/logos/pytorch.svg",
+    "source": "https://github.com/pytorch/pytorch.github.io/blob/site/assets/images/logo-dark.svg",
+    "sha": "6da5e93f94216641d372c539f2ec57930c35c8f5"
+  },
+  {
+    "name": "arrow",
+    "file": "assets/logos/arrow.svg",
+    "source": "https://arrow.apache.org/img/arrow-logo_horizontal_black-txt_transparent-bg.svg"
+  }
+]

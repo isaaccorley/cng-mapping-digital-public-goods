@@ -127,3 +127,25 @@ $presentation-h2-font-size: 1.5em;
 .reveal .closing p { font-size:27px; }
 .reveal .closing-links { display:flex;gap:45px;margin-top:50px;font-size:25px; }
 .reveal .closing .closing-source { font-size:23px;margin-top:32px; }
+
+/* Paired examples keep labels readable outside the video. */
+.reveal .paired h2 { margin-bottom:20px; }
+.reveal .pair-subtitle { font-size:26px;margin:0 0 38px;color:#6c514e; }
+.reveal .comparison-pair { display:grid;grid-template-columns:1fr 1fr;gap:34px; }
+.reveal .comparison-pair h3 { font-size:34px;margin:0 0 22px; }
+.reveal .comparison-pair video { display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#3b1e1c; }
+.reveal .comparison-pair p { font-size:26px;margin:24px 0 0;line-height:1.4; }
+.reveal .pair-source { position:absolute;bottom:38px;font-size:19px;color:#6c514e; }
+.reveal .credits-intro { font-size:28px;margin:0 0 35px; }
+.reveal .open-source-columns { display:grid;grid-template-columns:1fr 1fr 1fr;gap:55px; }
+.reveal .open-source-columns article { border-top:2px solid #80a0d8;padding-top:24px; }
+.reveal .open-source-columns h3 { font-size:30px;margin:0 0 14px; }
+.reveal .open-source-columns a { height:120px;display:flex;align-items:center;justify-content:center;text-decoration:none; }
+.reveal .open-source-columns img { width:300px;height:76px;object-fit:contain; }
+.reveal .open-source-columns p { font-size:23px;line-height:1.6;margin-top:22px; }
+.reveal .open-source-columns .openlayers-logo { gap:20px;font-size:34px; }
+.reveal .open-source-columns .openlayers-logo img { width:65px;height:65px; }
+.reveal .credits-source { position:absolute;bottom:38px;font-size:19px;color:#6c514e; }
+.reveal .open-source-columns img[alt="ONNX Runtime"],
+.reveal .open-source-columns img[alt="Apache Arrow"] { width:340px;height:150px; }
+.reveal .open-source-columns img[alt="GDAL"] { height:100px; }

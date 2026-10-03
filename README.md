@@ -7,7 +7,7 @@ The [agenda](https://2026.cloudnativegeo.org/#/agenda?day=3&lang=en) lists a
 [Live deck](https://isaac.earth/cng-mapping-digital-public-goods/) ·
 [Clip gallery](https://isaac.earth/cng-mapping-digital-public-goods/media.html)
 
-The Quarto deck has **27 slides with manual advance**. FTW takes about three
+The Quarto deck has **15 slides with manual advance**. FTW takes about three
 quarters of the suggested speaking time. The opening covers Taylor Geospatial;
 one slide groups Features of The World, Benchmarks of The World, and the
 NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
@@ -37,24 +37,29 @@ use posters; the HTML deck plays videos.
 
 ## Comparison library
 
-**20 silent, 12-second H.264 loops**, 1280 × 720 at 30 fps.
+**13 silent, 10-second H.264 loops**, 1280 × 720 at 30 fps.
 Individual MP4s and posters are in `assets/media/`; the gallery groups them by
 comparison and provides downloads.
 
-| Comparison | Clips | Locations |
+| Comparison | Clips | Main-deck layout |
 |---|---:|---|
-| Original FTW → 2nd edition | 6 | Brazil, Netherlands, United States, France, South Africa, Poland |
-| Probability/boundary masks → PMTiles | 5 | France (both raster bands), Netherlands, South Africa, Poland |
-| 2017 → 2025 | 9 | Toshka and western Nile Delta, Egypt; Santa Cruz, Bolivia; Chaco, Paraguay; Hyderabad, India; Sorriso and Primavera do Leste, Brazil |
+| Original FTW → 2nd edition | 6 | Two countries per slide, three slides |
+| Probability mask → PMTiles | 1 | Normandy, France |
+| 2018 → 2025 | 6 | Two examples per slide, three slides |
 
-Seven change clips compare dated imagery; two compare annual field
-probabilities. The Primavera sequence explicitly shows why a probability
-change alone does not establish land-use change. Main slides include all
-clips; skip individual examples if discussion takes longer than planned.
+Change examples come from the current viewer’s curated list: Brazil, Uganda,
+China, Azerbaijan, and Saudi Arabia. Each compares annual GeoParquet outlines
+with the corresponding dated imagery. The viewer uses 2018 because it flags
+under-detection in some 2017 predictions. The examples distinguish new fields,
+changed field layout, and reduced crop activity; they do not claim area totals.
+
+Wipes take 1.2 seconds, with holds before and after. Paired videos wait until
+both can play, then restart together on slide entry. An open-source credits
+slide appears immediately before the ending slide.
 
 Exact camera positions, quarters, sources, thresholds, exclusions, and rebuild
 steps are in [MEDIA.md](MEDIA.md) and [assets/scenes.json](assets/scenes.json).
-The remaining data-access slides show actual COG, GeoParquet, PMTiles,
+The data-access slides show actual COG, GeoParquet, PMTiles,
 Source Cooperative, and Portolan screenshots.
 
 ## Preview status
@@ -71,3 +76,11 @@ The GitHub Actions workflow renders, uploads a Pages artifact, and deploys
 directly on a push to `main`. The repository's Pages source is GitHub Actions;
 the legacy `gh-pages` branch is no longer the publishing source. Local
 rendering alone does not publish anything.
+
+## Open-source acknowledgements
+
+The pipeline and viewer were inspected in
+[`taylor-geospatial/global-ftw-2e`](https://github.com/taylor-geospatial/global-ftw-2e),
+the renamed repository formerly known as `ftw-s2-quarterly`.
+[OPEN_SOURCE.md](OPEN_SOURCE.md) records the dependency evidence and logo sources.
+Logos remain in their official colors on the deck’s Taylor Geospatial background.

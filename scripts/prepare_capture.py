@@ -30,7 +30,7 @@ pending = ["index.html", "style.css"] + [
     item["path"].removeprefix("web/")
     for item in tree
     if item["type"] == "blob"
-    and item["path"].startswith(("web/js/", "web/vendor/", "web/assets/"))
+    and item["path"].startswith(("web/js/", "web/vendor/", "web/assets/", "web/data/"))
 ]
 snapshot = {}
 while pending:
@@ -65,7 +65,7 @@ src = src.replace(
   map.on('rendercomplete', () => {
     const sourcesReady = map.getLayers().getArray().every(layer =>
       !layer.getVisible() || !layer.getSource || layer.getSource()?.getState() === 'ready');
-    if (sourcesReady && (!rasterOn() || (raster && last.tiles.length > 0 && raster.layers.inflight === 0 && raster.layers.errors.size === 0))) {
+    if ((!state.show.outlines || document.body.dataset.outlinesReady === 'true') && sourcesReady && (!rasterOn() || (raster && last.tiles.length > 0 && raster.layers.inflight === 0 && raster.layers.errors.size === 0))) {
       document.body.dataset.captureReady = 'true';
     }
   });
@@ -73,6 +73,17 @@ src = src.replace(
   window.ftw = {""",
 )
 main.write_text(src)
+vector = WEB / "js/vector.js"
+src = vector.read_text().replace(
+    "  async sync(state, tiles) {",
+    "  async sync(state, tiles) {\n    document.body.dataset.outlinesReady = 'false';",
+)
+src = src.replace(
+    "      await Promise.all(Array.from({ length: CONCURRENCY }, worker));",
+    "      await Promise.all(Array.from({ length: CONCURRENCY }, worker));\n"
+    "      if (token === this.token) { document.body.dataset.outlinesReady = 'true'; this.map.render(); }",
+)
+vector.write_text(src)
 alpha = WEB / "js/alpha.js"
 src = alpha.read_text().replace("COLORS.alpha, width: 1.2", "'#80a0d8', width: 1.4")
 src = src.replace("COLORS.alphaFill", "'rgba(128,160,216,0.07)'")

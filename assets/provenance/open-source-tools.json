@@ -1,0 +1,106 @@
+{
+  "repository": "taylor-geospatial/global-ftw-2e",
+  "commit": "cbda0b122f12509624d29f9a4ae04dae27485661",
+  "browser": {
+    "hyparquet": "1.31.2",
+    "hyparquet-compressors": "1.1.2",
+    "ol": "10.10.0",
+    "ol-pmtiles": "2.0.2",
+    "proj4": "2.22.0"
+  },
+  "pipeline_notes": {
+    "tylertoo": "README.md:24",
+    "coverage-simplify (coarsen predecessor)": "README.md:47-51"
+  },
+  "python_imports": {
+    "torch": [
+      "src/global_ftw/mosaic_dataset.py:13",
+      "src/global_ftw/mosaic_dataset.py:14",
+      "src/global_ftw/mosaic_dataset.py:15",
+      "src/global_ftw/models.py:8"
+    ],
+    "torchgeo": [
+      "src/global_ftw/models.py:11",
+      "src/global_ftw/model.py:20"
+    ],
+    "onnxruntime": [
+      "scripts/stream_infer.py:44",
+      "scripts/export_onnx.py:51"
+    ],
+    "numpy": [
+      "src/global_ftw/mosaic_dataset.py:11",
+      "src/global_ftw/polygons.py:3",
+      "src/global_ftw/polymetric.py:10",
+      "src/global_ftw/vectorize.py:3"
+    ],
+    "rasterio": [
+      "src/global_ftw/cropland.py:10",
+      "src/global_ftw/cropland.py:11",
+      "src/global_ftw/cropland.py:12",
+      "src/global_ftw/cropland.py:13"
+    ],
+    "geopandas": [
+      "src/global_ftw/polymetric.py:9",
+      "scripts/build_tile_index.py:28"
+    ],
+    "shapely": [
+      "src/global_ftw/polygons.py:4",
+      "src/global_ftw/polymetric.py:14",
+      "src/global_ftw/polymetric.py:15",
+      "scripts/outline_codec.py:13"
+    ],
+    "duckdb": [
+      "scripts/fiboa_convert.py:20",
+      "scripts/fiboa_common.py:8",
+      "scripts/merge_polygons.py:19",
+      "scripts/publish_stac.py:17"
+    ],
+    "pyarrow": [
+      "scripts/bv_aux.py:7",
+      "scripts/fiboa_ranges.py:29",
+      "scripts/fiboa_convert.py:21",
+      "scripts/fiboa_common.py:9"
+    ],
+    "rustac": [
+      "scripts/publish_stac.py:19",
+      "scripts/build_stac_geoparquet.py:19"
+    ],
+    "contourrs": [],
+    "fbp": [
+      "scripts/bv_window.py:13",
+      "scripts/boundaryvote_tiles.py:54"
+    ],
+    "SimpleITK": [],
+    "numba": [],
+    "boto3": [
+      "scripts/mirror_s3.py:12",
+      "scripts/s3_put_retry.py:15"
+    ],
+    "matplotlib": [],
+    "skimage": [
+      "src/global_ftw/vectorize.py:24",
+      "src/global_ftw/vectorize.py:25",
+      "src/global_ftw/vectorize.py:50",
+      "src/global_ftw/vectorize.py:33"
+    ]
+  },
+  "declared_python_dependencies": [
+    "boto3",
+    "geopandas",
+    "matplotlib",
+    "numpy",
+    "pyarrow",
+    "rustac",
+    "rasterio",
+    "scikit-image",
+    "shapely",
+    "torch",
+    "torchgeo",
+    "contourrs",
+    "duckdb",
+    "wandb",
+    "onnxruntime-gpu",
+    "simpleitk",
+    "numba"
+  ]
+}

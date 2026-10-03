@@ -1,0 +1,691 @@
+[
+  {
+    "id": "G07",
+    "kind": "gain",
+    "place": "Matopiba, Maranh\u00e3o / Piau\u00ed",
+    "country": "Brazil",
+    "lon": -44.245,
+    "lat": -8.025,
+    "ha": 18151,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Cerrado to large gridded fields with a road grid."
+  },
+  {
+    "id": "G08",
+    "kind": "gain",
+    "place": "Masindi area",
+    "country": "Uganda",
+    "lon": 31.926,
+    "lat": 1.575,
+    "ha": 17547,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Grassland and wetland to gridded estate-style fields (possibly sugarcane, crop not verified)."
+  },
+  {
+    "id": "G09",
+    "kind": "gain",
+    "place": "East Oweinat / Toshka",
+    "country": "Egypt",
+    "lon": 27.999,
+    "lat": 22.375,
+    "ha": 16933,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Desert to a dense array of centre pivots.",
+    "pivot": true
+  },
+  {
+    "id": "H06",
+    "kind": "gain",
+    "place": "Nubariya / Wadi El Natrun",
+    "country": "Egypt",
+    "lon": 29.746,
+    "lat": 30.325,
+    "ha": 12475,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Barren desert to about 150 centre pivots.",
+    "pivot": true
+  },
+  {
+    "id": "H01",
+    "kind": "gain",
+    "place": "Paraguay\u2013Argentina frontier",
+    "country": "Paraguay / Argentina",
+    "lon": -56.662,
+    "lat": -26.475,
+    "ha": 10611,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Pasture to large gridded plots, blocks of about 300 ha."
+  },
+  {
+    "id": "GN02",
+    "kind": "gain",
+    "place": "Ili valley, Xinjiang",
+    "country": "China",
+    "lon": 81.198,
+    "lat": 43.625,
+    "ha": 10360,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Sand-dune desert fan to large irrigated fields."
+  },
+  {
+    "id": "H04",
+    "kind": "gain",
+    "place": "Kura lowland",
+    "country": "Azerbaijan",
+    "lon": 48.458,
+    "lat": 39.625,
+    "ha": 9048,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Steppe to irrigated tracts, some with pivots."
+  },
+  {
+    "id": "GN03",
+    "kind": "gain",
+    "place": "Paraguayan Chaco",
+    "country": "Paraguay",
+    "lon": -60.724,
+    "lat": -23.175,
+    "ha": 8848,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Ranch paddock grid extended south with new rectangular clearings; the upper block was already cleared earlier."
+  },
+  {
+    "id": "GN04",
+    "kind": "gain",
+    "place": "West Bahia cerrado",
+    "country": "Brazil",
+    "lon": -45.39,
+    "lat": -12.925,
+    "ha": 8070,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Savanna to centre pivots and large fields.",
+    "pivot": true
+  },
+  {
+    "id": "GN05",
+    "kind": "gain",
+    "place": "Nubariya, west Nile Delta",
+    "country": "Egypt",
+    "lon": 30.106,
+    "lat": 30.025,
+    "ha": 7805,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Bare sand to about 150 centre pivots.",
+    "pivot": true
+  },
+  {
+    "id": "BN2",
+    "kind": "big_new",
+    "place": "Matopiba, Bahia / Tocantins",
+    "country": "Brazil",
+    "lon": -45.5,
+    "lat": -10.825,
+    "ha": 5828,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Savanna to gridded blocks, northeast of the earlier clearing."
+  },
+  {
+    "id": "GN07",
+    "kind": "gain",
+    "place": "Pilcomayo margin, Formosa / \u00d1eembuc\u00fa",
+    "country": "Paraguay",
+    "lon": -58.123,
+    "lat": -26.375,
+    "ha": 5467,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Wet grassland and savanna to gridded flooded blocks (rice or another crop, not verified)."
+  },
+  {
+    "id": "GN09",
+    "kind": "gain",
+    "place": "North-east Brazil (Bahia / Sergipe)",
+    "country": "Brazil",
+    "lon": -38.593,
+    "lat": -10.125,
+    "ha": 4511,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Uniform vegetation in 2018; pale cleared blocks and strips visible lower right by 2025"
+  },
+  {
+    "id": "H07",
+    "kind": "gain",
+    "place": "Jingtai / Wuwei, Gansu",
+    "country": "China",
+    "lon": 102.973,
+    "lat": 37.625,
+    "ha": 4335,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Sparse scrub to irrigated orchards, fields and greenhouses."
+  },
+  {
+    "id": "GN10",
+    "kind": "gain",
+    "place": "East Oweinat / Toshka",
+    "country": "Egypt",
+    "lon": 30.176,
+    "lat": 27.875,
+    "ha": 4090,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Blank desert to a dense array of centre pivots.",
+    "pivot": true
+  },
+  {
+    "id": "GN11",
+    "kind": "gain",
+    "place": "Matopiba, Bahia / Piau\u00ed",
+    "country": "Brazil",
+    "lon": -44.937,
+    "lat": -8.675,
+    "ha": 3755,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Cerrado to a gridded field block of the order of 15,000 ha, expanded east from a small earlier plot."
+  },
+  {
+    "id": "GN12",
+    "kind": "gain",
+    "place": "Rio Grande valley, west Bahia",
+    "country": "Brazil",
+    "lon": -45.76,
+    "lat": -11.925,
+    "ha": 3692,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "A few pivots earlier, many large new pivots on former cerrado.",
+    "pivot": true
+  },
+  {
+    "id": "GN13",
+    "kind": "gain",
+    "place": "Paraguayan Chaco",
+    "country": "Paraguay",
+    "lon": -60.288,
+    "lat": -20.625,
+    "ha": 3502,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Untouched grass and forest to a new grid of paddocks; the earlier polygons there are noise."
+  },
+  {
+    "id": "GN14",
+    "kind": "gain",
+    "place": "Matopiba, Bahia",
+    "country": "Brazil",
+    "lon": -45.717,
+    "lat": -10.925,
+    "ha": 3027,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Cerrado plateau edge cleared into large gridded fields."
+  },
+  {
+    "id": "GN16",
+    "kind": "gain",
+    "place": "Kafue / Barotse margin",
+    "country": "Zambia",
+    "lon": 27.829,
+    "lat": -14.625,
+    "ha": 2879,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Wetland and grass plain to gridded large fields and one pivot."
+  },
+  {
+    "id": "GN17",
+    "kind": "gain",
+    "place": "Mary, Karakum",
+    "country": "Turkmenistan",
+    "lon": 60.805,
+    "lat": 37.825,
+    "ha": 2859,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Desert to large new irrigated fields."
+  },
+  {
+    "id": "GN18",
+    "kind": "gain",
+    "place": "Gran Chaco",
+    "country": "Argentina",
+    "lon": -60.242,
+    "lat": -24.725,
+    "ha": 2840,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Dense dry forest to new cleared paddocks."
+  },
+  {
+    "id": "GN19",
+    "kind": "gain",
+    "place": "Santiago del Estero / Chaco",
+    "country": "Argentina",
+    "lon": -62.805,
+    "lat": -26.775,
+    "ha": 2726,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Forest to new gridded cleared paddocks."
+  },
+  {
+    "id": "GN21",
+    "kind": "gain",
+    "place": "Chiquitania / Chaco",
+    "country": "Bolivia",
+    "lon": -62.407,
+    "lat": -19.075,
+    "ha": 2477,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Forest to herringbone strip clearings."
+  },
+  {
+    "id": "GN22",
+    "kind": "gain",
+    "place": "Nouakchott \u2013 Saint-Louis coast",
+    "country": "Mauritania",
+    "lon": -16.313,
+    "lat": 16.825,
+    "ha": 2452,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Dunes and salt flat to new irrigated garden plots."
+  },
+  {
+    "id": "GN29",
+    "kind": "gain",
+    "place": "Santa Cruz lowlands, Bolivia",
+    "country": "Bolivia",
+    "lon": -61.793,
+    "lat": -15.625,
+    "ha": 1748,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Forest in 2018; strip fields (orange and green) by 2025"
+  },
+  {
+    "id": "GN34",
+    "kind": "gain",
+    "place": "Dongola / Merowe",
+    "country": "Sudan",
+    "lon": 33.426,
+    "lat": 19.625,
+    "ha": 1448,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Bare desert to about 100 centre pivots.",
+    "pivot": true
+  },
+  {
+    "id": "GN36",
+    "kind": "gain",
+    "place": "Santa Cruz lowlands",
+    "country": "Bolivia",
+    "lon": -60.814,
+    "lat": -17.575,
+    "ha": 1386,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Seasonally flooded savanna and forest to gridded field strips."
+  },
+  {
+    "id": "GN37",
+    "kind": "gain",
+    "place": "North-east Cambodia",
+    "country": "Cambodia",
+    "lon": 106.41,
+    "lat": 13.575,
+    "ha": 1354,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Brown scrub in 2018; dark gridded plots near the centre by 2025 (43% nodata in both)"
+  },
+  {
+    "id": "GN38",
+    "kind": "gain",
+    "place": "Nineveh, Sinjar / Tal Afar",
+    "country": "Iraq",
+    "lon": 41.715,
+    "lat": 36.175,
+    "ha": 1201,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Sparse steppe to a dense mosaic of rainfed fields."
+  },
+  {
+    "id": "GN39",
+    "kind": "gain",
+    "place": "Kigoma region",
+    "country": "Tanzania",
+    "lon": 30.5,
+    "lat": -3.975,
+    "ha": 1185,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Savanna to new gridded plots (moderate confidence)."
+  },
+  {
+    "id": "GN42",
+    "kind": "gain",
+    "place": "Vichada, Orinoco savanna",
+    "country": "Colombia",
+    "lon": -68.372,
+    "lat": 5.875,
+    "ha": 1057,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Savanna to new field blocks."
+  },
+  {
+    "id": "GN43",
+    "kind": "gain",
+    "place": "Navoi / Kyzylkum",
+    "country": "Uzbekistan",
+    "lon": 67.243,
+    "lat": 40.575,
+    "ha": 1039,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Desert to new irrigated fields."
+  },
+  {
+    "id": "L01",
+    "kind": "loss",
+    "place": "Zaporizhzhia / Donetsk",
+    "country": "Ukraine",
+    "lon": 36.649,
+    "lat": 47.575,
+    "ha": -35099,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Fields bare in 2025 imagery; polygon coverage steps down in 2023."
+  },
+  {
+    "id": "BG1",
+    "kind": "big_gone",
+    "place": "West Bahia",
+    "country": "Brazil",
+    "lon": -45.711,
+    "lat": -13.325,
+    "ha": -4348,
+    "quarter": "Q1",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Rectangular blocks replaced by about 30 centre pivots; layout change, no net cropland loss.",
+    "pivot": true
+  },
+  {
+    "id": "BG2",
+    "kind": "big_gone",
+    "place": "Central Valley, California",
+    "country": "USA",
+    "lon": -119.887,
+    "lat": 36.175,
+    "ha": -2456,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Annual fields to orchard tree grids; polygons lost, cropland kept."
+  },
+  {
+    "id": "M05",
+    "kind": "loss",
+    "place": "Qassim / Hail",
+    "country": "Saudi Arabia",
+    "lon": 43.502,
+    "lat": 27.375,
+    "ha": -1905,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Many pivots cropped earlier are pale fallow circles in 2025.",
+    "pivot": true
+  },
+  {
+    "id": "LN12",
+    "kind": "loss",
+    "place": "Balkh / Jowzjan",
+    "country": "Afghanistan",
+    "lon": 65.613,
+    "lat": 36.525,
+    "ha": -1188,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Radial village fields visible earlier, bare pale ground in 2025 (moderate confidence)."
+  },
+  {
+    "id": "LN11",
+    "kind": "loss",
+    "place": "Qassim",
+    "country": "Saudi Arabia",
+    "lon": 43.912,
+    "lat": 26.825,
+    "ha": -1152,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Green pivots earlier, mostly pale in 2025.",
+    "pivot": true
+  },
+  {
+    "id": "LN08",
+    "kind": "loss",
+    "place": "Qassim / Hail",
+    "country": "Saudi Arabia",
+    "lon": 43.702,
+    "lat": 26.475,
+    "ha": -1019,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Pivots cropped earlier are mostly fallow in 2025.",
+    "pivot": true
+  },
+  {
+    "id": "LN06",
+    "kind": "loss",
+    "place": "Al-Jawf / Tabuk",
+    "country": "Saudi Arabia",
+    "lon": 38.155,
+    "lat": 30.525,
+    "ha": -1011,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Dense green pivots earlier, far fewer in 2025.",
+    "pivot": true
+  },
+  {
+    "id": "LN05",
+    "kind": "loss",
+    "place": "Kakhovka reservoir",
+    "country": "Ukraine",
+    "lon": 33.686,
+    "lat": 46.875,
+    "ha": -1004,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Reservoir drained after the June 2023 dam failure; pivots to the south and shoreline fields lost.",
+    "pivot": true
+  },
+  {
+    "id": "LN28",
+    "kind": "loss",
+    "place": "Nineveh steppe, south of Sinjar",
+    "country": "Iraq",
+    "lon": 41.951,
+    "lat": 35.925,
+    "ha": -928,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Rainfed field blocks visible earlier, blank pale ground in 2025 (moderate confidence)."
+  },
+  {
+    "id": "LN24",
+    "kind": "loss",
+    "place": "Wasit / Diyala",
+    "country": "Iraq",
+    "lon": 45.062,
+    "lat": 33.175,
+    "ha": -909,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Dark tilled parcels earlier, pale bare ground in 2025 (moderate confidence)."
+  },
+  {
+    "id": "LN23",
+    "kind": "loss",
+    "place": "Central Saudi Arabia",
+    "country": "Saudi Arabia",
+    "lon": 43.899,
+    "lat": 25.625,
+    "ha": -894,
+    "quarter": "Q3",
+    "years": [
+      2018,
+      2025
+    ],
+    "story": "Noticeably fewer active green pivots in 2025.",
+    "pivot": true
+  }
+]

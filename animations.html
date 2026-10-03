@@ -3,15 +3,32 @@
   function setup() {
     if (!window.Reveal || !Reveal.isReady()) { setTimeout(setup, 50); return; }
     Reveal.configure({autoSlide:0,controls:true});
-    function playback(event) {
-      document.querySelectorAll('video').forEach(video => {
-        video.pause();
-        if (event.currentSlide.contains(video)) {
-          video.currentTime = 0;
-          video.muted = true;
-          video.play().catch(() => { video.controls = true; });
+    let entry = 0;
+    function canPlay(video) {
+      if (video.readyState >= 3) return Promise.resolve();
+      return new Promise((resolve, reject) => {
+        function finish(event) {
+          video.removeEventListener('canplay', finish);
+          video.removeEventListener('error', finish);
+          event.type === 'error' ? reject(new Error('Video could not load')) : resolve();
         }
+        video.addEventListener('canplay', finish);
+        video.addEventListener('error', finish);
       });
+    }
+    async function playback(event) {
+      const current = ++entry;
+      document.querySelectorAll('video').forEach(video => video.pause());
+      const videos = [...event.currentSlide.querySelectorAll('video')];
+      videos.forEach(video => { video.preload = 'auto'; });
+      try {
+        await Promise.all(videos.map(canPlay));
+        if (current !== entry) return;
+        videos.forEach(video => { video.currentTime = 0; video.muted = true; });
+        await Promise.all(videos.map(video => video.play()));
+      } catch {
+        if (current === entry) videos.forEach(video => { video.controls = true; });
+      }
     }
     Reveal.on('slidechanged', playback);
     playback({currentSlide:Reveal.getCurrentSlide()});

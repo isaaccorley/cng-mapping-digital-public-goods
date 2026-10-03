@@ -47,7 +47,7 @@ About 10 seconds. The agenda lists this seven-minute talk on 8 October 2026 at 1
 ```
 
 ::: {.notes}
-About 30 seconds.
+About 25 seconds.
 Taylor Geospatial is a nonprofit working with research and application partners on open geospatial AI.
 We develop datasets, models, and tools for mapping and model evaluation.
 Most of this talk covers the second global FTW map edition.
@@ -69,7 +69,7 @@ Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 ```
 
 ::: {.notes}
-About 50 seconds.
+About 35 seconds.
 Features of The World extends feature mapping beyond fields.
 Benchmarks of The World develops tools for comparing model quality, geographic generalization, and compute requirements.
 Our position paper was accepted at NeurIPS 2026.
@@ -102,209 +102,92 @@ These selected examples do not establish global accuracy.
 Source: preview catalog README.
 :::
 
-## Brazil · large fields {#brazil-editions .full}
+## Original FTW and the 2nd edition {#editions-large-dense .paired .tg-light}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261003" aria-label="Sorriso, Brazil: Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261003" type="video/mp4"></video></div>
+<p class="pair-subtitle">Original FTW (alpha) → 2nd edition · 2025 · identical imagery and symbology</p>
+<div class="comparison-pair"><article><h3>Sorriso, Brazil</h3><video muted loop playsinline preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261003b" aria-label="Sorriso, Brazil · Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261003b" type="video/mp4"></video><p>Large fields and an urban edge.</p></article><article><h3>Flevoland, Netherlands</h3><video muted loop playsinline preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261003b" aria-label="Flevoland, Netherlands · Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261003b" type="video/mp4"></video><p>A dense network of fields, roads, and canals.</p></article></div>
+<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. The roads and field edges make the outline comparison easy to follow. Both are 2025 maps over the same Q3 mosaic. Camera: -12.58, -55.72; zoom 13; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
+About 35 seconds. Compare large Brazilian fields with the denser Dutch network. Each pair uses identical imagery and line styling. Changes include model, extraction, simplification, and publishing effects; this is not a controlled accuracy test.
+Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## Netherlands · dense fields {#netherlands-editions .full}
+## Mixed and irregular field shapes {#editions-mixed-irregular .paired .tg-light}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261003" aria-label="Flevoland, Netherlands: Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261003" type="video/mp4"></video></div>
+<p class="pair-subtitle">Original FTW (alpha) → 2nd edition · same camera and imagery within each example</p>
+<div class="comparison-pair"><article><h3>Iowa, United States</h3><video muted loop playsinline preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261003b" aria-label="Iowa, United States · Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261003b" type="video/mp4"></video><p>Mixed field sizes in Iowa · 2024.</p></article><article><h3>Normandy, France</h3><video muted loop playsinline preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261003b" aria-label="Normandy, France · Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261003b" type="video/mp4"></video><p>Small irregular fields and hedgerows · 2025.</p></article></div>
+<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. Look at the connected field network, the roads and canals, and the boundaries around the settlement. Camera: 52.65, 5.68; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
+About 30 seconds. Iowa adds larger fields and wooded waterways; Normandy adds smaller irregular parcels.
+Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## United States · mixed field sizes {#usa-editions .full}
+## Fields along terrain and narrow strips {#editions-terrain-strips .paired .tg-light}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261003" aria-label="Iowa, United States: Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261003" type="video/mp4"></video></div>
+<p class="pair-subtitle">Original FTW (alpha) → 2nd edition · 2025</p>
+<div class="comparison-pair"><article><h3>Overberg, South Africa</h3><video muted loop playsinline preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261003b" aria-label="Overberg, South Africa · Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261003b" type="video/mp4"></video><p>Curved fields follow terrain and waterways.</p></article><article><h3>Mazovia, Poland</h3><video muted loop playsinline preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261003b" aria-label="Mazovia, Poland · Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261003b" type="video/mp4"></video><p>Narrow strip fields remain a difficult setting.</p></article></div>
+<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. A 2024 comparison in Iowa, with large fields, smaller fragments, and wooded waterways. Camera: 41.98, -93.72; zoom 13; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## France · irregular fields {#france-editions .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261003" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. Normandy adds small, irregular fields separated by hedgerows. Trace the field edges as the wipe passes. Camera: 48.88, -1.05; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## South Africa · fields and terrain {#south-africa-editions .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261003" aria-label="Overberg, South Africa: Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. Overberg fields follow terrain and waterways. The shape and continuity of those boundaries are visible at this scale. Camera: -34.25, 19.5; zoom 13.5; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Poland · narrow strip fields {#poland-editions .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261003" aria-label="Mazovia, Poland: Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. A dense strip-field system in Mazovia. Both versions still miss fields; the example shows the different boundary renderings rather than complete recovery. Camera: 52.1, 22.14; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
+About 30 seconds. The boundary shapes vary across these farming systems. Both versions still miss fields in Poland; avoid implying complete recovery.
+Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
 ## France · probability masks and polygons {#france-layers .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261003" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261003" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261003b" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261003b" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. The COG stores field probability. The PMTiles archive presents extracted polygons. The raster retains low-confidence regions and soft transitions; extraction produces individual geometry. The displayed field ramp starts at 128/255, approximately 0.5. Camera: 48.88, -1.05; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
+About 25 seconds. The COG stores field probability. The PMTiles archive presents extracted polygons. The raster retains low-confidence regions and soft transitions; extraction produces individual geometry. The displayed field ramp starts at 128/255, approximately 0.5. Camera: 48.88, -1.05; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
 :::
 
-## France · boundary probabilities and polygons {#france-boundary-layers .full}
+## New field blocks {#change-new-fields .paired .tg-light}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-boundary-layers-poster.jpg?v=20261003" aria-label="Normandy, France: Boundary probabilities and extracted polygons · 2025"><source src="assets/media/france-boundary-layers.mp4?v=20261003" type="video/mp4"></video></div>
+<p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
+<div class="comparison-pair"><article><h3>Matopiba, Brazil</h3><video muted loop playsinline preload="metadata" poster="assets/media/matopiba-change-poster.jpg?v=20261003b" aria-label="Matopiba, Brazil · New rectangular field blocks"><source src="assets/media/matopiba-change.mp4?v=20261003b" type="video/mp4"></video><p>New rectangular fields across the plateau · Q3.</p></article><article><h3>Masindi, Uganda</h3><video muted loop playsinline preload="metadata" poster="assets/media/masindi-change-poster.jpg?v=20261003b" aria-label="Masindi, Uganda · New gridded fields"><source src="assets/media/masindi-change.mp4?v=20261003b" type="video/mp4"></video><p>A new grid of fields around existing roads · Q1.</p></article></div>
+<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. The second COG band estimates boundary probability. Coral is that raster, with display cutoff 64/255, approximately 0.25. Periwinkle is the PMTiles polygon layer, over the same imagery. Camera: 48.88, -1.05; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
+About 45 seconds. Both the imagery and the annual outlines show new field blocks. The viewer selects 2018 as the early baseline because 2017 predictions are under-detected in some regions. Matopiba uses Q3 in both years to avoid cloud gaps in the viewer’s Q1 example. No crop type or hectare total is inferred.
+Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## Netherlands · probability masks and polygons {#netherlands-layers .full}
+## Expansion of irrigated fields {#change-irrigation .paired .tg-light}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/netherlands-layers-poster.jpg?v=20261003" aria-label="Flevoland, Netherlands: Dense rectangular fields · 2025"><source src="assets/media/netherlands-layers.mp4?v=20261003" type="video/mp4"></video></div>
+<p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
+<div class="comparison-pair"><article><h3>Ili Valley, China</h3><video muted loop playsinline preload="metadata" poster="assets/media/ili-change-poster.jpg?v=20261003b" aria-label="Ili Valley, China · New fields across the valley floor"><source src="assets/media/ili-change.mp4?v=20261003b" type="video/mp4"></video><p>New fields across the valley floor · Q3.</p></article><article><h3>Kura lowland, Azerbaijan</h3><video muted loop playsinline preload="metadata" poster="assets/media/kura-change-poster.jpg?v=20261003b" aria-label="Kura lowland, Azerbaijan · New irrigated field patterns"><source src="assets/media/kura-change.mp4?v=20261003b" type="video/mp4"></video><p>New rectangular fields and center pivots · Q3.</p></article></div>
+<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. The same dense field network in two representations. The mask is useful for inspecting the model output; the polygons are useful for browsing and per-field analysis. Camera: 52.65, 5.68; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
+About 40 seconds. These examples show irrigation patterns becoming more extensive. Compare the vegetation, access tracks, and field geometry as well as the predictions. Do not infer water use or the cause of conversion from these images.
+Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## South Africa · probability masks and polygons {#south-africa-layers .full}
+## Changes in field layout and crop activity {#change-layout-activity .paired .tg-light}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/south-africa-layers-poster.jpg?v=20261003" aria-label="Overberg, South Africa: Fields following the terrain · 2025"><source src="assets/media/south-africa-layers.mp4?v=20261003" type="video/mp4"></video></div>
+<p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
+<div class="comparison-pair"><article><h3>West Bahia, Brazil</h3><video muted loop playsinline preload="metadata" poster="assets/media/bahia-layout-change-poster.jpg?v=20261003b" aria-label="West Bahia, Brazil · Rectangular fields replaced by center pivots"><source src="assets/media/bahia-layout-change.mp4?v=20261003b" type="video/mp4"></video><p>Rectangular fields replaced by center pivots · Q1.</p></article><article><h3>Al-Jawf, Saudi Arabia</h3><video muted loop playsinline preload="metadata" poster="assets/media/al-jawf-change-poster.jpg?v=20261003b" aria-label="Al-Jawf, Saudi Arabia · Fewer green center pivots in 2025"><source src="assets/media/al-jawf-change.mp4?v=20261003b" type="video/mp4"></video><p>Fewer green pivots in the later mosaic · Q3.</p></article></div>
+<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. Here the field probabilities and extracted polygons follow the curved landscape. The lower-confidence interior features remain visible in the raster. Camera: -34.25, 19.5; zoom 13.5; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Poland · probability masks and polygons {#poland-layers .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/poland-layers-poster.jpg?v=20261003" aria-label="Mazovia, Poland: Narrow strip fields · 2025"><source src="assets/media/poland-layers.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. Narrow fields are a different test of the representation. Inspect the probability strips beside the extracted polygons; do not describe this as complete small-field detection. Camera: 52.1, 22.14; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Egypt · irrigation expansion {#egypt-change .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/egypt-change-poster.jpg?v=20261003" aria-label="Toshka, Egypt: Expansion of circular irrigation fields"><source src="assets/media/egypt-change.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. Now switch from comparing editions to comparing years. New circular irrigation fields are visible between the 2017 and 2025 Q3 mosaics in Toshka. These are dated satellite backgrounds, not a model-derived change map. Camera: 22.7, 31.21; zoom 12.6; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Egypt · center-pivot irrigation {#delta-change .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/delta-change-poster.jpg?v=20261003" aria-label="Western Desert, Egypt: New centre-pivot fields west of the Nile Delta"><source src="assets/media/delta-change.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. Another view west of the Nile Delta. New centre-pivot field patterns and associated access infrastructure are visible in 2025. This is a different location from Toshka, with the same quarter and camera in both years. Camera: 30.32, 29.5; zoom 12.5; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Bolivia · new field blocks {#bolivia-change .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/bolivia-change-poster.jpg?v=20261003" aria-label="Santa Cruz, Bolivia: New field blocks at the agricultural edge"><source src="assets/media/bolivia-change.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. At the agricultural edge in Santa Cruz, look near the centre and upper-left for blocks that were wooded in 2017 and have field patterns in 2025. This illustrates a place to investigate agricultural expansion; no area total or cause is inferred. Camera: -16.97, -62.12; zoom 12.4; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Paraguay · new clearings {#paraguay-change .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/paraguay-change-poster.jpg?v=20261003" aria-label="Chaco, Paraguay: New rectangular clearings within a managed landscape"><source src="assets/media/paraguay-change.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. Several rectangular clearings appear within the Chaco landscape. Describe the visible geometry and clearing, without assuming every clearing is cropland; pasture and other uses need reference data. Camera: -22.45, -60.2; zoom 12.7; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## India · urban growth {#india-change .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/india-change-poster.jpg?v=20261003" aria-label="Hyderabad, India: Urban growth along the western edge"><source src="assets/media/india-change.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. Hyderabad’s western edge shows new buildings and road networks. Q1 is used in both years because Q3 had cloud gaps. This is visible urban expansion, without a claim that all affected land was cultivated. Camera: 17.43, 78.3; zoom 13; Q1. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Brazil · fields at the urban edge {#brazil-change .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-change-poster.jpg?v=20261003" aria-label="Sorriso, Brazil: Urban growth along the agricultural edge"><source src="assets/media/brazil-change.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. In Sorriso, new streets and buildings occupy parts of the agricultural edge. This is the input imagery for the next slide. Camera: -12.6, -55.735; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Brazil · annual field probabilities {#brazil-predictions .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-predictions-poster.jpg?v=20261003" aria-label="Sorriso, Brazil: Annual field probability · candidate changes"><source src="assets/media/brazil-predictions.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. The same Sorriso location with annual field probabilities. Some changes align with development. Treat differences as candidates to check against imagery, rather than subtracting polygons and declaring confirmed land-use change. Annual IDs are independent. Camera: -12.6, -55.735; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Brazil · urban growth in Primavera do Leste {#primavera-change .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/primavera-change-poster.jpg?v=20261003" aria-label="Primavera do Leste, Brazil: New development around an agricultural town"><source src="assets/media/primavera-change.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop. A second Brazilian city, Primavera do Leste. New development fills out the road network around the town between 2017 and 2025. Camera: -15.565, -54.275; zoom 13.8; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
-:::
-
-## Brazil · annual prediction changes {#primavera-predictions .full}
-
-```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/primavera-predictions-poster.jpg?v=20261003" aria-label="Primavera do Leste, Brazil: Annual field probability · compare with the imagery"><source src="assets/media/primavera-predictions.mp4?v=20261003" type="video/mp4"></video></div>
-```
-
-::: {.notes}
-About 12 seconds, one loop.
-The large field in the northeast exists in both years, but its predicted probability changes substantially.
-Annual prediction change can reflect model response, observations, or land-use change.
-The imagery shows that this field was already present in 2017.
-Camera: -15.565, -54.275; zoom 13.8; Q3.
-Source and capture details: MEDIA.md and assets/scenes.json.
+About 40 seconds. Bahia is a layout change: the land remains agricultural. In Al-Jawf, many formerly green circles are pale in the later mosaic. This does not establish permanent abandonment or a cause. Independent annual predictions and seasonal imagery require interpretation, rather than simply equating lost polygons with lost cropland.
+Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
 ## COG, GeoParquet, and PMTiles {#formats .tg-light}
@@ -345,12 +228,43 @@ The viewer now reads the second-edition product at ftw/global-data-2e.
 Sources: https://source.coop/ftw/global-data-2e and https://www.portolan-sdi.org/blog/introducing-portolan.
 :::
 
-## Data and research {#end .tg-dark}
+## Built with open-source software {#open-source .tg-light}
 
 ```{=html}
-<div class="closing"><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition viewer</a><a href="https://taylorgeospatial.org/innovation-program/">Taylor Geospatial research</a><a href="media.html">20 comparison clips</a></div><p class="closing-source"><a href="https://source.coop/ftw/global-data-2e">Data on Source Cooperative</a> · <a href="https://fieldsofthe.world/">FTW models and code</a></p></div>
+<p class="credits-intro">Thank you to the maintainers and contributors whose work we build on.</p>
+<div class="open-source-columns">
+<article><h3>Training and inference</h3>
+<a href="https://pytorch.org/"><img src="assets/logos/pytorch.svg" alt="PyTorch"></a>
+<a href="https://github.com/microsoft/torchgeo"><img src="assets/logos/torchgeo.svg" alt="TorchGeo"></a>
+<a href="https://onnxruntime.ai/"><img src="assets/logos/onnxruntime.png" alt="ONNX Runtime"></a>
+<p>Training, data loading,<br>and model execution</p></article>
+<article><h3>Geospatial processing</h3>
+<a href="https://gdal.org/"><img src="assets/logos/gdal.svg" alt="GDAL"></a>
+<a href="https://geopandas.org/"><img src="assets/logos/geopandas.svg" alt="GeoPandas"></a>
+<a href="https://numpy.org/"><img src="assets/logos/numpy.svg" alt="NumPy"></a>
+<p>Rasterio · Shapely · GEOS · PROJ<br>BoundaryVote / fbp</p></article>
+<article><h3>Data and browser tools</h3>
+<a href="https://duckdb.org/"><img src="assets/logos/duckdb.svg" alt="DuckDB"></a>
+<a href="https://arrow.apache.org/"><img src="assets/logos/arrow.svg" alt="Apache Arrow"></a>
+<a class="openlayers-logo" href="https://openlayers.org/"><img src="assets/logos/openlayers.svg" alt="">OpenLayers</a>
+<p>hyparquet · proj4js · rustac<br>PMTiles · tylertoo</p></article>
+</div>
+<p class="credits-source"><a href="https://github.com/taylor-geospatial/global-ftw-2e">taylor-geospatial/global-ftw-2e</a> · Selected tools from the pipeline and viewer</p>
 ```
 
 ::: {.notes}
-About 15 seconds. These are the places to follow the work and access the clips. Leave the slide open for questions. Suggested pacing across the deck totals seven minutes: about 75 percent FTW examples, formats, and access; the remainder Taylor Geospatial context and the other research initiatives. Manual pacing is intentional.
+About 20 seconds. This work depends on open-source maintainers, from training and geospatial processing to data access in the browser. Thank them before moving to the final links.
+The dependency and import audit is pinned to upstream cbda0b122f12509624d29f9a4ae04dae27485661 in assets/provenance/open-source-tools.json. Official logo sources are recorded alongside it.
+The released coverage simplifier was later extracted as coarsen; do not imply the standalone coarsen package produced this release.
+These are software acknowledgements, not partner endorsements.
+:::
+
+## Data and research {#end .tg-dark}
+
+```{=html}
+<div class="closing"><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition viewer</a><a href="https://taylorgeospatial.org/innovation-program/">Taylor Geospatial research</a><a href="media.html">13 comparison clips</a></div><p class="closing-source"><a href="https://source.coop/ftw/global-data-2e">Data on Source Cooperative</a> · <a href="https://fieldsofthe.world/">FTW models and code</a></p></div>
+```
+
+::: {.notes}
+About 10 seconds. These are the places to follow the work and access the clips. Leave the slide open for questions. Suggested pacing across the deck totals seven minutes: about 75 percent FTW examples, formats, and access; the remainder Taylor Geospatial context and the other research initiatives. Manual pacing is intentional.
 :::

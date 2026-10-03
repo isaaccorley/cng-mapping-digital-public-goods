@@ -1,4 +1,4 @@
-"""Encode labelled screenshot pairs as 12-second, silent H.264 wipe loops."""
+"""Encode labelled screenshot pairs as 10-second, silent H.264 wipe loops."""
 
 import json
 import pathlib
@@ -14,12 +14,12 @@ for scene in scenes:
     before = ROOT / f".capture/frames/{name}-before.jpg"
     after = ROOT / f".capture/frames/{name}-after.jpg"
     out = ROOT / f"assets/media/{name}.mp4"
-    # First view 2 s; reveal second 2 s; hold second 5 s; return 2 s; hold 1 s.
+    # First view 2 s; wipe 1.2 s; hold 4.6 s; return 1.2 s; hold 1 s.
     # Browser captures are full-range BT.601 JPEGs; export tagged BT.709 video.
     filt = (
         "[0:v]split=2[a][c];"
-        "[a][1:v]xfade=transition=wiperight:duration=2:offset=2[ab];"
-        "[ab][c]xfade=transition=wipeleft:duration=2:offset=9,"
+        "[a][1:v]xfade=transition=wiperight:duration=1.2:offset=2[ab];"
+        "[ab][c]xfade=transition=wipeleft:duration=1.2:offset=7.8,"
         "scale=in_color_matrix=bt601:in_range=pc:out_color_matrix=bt709:out_range=tv,"
         "format=yuv420p[v]"
     )
@@ -47,7 +47,7 @@ for scene in scenes:
             "-map",
             "[v]",
             "-t",
-            "12",
+            "10",
             "-c:v",
             "libx264",
             "-preset",
@@ -77,7 +77,7 @@ for scene in scenes:
             "-loglevel",
             "error",
             "-ss",
-            "3",
+            "2.6",
             "-i",
             str(out),
             "-frames:v",
