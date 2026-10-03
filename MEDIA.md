@@ -12,8 +12,17 @@ no generated satellite imagery or synthetic boundaries are used.
 | Iowa, United States | 41.98, -93.72 | 13 | 2024 | Mixed field sizes; selected edition comparison |
 | Toshka, Egypt | 22.70, 31.21 | 12.6 | 2017, 2025 | New circular irrigation fields visible in dated imagery |
 | Sorriso, Brazil | -12.60, -55.735 | 14 | 2017, 2025 | New streets and buildings along the urban edge |
+| Normandy, France | 48.88, -1.05 | 14 | 2025 | Irregular fields; edition, field probability, and boundary probability comparisons |
+| Overberg, South Africa | -34.25, 19.5 | 13.5 | 2025 | Curved fields; edition and field probability comparisons |
+| Mazovia, Poland | 52.10, 22.14 | 14 | 2025 | Narrow strip fields; edition and field probability comparisons |
+| Western Desert, Egypt | 30.32, 29.5 | 12.5 | 2017, 2025 | New centre-pivot field patterns west of the Nile Delta |
+| Santa Cruz, Bolivia | -16.97, -62.12 | 12.4 | 2017, 2025 | New field blocks along the agricultural edge |
+| Chaco, Paraguay | -22.45, -60.2 | 12.7 | 2017, 2025 | New rectangular clearings; land use is not classified from these images |
+| Hyderabad, India | 17.43, 78.3 | 13 | 2017, 2025 | Urban development; Q1 imagery in both years |
+| Primavera do Leste, Brazil | -15.565, -54.275 | 13.8 | 2017, 2025 | Urban growth and annual probability changes that need imagery checks |
 
-All backgrounds use **Q3 true-colour Sentinel-2 quarterly mosaics**. Identical
+Backgrounds use **Q3 true-colour Sentinel-2 quarterly mosaics**, except
+Hyderabad, which uses **Q1 in both years** because Q3 had cloud gaps. Identical
 camera, quarter, band combination, and RGB stretch (0–3000 reflectance ×
 10,000) within each pair. Year comparisons use each year's own mosaic.
 Basemap fallback was disabled for all final captures, so undated Esri imagery
@@ -26,10 +35,22 @@ or change model thresholds. These are **PMTiles renderings**, including each
 archive's own simplification and tiling choices; visual differences do not
 isolate model accuracy or a particular pipeline change.
 
-The field-probability clip uses the live viewer's threshold (128/255, about
+Field-probability clips use the live viewer's threshold (128/255, about
 0.5) and color ramp. A change in probability is a candidate signal, not a
 confirmed land-cover transition. Independent annual predictions have no
 persistent cross-year field IDs. No area-change totals are claimed.
+
+The five mask-to-PMTiles clips compare the same year, imagery, and camera.
+Four use the field-interior band; Normandy's fifth clip uses the boundary
+band, with display cutoff 64/255 (about 0.25). Raster overlays preserve the
+viewer's color ramp and opacity; they are not binary ground-truth masks.
+PMTiles polygons are the published extracted/simplified geometries, not
+polygons traced from the screenshots. The raster and vector displays need
+not coincide at every edge.
+
+The two Primavera clips form an explicit check on change interpretation.
+The large northeast field is visible in both years, although its predicted
+probability differs substantially. Do not describe that as a new field.
 
 ### Examples not selected
 
@@ -39,6 +60,14 @@ diagnosed as a model, vectorization, or publishing issue, and those scenes
 are not presented as improvements. The Toshka probability layers included
 large apparent false positives over bare land in 2017; only its dated
 imagery is used in the final change clip. Regional validation remains needed.
+
+Additional scouting found very sparse PMTiles at Punjab, Pakistan
+(30.62, 72.96). Bolivia and Paraguay probability views contained conspicuous
+rectangular false positives over wooded areas, and Hyderabad's probability
+views were too sparse for an informative positive comparison. These raster
+views were excluded; only their dated imagery is presented. The Bolivia and
+Paraguay probability scouts are retained locally under ignored `.capture/`. No model or data
+quality issue was diagnosed or fixed as part of making the presentation.
 
 ## Primary data sources
 
@@ -101,5 +130,25 @@ not from NASA's figure.
 6. Render Quarto and inspect playback. Scripts never modify the deployed
    viewer, data, or neighbouring checkout. Re-capture if source data change.
 
+Pass clip IDs to `scripts/build_clips.py` to rebuild only selected clips.
+Run `python3 scripts/build_gallery.py` after updating the scene manifest.
+
 FTW logo and self-hosted Sora / Manrope fonts are from the FTW branding asset
 bundle. Fonts are SIL Open Font License 1.1; see `assets/fonts/fonts.css`.
+The Taylor Geospatial logo is from the TG brand bundle. The framing slides
+use TG brown/ivory and Space Grotesk (the approved open slide substitute),
+self-hosted from Google Fonts with its OFL in `assets/fonts/space-grotesk/`.
+
+## Talk framing and broader research
+
+- Exact agenda title: **Mapping the World as a Digital Public Good**.
+- Seven-minute slot, 8 October 2026 at 15:33 America/Denver:
+  https://2026.cloudnativegeo.org/#/agenda?day=3&lang=en
+- The public session description is saved in
+  `assets/provenance/cng-agenda-2026-10-02.txt`; no attendee profile data are included.
+- Taylor Geospatial: https://taylorgeospatial.org/about-us/
+- Features: https://taylorgeospatial.org/innovation-program/features-of-the-world/
+- Benchmarks: https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/
+- Paper: https://arxiv.org/abs/2605.12678 . NeurIPS 2026 acceptance was confirmed
+  directly by Isaac for this talk. The slide avoids numerical audit claims
+  from the older preprint while the accepted manuscript is being revised.

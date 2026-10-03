@@ -2,8 +2,7 @@
 (() => {
   function setup() {
     if (!window.Reveal || !Reveal.isReady()) { setTimeout(setup, 50); return; }
-    const manual = new URLSearchParams(location.search).get('autoSlide') === '0';
-    if (manual) Reveal.configure({autoSlide:0,controls:true,transition:'none'});
+    Reveal.configure({autoSlide:0,controls:true});
     function playback(event) {
       document.querySelectorAll('video').forEach(video => {
         video.pause();

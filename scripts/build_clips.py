@@ -3,11 +3,14 @@
 import json
 import pathlib
 import subprocess
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 scenes = json.loads((ROOT / "assets/scenes.json").read_text())["clips"]
 for scene in scenes:
     name = scene["id"]
+    if len(sys.argv) > 1 and name not in sys.argv[1:]:
+        continue
     before = ROOT / f".capture/frames/{name}-before.jpg"
     after = ROOT / f".capture/frames/{name}-after.jpg"
     out = ROOT / f"assets/media/{name}.mp4"
