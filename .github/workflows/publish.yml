@@ -27,6 +27,9 @@ jobs:
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Test slide playback
+        run: node --test tests/playback.test.cjs
+
       - name: Render Quarto presentation
         run: uv run quarto render index.qmd
 

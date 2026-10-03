@@ -3,36 +3,41 @@
   function setup() {
     if (!window.Reveal || !Reveal.isReady()) { setTimeout(setup, 50); return; }
     Reveal.configure({autoSlide:0,controls:true});
-    let entry = 0;
-    function canPlay(video) {
-      if (video.readyState >= 3) return Promise.resolve();
-      return new Promise((resolve, reject) => {
-        function finish(event) {
-          video.removeEventListener('canplay', finish);
-          video.removeEventListener('error', finish);
-          event.type === 'error' ? reject(new Error('Video could not load')) : resolve();
-        }
-        video.addEventListener('canplay', finish);
-        video.addEventListener('error', finish);
-      });
-    }
-    async function playback(event) {
-      const current = ++entry;
-      document.querySelectorAll('video').forEach(video => video.pause());
-      const videos = [...event.currentSlide.querySelectorAll('video')];
-      videos.forEach(video => { video.preload = 'auto'; });
+    async function play(video) {
+      video.muted = true;
+      video.defaultMuted = true;
+      video.playsInline = true;
+      video.preload = 'auto';
       try {
-        await Promise.all(videos.map(canPlay));
-        if (current !== entry) return;
-        videos.forEach(video => { video.currentTime = 0; video.muted = true; });
-        await Promise.all(videos.map(video => video.play()));
+        // play() starts loading too; waiting for canplay can strand metadata-only media.
+        await video.play();
+        if (!Reveal.getCurrentSlide()?.contains(video) || document.visibilityState === 'hidden') {
+          video.pause();
+        }
       } catch {
-        if (current === entry) videos.forEach(video => { video.controls = true; });
+        video.controls = true;
       }
     }
+    function playback(event) {
+      document.querySelectorAll('video').forEach(video => video.pause());
+      event.currentSlide.querySelectorAll('video').forEach(video => {
+        if (video.readyState > 0) video.currentTime = 0;
+        play(video);
+      });
+    }
+    function resume() {
+      if (document.visibilityState === 'hidden') return;
+      Reveal.getCurrentSlide()?.querySelectorAll('video').forEach(video => {
+        if (video.paused) play(video);
+      });
+    }
     Reveal.on('slidechanged', playback);
+    document.addEventListener('visibilitychange', resume);
+    window.addEventListener('pageshow', resume);
+    window.addEventListener('focus', resume);
     playback({currentSlide:Reveal.getCurrentSlide()});
   }
-  document.addEventListener('DOMContentLoaded',setup);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',setup);
+  else setup();
 })();
 </script>

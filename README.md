@@ -26,6 +26,7 @@ its slide is left. `?autoSlide=0` links from the earlier version still work.
 
 ```sh
 python3 scripts/build_gallery.py
+node --test tests/playback.test.cjs
 uv run quarto render index.qmd
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
@@ -53,9 +54,11 @@ with the corresponding dated imagery. The viewer uses 2018 because it flags
 under-detection in some 2017 predictions. The examples distinguish new fields,
 changed field layout, and reduced crop activity; they do not claim area totals.
 
-Wipes take 1.2 seconds, with holds before and after. Paired videos wait until
-both can play, then restart together on slide entry. An open-source credits
-slide appears immediately before the ending slide.
+Wipes take 1.2 seconds, with holds before and after. Both videos receive a play
+request on slide entry; one loading clip cannot block its neighbour. Playback
+resumes after returning to the tab. Native controls provide a manual fallback
+if the browser blocks autoplay. An open-source credits slide appears immediately
+before the ending slide.
 
 Exact camera positions, quarters, sources, thresholds, exclusions, and rebuild
 steps are in [MEDIA.md](MEDIA.md) and [assets/scenes.json](assets/scenes.json).

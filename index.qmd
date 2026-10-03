@@ -106,7 +106,7 @@ Source: preview catalog README.
 
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · 2025 · identical imagery and symbology</p>
-<div class="comparison-pair"><article><h3>Sorriso, Brazil</h3><video muted loop playsinline preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261003b" aria-label="Sorriso, Brazil · Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261003b" type="video/mp4"></video><p>Large fields and an urban edge.</p></article><article><h3>Flevoland, Netherlands</h3><video muted loop playsinline preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261003b" aria-label="Flevoland, Netherlands · Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261003b" type="video/mp4"></video><p>A dense network of fields, roads, and canals.</p></article></div>
+<div class="comparison-pair"><article><h3>Sorriso, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261003b" aria-label="Sorriso, Brazil · Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261003b" type="video/mp4"></video><p>Large fields and an urban edge.</p></article><article><h3>Flevoland, Netherlands</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261003b" aria-label="Flevoland, Netherlands · Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261003b" type="video/mp4"></video><p>A dense network of fields, roads, and canals.</p></article></div>
 <p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
@@ -119,7 +119,7 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · same camera and imagery within each example</p>
-<div class="comparison-pair"><article><h3>Iowa, United States</h3><video muted loop playsinline preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261003b" aria-label="Iowa, United States · Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261003b" type="video/mp4"></video><p>Mixed field sizes in Iowa · 2024.</p></article><article><h3>Normandy, France</h3><video muted loop playsinline preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261003b" aria-label="Normandy, France · Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261003b" type="video/mp4"></video><p>Small irregular fields and hedgerows · 2025.</p></article></div>
+<div class="comparison-pair"><article><h3>Iowa, United States</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261003b" aria-label="Iowa, United States · Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261003b" type="video/mp4"></video><p>Mixed field sizes in Iowa · 2024.</p></article><article><h3>Normandy, France</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261003b" aria-label="Normandy, France · Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261003b" type="video/mp4"></video><p>Small irregular fields and hedgerows · 2025.</p></article></div>
 <p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
@@ -132,7 +132,7 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · 2025</p>
-<div class="comparison-pair"><article><h3>Overberg, South Africa</h3><video muted loop playsinline preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261003b" aria-label="Overberg, South Africa · Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261003b" type="video/mp4"></video><p>Curved fields follow terrain and waterways.</p></article><article><h3>Mazovia, Poland</h3><video muted loop playsinline preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261003b" aria-label="Mazovia, Poland · Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261003b" type="video/mp4"></video><p>Narrow strip fields remain a difficult setting.</p></article></div>
+<div class="comparison-pair"><article><h3>Overberg, South Africa</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261003b" aria-label="Overberg, South Africa · Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261003b" type="video/mp4"></video><p>Curved fields follow terrain and waterways.</p></article><article><h3>Mazovia, Poland</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261003b" aria-label="Mazovia, Poland · Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261003b" type="video/mp4"></video><p>Narrow strip fields remain a difficult setting.</p></article></div>
 <p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
@@ -144,7 +144,7 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ## France · probability masks and polygons {#france-layers .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261003b" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261003b" type="video/mp4"></video></div>
+<div class="film"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261003b" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261003b" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -155,7 +155,7 @@ About 25 seconds. The COG stores field probability. The PMTiles archive presents
 
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
-<div class="comparison-pair"><article><h3>Matopiba, Brazil</h3><video muted loop playsinline preload="metadata" poster="assets/media/matopiba-change-poster.jpg?v=20261003b" aria-label="Matopiba, Brazil · New rectangular field blocks"><source src="assets/media/matopiba-change.mp4?v=20261003b" type="video/mp4"></video><p>New rectangular fields across the plateau · Q3.</p></article><article><h3>Masindi, Uganda</h3><video muted loop playsinline preload="metadata" poster="assets/media/masindi-change-poster.jpg?v=20261003b" aria-label="Masindi, Uganda · New gridded fields"><source src="assets/media/masindi-change.mp4?v=20261003b" type="video/mp4"></video><p>A new grid of fields around existing roads · Q1.</p></article></div>
+<div class="comparison-pair"><article><h3>Matopiba, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/matopiba-change-poster.jpg?v=20261003b" aria-label="Matopiba, Brazil · New rectangular field blocks"><source src="assets/media/matopiba-change.mp4?v=20261003b" type="video/mp4"></video><p>New rectangular fields across the plateau · Q3.</p></article><article><h3>Masindi, Uganda</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/masindi-change-poster.jpg?v=20261003b" aria-label="Masindi, Uganda · New gridded fields"><source src="assets/media/masindi-change.mp4?v=20261003b" type="video/mp4"></video><p>A new grid of fields around existing roads · Q1.</p></article></div>
 <p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
@@ -168,7 +168,7 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
-<div class="comparison-pair"><article><h3>Ili Valley, China</h3><video muted loop playsinline preload="metadata" poster="assets/media/ili-change-poster.jpg?v=20261003b" aria-label="Ili Valley, China · New fields across the valley floor"><source src="assets/media/ili-change.mp4?v=20261003b" type="video/mp4"></video><p>New fields across the valley floor · Q3.</p></article><article><h3>Kura lowland, Azerbaijan</h3><video muted loop playsinline preload="metadata" poster="assets/media/kura-change-poster.jpg?v=20261003b" aria-label="Kura lowland, Azerbaijan · New irrigated field patterns"><source src="assets/media/kura-change.mp4?v=20261003b" type="video/mp4"></video><p>New rectangular fields and center pivots · Q3.</p></article></div>
+<div class="comparison-pair"><article><h3>Ili Valley, China</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/ili-change-poster.jpg?v=20261003b" aria-label="Ili Valley, China · New fields across the valley floor"><source src="assets/media/ili-change.mp4?v=20261003b" type="video/mp4"></video><p>New fields across the valley floor · Q3.</p></article><article><h3>Kura lowland, Azerbaijan</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/kura-change-poster.jpg?v=20261003b" aria-label="Kura lowland, Azerbaijan · New irrigated field patterns"><source src="assets/media/kura-change.mp4?v=20261003b" type="video/mp4"></video><p>New rectangular fields and center pivots · Q3.</p></article></div>
 <p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
@@ -181,7 +181,7 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
-<div class="comparison-pair"><article><h3>West Bahia, Brazil</h3><video muted loop playsinline preload="metadata" poster="assets/media/bahia-layout-change-poster.jpg?v=20261003b" aria-label="West Bahia, Brazil · Rectangular fields replaced by center pivots"><source src="assets/media/bahia-layout-change.mp4?v=20261003b" type="video/mp4"></video><p>Rectangular fields replaced by center pivots · Q1.</p></article><article><h3>Al-Jawf, Saudi Arabia</h3><video muted loop playsinline preload="metadata" poster="assets/media/al-jawf-change-poster.jpg?v=20261003b" aria-label="Al-Jawf, Saudi Arabia · Fewer green center pivots in 2025"><source src="assets/media/al-jawf-change.mp4?v=20261003b" type="video/mp4"></video><p>Fewer green pivots in the later mosaic · Q3.</p></article></div>
+<div class="comparison-pair"><article><h3>West Bahia, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/bahia-layout-change-poster.jpg?v=20261003b" aria-label="West Bahia, Brazil · Rectangular fields replaced by center pivots"><source src="assets/media/bahia-layout-change.mp4?v=20261003b" type="video/mp4"></video><p>Rectangular fields replaced by center pivots · Q1.</p></article><article><h3>Al-Jawf, Saudi Arabia</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/al-jawf-change-poster.jpg?v=20261003b" aria-label="Al-Jawf, Saudi Arabia · Fewer green center pivots in 2025"><source src="assets/media/al-jawf-change.mp4?v=20261003b" type="video/mp4"></video><p>Fewer green pivots in the later mosaic · Q3.</p></article></div>
 <p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
