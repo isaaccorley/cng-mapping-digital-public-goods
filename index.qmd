@@ -27,7 +27,7 @@ format:
 <p class="eyebrow">CNG Forum 2026 · Snowbird, Utah</p>
 <h1>Mapping the World<br>as a Digital<br>Public Good</h1>
 <p class="presenter">Isaac Corley<br><span>Director of AI/ML Research · Taylor Geospatial</span></p></div>
-<img class="tg-cover-map" src="assets/stills/france-2e.jpg" alt="Predicted field boundaries in Normandy, France">
+<img class="tg-cover-map" src="assets/stills/france-2e.jpg?v=20261003" alt="Predicted field boundaries in Normandy, France">
 </div>
 ```
 
@@ -42,7 +42,7 @@ About 10 seconds. The agenda lists this seven-minute talk on 8 October 2026 at 1
 <div><p class="eyebrow">Taylor Geospatial</p><h2>Geospatial mapping<br>and model evaluation</h2>
 <p class="overview-body">We develop open datasets, models, and tools with research and application partners.</p>
 <p class="overview-body">Our work includes global feature maps and shared methods for evaluating geospatial models.</p></div>
-<div class="overview-map"><img src="assets/stills/netherlands-2e.jpg" alt="Global FTW field boundaries in the Netherlands"><p>Predicted field boundaries in Flevoland, Netherlands.<br><span>Global FTW · 2nd edition preview · 2025</span></p></div>
+<div class="overview-map"><img src="assets/stills/netherlands-2e.jpg?v=20261003" alt="Global FTW field boundaries in the Netherlands"><p>Predicted field boundaries in Flevoland, Netherlands.<br><span>Global FTW · 2nd edition preview · 2025</span></p></div>
 </div>
 ```
 
@@ -60,7 +60,11 @@ Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 <div class="research-overview">
 <div class="research-projects"><article><h3>Features of The World</h3><p>The project extends feature mapping to roads, buildings, solar panels, and trees.</p><small>Active research</small></article>
 <article><h3>Benchmarks of The World</h3><p>The project develops tools to evaluate model quality, geographic generalization, and compute requirements.</p><small>Research and evaluation tools</small></article></div>
-<div class="paper"><p class="eyebrow">Accepted at NeurIPS 2026</p><h3>No One Knows the State of the Art in Geospatial Foundation Models</h3><p>The paper calls for shared evaluation setups and reproducible comparisons to inform model selection.</p><a href="https://arxiv.org/abs/2605.12678">Corley et al. · arXiv:2605.12678</a></div>
+<div class="paper"><p class="acceptance">Accepted at NeurIPS 2026</p><h3>No One Knows the State of the Art in Geospatial Foundation Models</h3>
+<p>Papers use different evaluation code and methods, so reported rankings are hard to compare.</p>
+<p>Performance depends on the task, sensor, and region. Strong results on selected benchmarks do not establish generalist capability.</p>
+<p>We propose shared evaluation code and comparable tests across those settings.</p>
+<a href="https://arxiv.org/abs/2605.12678">Corley et al. · arXiv:2605.12678</a></div>
 </div>
 ```
 
@@ -68,8 +72,12 @@ Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 About 50 seconds.
 Features of The World extends feature mapping beyond fields.
 Benchmarks of The World develops tools for comparing model quality, geographic generalization, and compute requirements.
-The position paper argues for shared evaluation setups and reproducible comparisons.
-Isaac confirmed its NeurIPS acceptance for this talk.
+Our position paper was accepted at NeurIPS 2026.
+Published evaluations use different code, preprocessing, adaptation methods, and scoring implementations, so reported rankings are difficult to compare.
+Model performance varies across tasks, sensors, and regions.
+Strong results on a few benchmarks do not establish that a model generalizes across those settings.
+We propose shared evaluation code and comparable tests to make model selection better grounded.
+The paper describes a community coordination problem, including our own practices, rather than blaming individual researchers.
 The slide omits numerical audit results from the older preprint while revisions are in progress.
 Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/ ; https://arxiv.org/abs/2605.12678.
 :::
@@ -77,7 +85,7 @@ Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ 
 ## Global FTW · 2nd edition {#ftw-preview .full}
 
 ```{=html}
-<div class="image-slide"><img src="assets/stills/netherlands-2e.jpg" alt="Second-edition FTW field polygons in Flevoland">
+<div class="image-slide"><img src="assets/stills/netherlands-2e.jpg?v=20261003" alt="Second-edition FTW field polygons in Flevoland">
 <div class="image-head"><h2>Global FTW · 2nd edition</h2><p>The preview includes annual field probabilities for 2017–2025 and extracted field polygons.</p></div>
 <div class="image-credit">Sentinel-2 inputs at 10 m · prediction grid at 2.5 m · selected qualitative examples · FTW / Copernicus / CDSE / Source Cooperative</div></div>
 ```
@@ -97,7 +105,7 @@ Source: preview catalog README.
 ## Brazil · large fields {#brazil-editions .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-editions-poster.jpg" aria-label="Sorriso, Brazil: Large fields · 2025"><source src="assets/media/brazil-editions.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261003" aria-label="Sorriso, Brazil: Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -107,7 +115,7 @@ About 12 seconds, one loop. The roads and field edges make the outline compariso
 ## Netherlands · dense fields {#netherlands-editions .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/netherlands-editions-poster.jpg" aria-label="Flevoland, Netherlands: Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261003" aria-label="Flevoland, Netherlands: Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -117,7 +125,7 @@ About 12 seconds, one loop. Look at the connected field network, the roads and c
 ## United States · mixed field sizes {#usa-editions .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/usa-editions-poster.jpg" aria-label="Iowa, United States: Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261003" aria-label="Iowa, United States: Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -127,7 +135,7 @@ About 12 seconds, one loop. A 2024 comparison in Iowa, with large fields, smalle
 ## France · irregular fields {#france-editions .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-editions-poster.jpg" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261003" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -137,7 +145,7 @@ About 12 seconds, one loop. Normandy adds small, irregular fields separated by h
 ## South Africa · fields and terrain {#south-africa-editions .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/south-africa-editions-poster.jpg" aria-label="Overberg, South Africa: Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261003" aria-label="Overberg, South Africa: Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -147,7 +155,7 @@ About 12 seconds, one loop. Overberg fields follow terrain and waterways. The sh
 ## Poland · narrow strip fields {#poland-editions .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/poland-editions-poster.jpg" aria-label="Mazovia, Poland: Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261003" aria-label="Mazovia, Poland: Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -157,7 +165,7 @@ About 12 seconds, one loop. A dense strip-field system in Mazovia. Both versions
 ## France · probability masks and polygons {#france-layers .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-layers-poster.jpg" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261003" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -167,17 +175,17 @@ About 12 seconds, one loop. The COG stores field probability. The PMTiles archiv
 ## France · boundary probabilities and polygons {#france-boundary-layers .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-boundary-layers-poster.jpg" aria-label="Normandy, France: Boundary probabilities and extracted polygons · 2025"><source src="assets/media/france-boundary-layers.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/france-boundary-layers-poster.jpg?v=20261003" aria-label="Normandy, France: Boundary probabilities and extracted polygons · 2025"><source src="assets/media/france-boundary-layers.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
-About 12 seconds, one loop. The second COG band estimates boundary probability. Orange is that raster, with display cutoff 64/255, approximately 0.25. Yellow-green is the PMTiles polygon layer, over the same imagery. Camera: 48.88, -1.05; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
+About 12 seconds, one loop. The second COG band estimates boundary probability. Coral is that raster, with display cutoff 64/255, approximately 0.25. Periwinkle is the PMTiles polygon layer, over the same imagery. Camera: 48.88, -1.05; zoom 14; Q3. Source and capture details: MEDIA.md and assets/scenes.json.
 :::
 
 ## Netherlands · probability masks and polygons {#netherlands-layers .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/netherlands-layers-poster.jpg" aria-label="Flevoland, Netherlands: Dense rectangular fields · 2025"><source src="assets/media/netherlands-layers.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/netherlands-layers-poster.jpg?v=20261003" aria-label="Flevoland, Netherlands: Dense rectangular fields · 2025"><source src="assets/media/netherlands-layers.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -187,7 +195,7 @@ About 12 seconds, one loop. The same dense field network in two representations.
 ## South Africa · probability masks and polygons {#south-africa-layers .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/south-africa-layers-poster.jpg" aria-label="Overberg, South Africa: Fields following the terrain · 2025"><source src="assets/media/south-africa-layers.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/south-africa-layers-poster.jpg?v=20261003" aria-label="Overberg, South Africa: Fields following the terrain · 2025"><source src="assets/media/south-africa-layers.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -197,7 +205,7 @@ About 12 seconds, one loop. Here the field probabilities and extracted polygons 
 ## Poland · probability masks and polygons {#poland-layers .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/poland-layers-poster.jpg" aria-label="Mazovia, Poland: Narrow strip fields · 2025"><source src="assets/media/poland-layers.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/poland-layers-poster.jpg?v=20261003" aria-label="Mazovia, Poland: Narrow strip fields · 2025"><source src="assets/media/poland-layers.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -207,7 +215,7 @@ About 12 seconds, one loop. Narrow fields are a different test of the representa
 ## Egypt · irrigation expansion {#egypt-change .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/egypt-change-poster.jpg" aria-label="Toshka, Egypt: Expansion of circular irrigation fields"><source src="assets/media/egypt-change.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/egypt-change-poster.jpg?v=20261003" aria-label="Toshka, Egypt: Expansion of circular irrigation fields"><source src="assets/media/egypt-change.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -217,7 +225,7 @@ About 12 seconds, one loop. Now switch from comparing editions to comparing year
 ## Egypt · center-pivot irrigation {#delta-change .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/delta-change-poster.jpg" aria-label="Western Desert, Egypt: New centre-pivot fields west of the Nile Delta"><source src="assets/media/delta-change.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/delta-change-poster.jpg?v=20261003" aria-label="Western Desert, Egypt: New centre-pivot fields west of the Nile Delta"><source src="assets/media/delta-change.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -227,7 +235,7 @@ About 12 seconds, one loop. Another view west of the Nile Delta. New centre-pivo
 ## Bolivia · new field blocks {#bolivia-change .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/bolivia-change-poster.jpg" aria-label="Santa Cruz, Bolivia: New field blocks at the agricultural edge"><source src="assets/media/bolivia-change.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/bolivia-change-poster.jpg?v=20261003" aria-label="Santa Cruz, Bolivia: New field blocks at the agricultural edge"><source src="assets/media/bolivia-change.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -237,7 +245,7 @@ About 12 seconds, one loop. At the agricultural edge in Santa Cruz, look near th
 ## Paraguay · new clearings {#paraguay-change .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/paraguay-change-poster.jpg" aria-label="Chaco, Paraguay: New rectangular clearings within a managed landscape"><source src="assets/media/paraguay-change.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/paraguay-change-poster.jpg?v=20261003" aria-label="Chaco, Paraguay: New rectangular clearings within a managed landscape"><source src="assets/media/paraguay-change.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -247,7 +255,7 @@ About 12 seconds, one loop. Several rectangular clearings appear within the Chac
 ## India · urban growth {#india-change .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/india-change-poster.jpg" aria-label="Hyderabad, India: Urban growth along the western edge"><source src="assets/media/india-change.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/india-change-poster.jpg?v=20261003" aria-label="Hyderabad, India: Urban growth along the western edge"><source src="assets/media/india-change.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -257,7 +265,7 @@ About 12 seconds, one loop. Hyderabad’s western edge shows new buildings and r
 ## Brazil · fields at the urban edge {#brazil-change .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-change-poster.jpg" aria-label="Sorriso, Brazil: Urban growth along the agricultural edge"><source src="assets/media/brazil-change.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-change-poster.jpg?v=20261003" aria-label="Sorriso, Brazil: Urban growth along the agricultural edge"><source src="assets/media/brazil-change.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -267,7 +275,7 @@ About 12 seconds, one loop. In Sorriso, new streets and buildings occupy parts o
 ## Brazil · annual field probabilities {#brazil-predictions .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-predictions-poster.jpg" aria-label="Sorriso, Brazil: Annual field probability · candidate changes"><source src="assets/media/brazil-predictions.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/brazil-predictions-poster.jpg?v=20261003" aria-label="Sorriso, Brazil: Annual field probability · candidate changes"><source src="assets/media/brazil-predictions.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -277,7 +285,7 @@ About 12 seconds, one loop. The same Sorriso location with annual field probabil
 ## Brazil · urban growth in Primavera do Leste {#primavera-change .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/primavera-change-poster.jpg" aria-label="Primavera do Leste, Brazil: New development around an agricultural town"><source src="assets/media/primavera-change.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/primavera-change-poster.jpg?v=20261003" aria-label="Primavera do Leste, Brazil: New development around an agricultural town"><source src="assets/media/primavera-change.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -287,7 +295,7 @@ About 12 seconds, one loop. A second Brazilian city, Primavera do Leste. New dev
 ## Brazil · annual prediction changes {#primavera-predictions .full}
 
 ```{=html}
-<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/primavera-predictions-poster.jpg" aria-label="Primavera do Leste, Brazil: Annual field probability · compare with the imagery"><source src="assets/media/primavera-predictions.mp4" type="video/mp4"></video></div>
+<div class="film"><video muted loop playsinline data-autoplay preload="metadata" poster="assets/media/primavera-predictions-poster.jpg?v=20261003" aria-label="Primavera do Leste, Brazil: Annual field probability · compare with the imagery"><source src="assets/media/primavera-predictions.mp4?v=20261003" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -302,9 +310,9 @@ Source and capture details: MEDIA.md and assets/scenes.json.
 ## COG, GeoParquet, and PMTiles {#formats .tg-light}
 
 ```{=html}
-<div class="format-maps"><div><p><strong>COG</strong>Field and boundary probabilities</p><img src="assets/stills/france-field-2025.jpg" alt="COG field probabilities"></div><div><p><strong>PMTiles</strong>Regional summaries and field polygons</p><img src="assets/stills/pmtiles-overview.jpg" alt="PMTiles regional coverage map"></div></div>
+<div class="format-maps"><div><p><strong>COG</strong>Field and boundary probabilities</p><img src="assets/stills/france-field-2025.jpg?v=20261003" alt="COG field probabilities"></div><div><p><strong>PMTiles</strong>Regional summaries and field polygons</p><img src="assets/stills/pmtiles-overview.jpg?v=20261003" alt="PMTiles regional coverage map"></div></div>
 <p class="format-table-label"><strong>GeoParquet</strong> · Geometry and per-field attributes</p>
-<img class="format-table" src="assets/stills/geoparquet-table.jpg" alt="Actual GeoParquet table preview showing identifiers, geometry, bounding boxes, metrics, and scores">
+<img class="format-table" src="assets/stills/geoparquet-table.jpg?v=20261003" alt="Actual GeoParquet table preview showing identifiers, geometry, bounding boxes, metrics, and scores">
 <p class="format-note">The data are distributed as open files over HTTPS.</p>
 ```
 
@@ -313,8 +321,7 @@ About 30 seconds.
 Cloud-optimized GeoTIFFs store probabilities, GeoParquet stores geometry and attributes, and PMTiles provides fast map browsing.
 The screenshots show the preview data.
 The field score is not calibrated accuracy.
-Raster years span 2017–2025, and vector publication is still in progress.
-All nine vector years should not be described as available yet.
+The current catalog lists raster and vector collections for 2017–2025.
 Source: preview catalog metadata.
 :::
 
@@ -322,8 +329,8 @@ Source: preview catalog metadata.
 
 ```{=html}
 <div class="distribution">
-<div><h3>Source Cooperative</h3><p>The preview catalog hosts the files and documentation.</p><img class="catalog-shot" src="assets/stills/source-catalog.jpg" alt="Source Cooperative FTW preview catalog"></div>
-<div><h3>Portolan</h3><p>Portolan provides catalog discovery<br>for STAC and cloud-optimized files.</p><img class="registry-shot" src="assets/stills/portolan-registry.jpg" alt="Existing Global FTW catalog in the Portolan registry"><p class="small">Thank you to the Portolan community.</p></div>
+<div><h3>Source Cooperative</h3><p>The preview catalog hosts the files and documentation.</p><img class="catalog-shot" src="assets/stills/source-catalog.jpg?v=20261003" alt="Source Cooperative FTW preview catalog"></div>
+<div><h3>Portolan</h3><p>Portolan provides catalog discovery<br>for STAC and cloud-optimized files.</p><img class="registry-shot" src="assets/stills/portolan-registry.jpg?v=20261003" alt="Existing Global FTW catalog in the Portolan registry"><p class="small">Thank you to the Portolan community.</p></div>
 </div>
 <p class="source-note">The Portolan screenshot shows the existing Global FTW catalog.</p>
 ```
@@ -334,14 +341,14 @@ Source Cooperative hosts the files and documentation.
 Portolan provides catalog discovery through STAC and cloud-optimized files.
 The registry screenshot shows the existing FTW catalog.
 Registration of the second edition is not confirmed here.
-The viewer uses the beta path for this sneak peek.
-Sources: https://source.coop/ftw/global-data-beta and https://www.portolan-sdi.org/blog/introducing-portolan.
+The viewer now reads the second-edition product at ftw/global-data-2e.
+Sources: https://source.coop/ftw/global-data-2e and https://www.portolan-sdi.org/blog/introducing-portolan.
 :::
 
 ## Data and research {#end .tg-dark}
 
 ```{=html}
-<div class="closing"><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://fieldsofthe.world/">FTW data and code</a><a href="https://taylorgeospatial.org/innovation-program/">Taylor Geospatial research</a><a href="media.html">20 comparison clips</a></div></div>
+<div class="closing"><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition viewer</a><a href="https://taylorgeospatial.org/innovation-program/">Taylor Geospatial research</a><a href="media.html">20 comparison clips</a></div><p class="closing-source"><a href="https://source.coop/ftw/global-data-2e">Data on Source Cooperative</a> · <a href="https://fieldsofthe.world/">FTW models and code</a></p></div>
 ```
 
 ::: {.notes}

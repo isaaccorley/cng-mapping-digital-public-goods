@@ -1,7 +1,7 @@
 {
-  "captured": "2026-10-02",
-  "viewer": "https://isaac.earth/ftw-s2-quarterly/web/",
-  "preview_data": "https://data.source.coop/ftw/global-data-beta",
+  "captured": "2026-10-03",
+  "viewer": "https://research.taylorgeospatial.org/global-ftw-2e/web/",
+  "preview_data": "https://data.source.coop/ftw/global-data-2e",
   "clips": [
     {
       "id": "brazil-editions",
@@ -299,5 +299,6 @@
       "quarter": "Q3",
       "kind": "probability"
     }
-  ]
+  ],
+  "imagery_captured": "2026-10-02"
 }

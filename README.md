@@ -59,9 +59,12 @@ Source Cooperative, and Portolan screenshots.
 
 ## Preview status
 
-This is a sneak peek. The viewer read `ftw/global-data-beta` at capture time;
-`global-data-2e` was not populated. Source Cooperative marked the preview
-unlisted. The Portolan screenshot shows the existing Global FTW catalog.
+This is a sneak peek. Figures were refreshed on 3 October 2026 from the
+[new viewer](https://research.taylorgeospatial.org/global-ftw-2e/) and
+[`ftw/global-data-2e`](https://source.coop/ftw/global-data-2e), including the
+updated PMTiles and GeoParquet exports. All slides and clips use the Taylor
+Geospatial palette. Source Cooperative still marks the product unlisted.
+The Portolan screenshot shows the existing Global FTW catalog.
 These selected examples are not a global accuracy or completeness assessment.
 
 The GitHub Actions workflow renders, uploads a Pages artifact, and deploys

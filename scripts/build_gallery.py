@@ -5,7 +5,9 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-scenes = json.loads((ROOT / "assets/scenes.json").read_text())["clips"]
+manifest = json.loads((ROOT / "assets/scenes.json").read_text())
+scenes = manifest["clips"]
+version = manifest["captured"].replace("-", "")
 groups = [
     ("change", "2017 → 2025", {"imagery", "probability"}),
     ("editions", "Original FTW → 2nd edition", {"edition"}),
@@ -24,10 +26,10 @@ for anchor, title, kinds in groups:
         parts.append(
             f"<article><h3>{place}</h3><p>{detail}</p>"
             f'<video controls muted loop playsinline preload="metadata" '
-            f'poster="assets/media/{name}-poster.jpg" aria-label="{place}: {detail}">'
-            f'<source src="assets/media/{name}.mp4" type="video/mp4"></video>'
+            f'poster="assets/media/{name}-poster.jpg?v={version}" aria-label="{place}: {detail}">'
+            f'<source src="assets/media/{name}.mp4?v={version}" type="video/mp4"></video>'
             f'<p class="caption">{labels} · {scene["lat"]}, {scene["lon"]}</p>'
-            f'<a href="assets/media/{name}.mp4" download>Download MP4</a></article>'
+            f'<a href="assets/media/{name}.mp4?v={version}" download>Download MP4</a></article>'
         )
     parts.append("</div></section>")
 
@@ -39,12 +41,12 @@ page = (
 <link rel="stylesheet" href="assets/fonts/fonts.css">
 <link rel="stylesheet" href="assets/fonts/tg-fonts.css">
 <style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f4eb;color:#3b1e1c;font:18px/1.5 'Manrope',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f4eb;color:#3b1e1c;font:18px/1.5 'Space Grotesk',sans-serif}
 main{max-width:1400px;margin:auto;padding:54px 40px}h1,h2,h3{font-family:'Space Grotesk',sans-serif;font-weight:500}
 h1{font-size:clamp(36px,5vw,64px);line-height:1.1;max-width:1000px;margin:15px 0 25px}
 h2{font-size:35px;border-top:1px solid #3b1e1c;padding-top:25px;margin:60px 0 30px}h3{font-size:26px;margin:0}
 .eyebrow{font-size:14px;letter-spacing:.13em;text-transform:uppercase}.clips{display:grid;grid-template-columns:1fr 1fr;gap:44px 30px}
-article p{margin:6px 0 14px}video{display:block;width:100%;aspect-ratio:16/9;background:#004747}.caption{font-size:13px;margin-top:12px;color:#675250}
+article p{margin:6px 0 14px}video{display:block;width:100%;aspect-ratio:16/9;background:#3b1e1c}.caption{font-size:13px;margin-top:12px;color:#675250}
 a{color:#3b1e1c;text-underline-offset:4px}nav{display:flex;gap:30px;flex-wrap:wrap;margin:28px 0}footer{font-size:14px;border-top:1px solid;margin-top:60px;padding-top:20px}
 @media(max-width:850px){.clips{grid-template-columns:1fr}main{padding:30px 20px}}
 </style><main><div class="eyebrow">Taylor Geospatial · CNG Forum 2026</div>

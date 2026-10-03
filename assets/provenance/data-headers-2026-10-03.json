@@ -1,0 +1,35 @@
+{
+  "checked": "2026-10-03",
+  "objects": [
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2024/fields-2024.pmtiles",
+      "status": "HTTP/2 200 ",
+      "date": "Sat, 03 Oct 2026 16:15:07 GMT",
+      "content-type": "binary/octet-stream",
+      "content-length": "26059054715",
+      "etag": "\"c51860576a9f0ee550e3f94e3d0ae365-1554\"",
+      "last-modified": "Sat, 03 Oct 2026 07:40:14 GMT",
+      "x-amz-version-id": "BFL6Ubx9oRuHDWCo3ZKR_.8D_HhzLcPp"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/fields-2025.pmtiles",
+      "status": "HTTP/2 200 ",
+      "date": "Sat, 03 Oct 2026 16:15:07 GMT",
+      "content-type": "binary/octet-stream",
+      "content-length": "27638591773",
+      "etag": "\"3046d4b11f8db4bf2a6d2a6161e3dffa-1648\"",
+      "last-modified": "Sat, 03 Oct 2026 08:06:02 GMT",
+      "x-amz-version-id": "cOueEnM7WrQT62mvDgIkEH3g6r1Svb_U"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/zone=15/utm15.parquet",
+      "status": "HTTP/2 200 ",
+      "date": "Sat, 03 Oct 2026 16:15:07 GMT",
+      "content-type": "binary/octet-stream",
+      "content-length": "2226408521",
+      "etag": "\"415346d365b391b67c243a5f59fa23bf-266\"",
+      "last-modified": "Sat, 03 Oct 2026 02:16:34 GMT",
+      "x-amz-version-id": ".8bExAaCbRDzd9DdyGKri0rrWQ0jmXz_"
+    }
+  ]
+}

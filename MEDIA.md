@@ -1,6 +1,11 @@
 # Media sources and capture notes
 
-Captured 2 October 2026. These are real map renders and website screenshots;
+Refreshed 3 October 2026 from the new Global FTW 2nd Edition viewer and
+`ftw/global-data-2e` product, following the small-hole cleanup in the vector
+exports. Updated PMTiles, probability overlays, GeoParquet table, and catalog
+screenshots were captured again. Dated RGB-only stills from 2 October are
+retained; all 20 clips were rebuilt with the Taylor Geospatial palette.
+These are real map renders and website screenshots;
 no generated satellite imagery or synthetic boundaries are used.
 
 ## Comparisons
@@ -29,21 +34,22 @@ Basemap fallback was disabled for all final captures, so undated Esri imagery
 cannot masquerade as historical imagery. The initial wider Egypt view had
 incomplete mosaic coverage; the final camera is within shared coverage.
 
-Both edition overlays use the same yellow-green stroke (`#c0d85b`, 1.4 CSS
+Both edition overlays use the same TG periwinkle stroke (`#80a0d8`, 1.4 CSS
 pixels) and fill (7% opacity). We did not change geometry, filter by score,
 or change model thresholds. These are **PMTiles renderings**, including each
 archive's own simplification and tiling choices; visual differences do not
 isolate model accuracy or a particular pipeline change.
 
 Field-probability clips use the live viewer's threshold (128/255, about
-0.5) and color ramp. A change in probability is a candidate signal, not a
-confirmed land-cover transition. Independent annual predictions have no
+0.5), with a TG brown → periwinkle → light-blue ramp. A change in probability
+is a candidate signal, not a confirmed land-cover transition. Independent annual predictions have no
 persistent cross-year field IDs. No area-change totals are claimed.
 
 The five mask-to-PMTiles clips compare the same year, imagery, and camera.
 Four use the field-interior band; Normandy's fifth clip uses the boundary
 band, with display cutoff 64/255 (about 0.25). Raster overlays preserve the
-viewer's color ramp and opacity; they are not binary ground-truth masks.
+viewer's opacity. Field probability uses the TG ramp above; boundary
+probability uses TG coral (`#ff4f2c`). These are not binary ground-truth masks.
 PMTiles polygons are the published extracted/simplified geometries, not
 polygons traced from the screenshots. The raster and vector displays need
 not coincide at every edge.
@@ -71,22 +77,25 @@ quality issue was diagnosed or fixed as part of making the presentation.
 
 ## Primary data sources
 
-- Live viewer: https://isaac.earth/ftw-s2-quarterly/web/
-- Second-edition preview: https://source.coop/ftw/global-data-beta
-- Raster manifest: https://data.source.coop/ftw/global-data-beta/index/raster.parquet
-- Vector manifest: https://data.source.coop/ftw/global-data-beta/index/vector.parquet
-- Annual PMTiles: `https://data.source.coop/ftw/global-data-beta/vector/{year}/fields-{year}.pmtiles`
+- Live viewer: https://research.taylorgeospatial.org/global-ftw-2e/web/
+- Second-edition preview: https://source.coop/ftw/global-data-2e
+- Raster display index: https://data.source.coop/ftw/global-data-2e/index/raster-lite.parquet
+- Vector manifest: https://data.source.coop/ftw/global-data-2e/index/vector.parquet
+- Annual PMTiles: `https://data.source.coop/ftw/global-data-2e/vector/{year}/fields-{year}.pmtiles`
 - Alpha 2024: https://data.source.coop/ftw/global-data/predictions/vectors/alpha/2024_with_confidence.pmtiles
 - Alpha 2025: https://data.source.coop/ftw/global-field-boundaries/pmtiles/ftw-global-fields-2025.pmtiles
 - Input mosaics: https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics
 - Mosaic bands: `https://data.source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics/{year}/Q3/{tile_key}/{B04,B03,B02}.tif`
-- Prediction COGs: hrefs resolved from the raster manifest; annual model uses four quarters, while the displayed background is Q3.
+- Prediction COGs: `https://data.source.coop/ftw/global-data-2e/raster/{year}/zone={zone}/gzd={gzd}/{tile_key}/{tile_key}.tif`; annual model uses four quarters, while the displayed background is Q3.
 - FTW prediction license: CC BY 4.0. Imagery credits: Sentinel-2 / Copernicus / CDSE; hosted by Taylor Geospatial on Source Cooperative.
 
-The live viewer's `config.js` explicitly uses `global-data-beta` during
-migration. `global-data-2e/README.md` and `global-data-2e/catalog.json`
-returned `NoSuchKey` at capture time. Do not silently rewrite the media's
-source paths until the destination has been verified.
+The new viewer's `config.js` uses `global-data-2e`. The catalog README and
+2024/2025 PMTiles and 2025 UTM 15 GeoParquet were verified at the destination.
+The PMTiles have Last-Modified timestamps of 3 October, 07:40 and 08:06 UTC;
+the GeoParquet is dated 02:16 UTC. Object sizes, ETags, and version IDs are
+saved in `assets/provenance/data-headers-2026-10-03.json`.
+The initial 2 October captures used the beta product; their provenance
+snapshots remain for history, but the slides now use the verified 2e exports.
 
 Snapshots of the catalog README, 2025 vector collection metadata, and SHA-256
 hashes of the live viewer modules are saved in `assets/provenance/`.
@@ -95,10 +104,10 @@ as measured accuracy or completeness results.
 
 ## Screenshots
 
-- `source-catalog.jpg`: https://source.coop/ftw/global-data-beta, top of catalog.
-- `geoparquet-table.jpg`: actual table preview of https://source.coop/ftw/global-data-beta/vector/2025/zone=15/utm15.parquet, captured from the portal's linked Parquet viewer. Cropped to its header and first rows; no row values altered.
+- `source-catalog.jpg`: https://source.coop/ftw/global-data-2e, top of catalog.
+- `geoparquet-table.jpg`: actual table preview of https://source.coop/ftw/global-data-2e/vector/2025/zone=15/utm15.parquet, captured from the portal's linked Parquet viewer. Cropped to its header and first rows; no row values altered.
 - `cog-boundary.jpg`: Flevoland camera above, 2025 Q3 background with the COG boundary probability layer, live threshold 64/255.
-- `pmtiles-overview.jpg`: 2025 coverage aggregates, lat 48, lon 6, zoom 5.5; viewer's published coverage ramp. The slide covers the irrelevant COG loading hint.
+- `pmtiles-overview.jpg`: 2025 coverage aggregates, lat 48, lon 6, zoom 5.5; published coverage values with a TG ivory-to-blue ramp (unchanged breaks at 0, 2, 10, 25, 50, 75 percent).
 - `portolan.jpg`: https://www.portolan-sdi.org/ homepage.
 - `portolan-registry.jpg`: https://www.portolan-sdi.org/registry, search “Fields”, cropped to the FTW result. This links to the existing `ftw/global-data/catalog.json`, not the second edition.
 
@@ -113,20 +122,23 @@ not from NASA's figure.
 ## Rebuild media
 
 1. Run `python3 scripts/prepare_capture.py` from the repo root. It snapshots
-   the live viewer in ignored `.capture/`, using bundled browser dependencies
-   from the neighbouring `../ftw-s2-quarterly/web/vendor` directory.
+   the deployed viewer and its bundled browser dependencies in ignored
+   `.capture/`. The source repository tree supplies the asset list.
 2. Serve the repository on localhost. Camera parameters are in
    `assets/scenes.json`. Use a unique `scene` query value on navigation;
    the upstream viewer reads the camera hash on initial page load only.
 3. Navigate to `.capture/web/?kind=alpha&scene=...#year=...&q=Q3&z=...&lat=...&lon=...`
    and repeat with `kind=pmtiles`, `image`, `field`, or `boundary` as needed.
-   Wait for imagery and vector tiles to render fully, inspect, and save
+   Wait for `body[data-capture-ready=true]`, then inspect imagery and vector
+   tiles for complete rendering and save
    1280 × 720 map screenshots to `assets/stills/` with the manifest's names.
 4. Capture `scripts/frame.html?scene=CLIP_ID&side=before` and `side=after`
    after `body[data-ready=true]`, into `.capture/frames/CLIP_ID-before.jpg`
-   and `-after.jpg`. This adds editable Sora/Manrope labels and source credits.
+   and `-after.jpg`. This adds editable Space Grotesk labels and source credits.
 5. Run `python3 scripts/build_clips.py` (requires ffmpeg). Each clip holds the
    first frame, wipes to the second, holds, then returns; 12 seconds total.
+   Video export uses limited-range BT.709 color with explicit metadata so
+   browsers interpret the palette consistently.
 6. Render Quarto and inspect playback. Scripts never modify the deployed
    viewer, data, or neighbouring checkout. Re-capture if source data change.
 
@@ -135,8 +147,8 @@ Run `python3 scripts/build_gallery.py` after updating the scene manifest.
 
 FTW logo and self-hosted Sora / Manrope fonts are from the FTW branding asset
 bundle. Fonts are SIL Open Font License 1.1; see `assets/fonts/fonts.css`.
-The Taylor Geospatial logo is from the TG brand bundle. The framing slides
-use TG brown/ivory and Space Grotesk (the approved open slide substitute),
+The Taylor Geospatial logo is from the TG brand bundle. All slides and film
+labels use TG brown/ivory and Space Grotesk (the approved open slide substitute),
 self-hosted from Google Fonts with its OFL in `assets/fonts/space-grotesk/`.
 
 ## Talk framing and broader research

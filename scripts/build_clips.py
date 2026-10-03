@@ -15,10 +15,12 @@ for scene in scenes:
     after = ROOT / f".capture/frames/{name}-after.jpg"
     out = ROOT / f"assets/media/{name}.mp4"
     # First view 2 s; reveal second 2 s; hold second 5 s; return 2 s; hold 1 s.
+    # Browser captures are full-range BT.601 JPEGs; export tagged BT.709 video.
     filt = (
         "[0:v]split=2[a][c];"
         "[a][1:v]xfade=transition=wiperight:duration=2:offset=2[ab];"
         "[ab][c]xfade=transition=wipeleft:duration=2:offset=9,"
+        "scale=in_color_matrix=bt601:in_range=pc:out_color_matrix=bt709:out_range=tv,"
         "format=yuv420p[v]"
     )
     subprocess.run(
@@ -52,6 +54,14 @@ for scene in scenes:
             "slow",
             "-crf",
             "19",
+            "-color_range",
+            "tv",
+            "-colorspace",
+            "bt709",
+            "-color_primaries",
+            "bt709",
+            "-color_trc",
+            "bt709",
             "-movflags",
             "+faststart",
             "-an",
