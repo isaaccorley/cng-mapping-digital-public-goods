@@ -64,5 +64,7 @@ This is a sneak peek. The viewer read `ftw/global-data-beta` at capture time;
 unlisted. The Portolan screenshot shows the existing Global FTW catalog.
 These selected examples are not a global accuracy or completeness assessment.
 
-The GitHub Actions workflow renders and publishes on a push to `main`.
-Local rendering alone does not publish anything.
+The GitHub Actions workflow renders, uploads a Pages artifact, and deploys
+directly on a push to `main`. The repository's Pages source is GitHub Actions;
+the legacy `gh-pages` branch is no longer the publishing source. Local
+rendering alone does not publish anything.
