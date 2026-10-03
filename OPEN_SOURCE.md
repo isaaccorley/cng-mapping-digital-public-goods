@@ -27,6 +27,7 @@ not an exhaustive software bill of materials.
 ## Logos
 
 Official files are stored locally, preserving their colors and proportions.
+Only line endings and trailing whitespace were normalized.
 Projects without a logo located in their official repository are credited by
 name. Logo attribution does not imply sponsorship or endorsement.
 
