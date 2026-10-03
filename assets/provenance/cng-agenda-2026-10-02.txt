@@ -1,0 +1,9 @@
+https://2026.cloudnativegeo.org/#/agenda?day=3&lang=en
+8 October 2026 · 15:33 America/Denver
+
+Mapping the World as a Digital Public Good
+7 Minutes
+Ballroom 1
+All Tracks
+
+Taylor Geospatial is building open and cloud-native datasets, AI models, and infrastructure to map the world as a digital public good. In this talk, we’ll give a rapid-fire tour of Fields of the World, Features of the World, and Benchmarks of the World — what we’ve built, where we’re headed, and two major announcements you’ll want to be in the room for.
