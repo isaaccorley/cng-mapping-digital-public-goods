@@ -7,11 +7,13 @@ The [agenda](https://2026.cloudnativegeo.org/#/agenda?day=3&lang=en) lists a
 [Live deck](https://isaac.earth/cng-mapping-digital-public-goods/) ·
 [Clip gallery](https://isaac.earth/cng-mapping-digital-public-goods/media.html)
 
-The Quarto deck has **15 slides with manual advance**. FTW takes about three
-quarters of the suggested speaking time. The opening covers Taylor Geospatial;
-one slide groups Features of The World, Benchmarks of The World, and the
-NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
-Models* paper. Speaker notes include a seven-minute pacing guide.
+The Quarto deck has **17 slides with manual advance**. The talk moves from
+field mapping and agricultural change to reusable geographic representations
+and model evaluation. FTW takes five minutes of the suggested seven-minute talk.
+MIND the Gap and Planetary Feature Fields each have a dedicated 30-second slide.
+The NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
+Models* paper follows them, alongside Features of The World and Benchmarks of
+The World. Open-source acknowledgements precede the closing links.
 
 ## Present and review
 
@@ -35,6 +37,10 @@ Open `http://127.0.0.1:8765/docs/index.html` or
 `http://127.0.0.1:8765/docs/media.html`. All maps, fonts, and videos are local.
 Keep the whole `docs/` directory when copying the presentation. PDF exports
 use posters; the HTML deck plays videos.
+
+The MIND slide includes a local 30-second embedding-globe clip from the project
+site. The PFF slide uses original/reconstruction panels from the paper.
+[RESEARCH.md](RESEARCH.md) records the sources, figure attribution, and clip edit.
 
 ## Comparison library
 
