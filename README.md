@@ -39,7 +39,7 @@ Keep the whole `docs/` directory when copying the presentation. PDF exports
 use posters; the HTML deck plays videos.
 
 The MIND slide includes a local 30-second embedding-globe clip from the project
-site. The PFF slide uses original/reconstruction panels from the paper.
+site. The PFF slide plays the supplied 22.3-second NDVI access demonstration.
 [RESEARCH.md](RESEARCH.md) records the sources, figure attribution, and clip edit.
 
 ## Comparison library

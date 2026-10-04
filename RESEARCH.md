@@ -30,17 +30,32 @@ ffmpeg -y -ss 2 -i assets/research/mind-embedding.mp4 \
 ## Planetary Feature Fields
 
 - Paper: [Rao et al., Planetary Feature Fields are Scalable Earth Representations](https://arxiv.org/abs/2609.37784).
-- Figures: [Figure 1, version 1](https://arxiv.org/html/2609.37784v1#S0.F1), reused under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- Retrieved 3 October 2026 from `https://arxiv.org/html/2609.37784v1/figures/data/teaser_panels/`.
+- Animation: `planetary-feature-fields.gif`, supplied by Isaac Corley in `1-planetary-feature-fields.gif.zip` on 3 October 2026.
+- Source preserved at `assets/research/pff-animation.gif`; SHA-256 `1a4d753ed49872b150fe6d508bb12ee3f8e10b29386afe44212f7fecd03b55dc`.
+- On-image credits: Arjun Rao (`arjunashokrao.me`), Copernicus Sentinel-2, and Microsoft Planetary Computer.
 
-The slide selects the original and PFF-VM columns for Sentinel-2 (2017), TESSERA (2021), and biomass (2022), at 53.389°N, 16.089°E.
-Assets retain their source filenames with a `pff-` prefix.
-Panels and colors are unchanged; labels and layout were adapted for the slide.
-The biomass legend retains its 0–300 Mg/ha range.
+The 22.3-second clip demonstrates NDVI mapping through Microsoft Planetary Computer and PFFs.
+Conversion to H.264 preserves the supplied timing, including the existing “4× animation” label.
+The crop removes the duplicated title above the two panels; it retains the comparison, progress labels, and author/data credits.
+It plays silently, loops, and uses the same slide-entry playback controls as the other clips.
+
+```sh
+ffmpeg -y -i assets/research/pff-animation.gif \
+  -vf 'crop=1200:760:0:160,fps=20' -an \
+  -c:v libx264 -crf 18 -pix_fmt yuv420p -movflags +faststart \
+  assets/research/pff-animation.mp4
+ffmpeg -y -ss 3 -i assets/research/pff-animation.mp4 \
+  -frames:v 1 assets/research/pff-animation-poster.jpg
+```
 
 The compression and retained-performance statement follows the abstract.
 Compression is relative to uncompressed source data.
 Retained performance refers to the evaluated downstream tasks, not absolute prediction accuracy or a global deployment guarantee.
+The NDVI access demonstration is separate from that result.
+
+The previous static panels remain in `assets/research/` as reference material.
+They came from [Figure 1, version 1](https://arxiv.org/html/2609.37784v1#S0.F1), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), retrieved on 3 October 2026.
+They show original and PFF-VM outputs for Sentinel-2 (2017), TESSERA (2021), and biomass (2022), at 53.389°N, 16.089°E.
 
 ## Seven-minute pacing
 

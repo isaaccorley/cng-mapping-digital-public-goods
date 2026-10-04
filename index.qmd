@@ -248,13 +248,8 @@ Sources: https://research.taylorgeospatial.org/mind/ and https://arxiv.org/abs/2
 <p class="research-result">At about <strong>1,800× compression</strong>, reconstructed features retain roughly <strong>90% or more</strong> of the original downstream performance in the paper’s tests.</p>
 </div>
 <figure class="pff-figure">
-<div class="pff-comparison">
-<span></span><h3>Original product</h3><h3>PFF reconstruction</h3>
-<p>Sentinel-2<br><span>2017</span></p><img src="assets/research/pff-s2pc_target.png" alt="Original Sentinel-2 image of an airfield"><img src="assets/research/pff-s2pc_pff_vm.png" alt="PFF-VM reconstruction of the Sentinel-2 image">
-<p>TESSERA<br><span>2021</span></p><img src="assets/research/pff-te_target.png" alt="Original TESSERA embedding colors over the same airfield"><img src="assets/research/pff-te_pff_vm.png" alt="PFF-VM reconstruction of the TESSERA embedding colors">
-<p>Biomass<br><span>2022</span></p><img src="assets/research/pff-biomass_target.png" alt="Original biomass product"><img src="assets/research/pff-biomass_pff_vm.png" alt="PFF-VM reconstruction of the biomass product">
-</div>
-<figcaption>Selected panels from Fig. 1 · PFF-VM · 53.389°N, 16.089°E<br><span class="biomass-scale">Biomass <span>0</span><img src="assets/research/pff-biomass_legend.png" alt="Biomass color scale"><span>300 Mg/ha</span></span></figcaption>
+<video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/pff-animation-poster.jpg" aria-label="NDVI mapping demonstration comparing Microsoft Planetary Computer and Planetary Feature Fields"><source src="assets/research/pff-animation.mp4" type="video/mp4"></video>
+<figcaption>NDVI access demo by Arjun Rao · original 4× animation timing.</figcaption>
 </figure>
 </div>
 <p class="research-citation">Rao et al. (2026) · <a href="https://arxiv.org/abs/2609.37784">arXiv:2609.37784</a> · Compression relative to uncompressed source data; performance on evaluated downstream tasks.</p>
@@ -263,13 +258,16 @@ Sources: https://research.taylorgeospatial.org/mind/ and https://arxiv.org/abs/2
 ::: {.notes}
 About 30 seconds.
 PFFs learn a shared representation of several products within local regions, queried by location and time.
-The right-hand panels show reconstructions of an observation, an embedding, and a map product from the paper.
+The clip compares NDVI mapping through Microsoft Planetary Computer and PFFs.
+NDVI is a vegetation index computed from red and near-infrared values.
+The animation is shown at its supplied timing and retains its original 4× label.
+This access demonstration is separate from the compression and downstream-performance result at left.
 The compression result is relative to uncompressed source arrays.
 Downstream tests include segmentation, change detection, and classification; the percentage is relative retained performance, not absolute accuracy.
 New timesteps and product decoders can be added while preserving existing outputs.
 These are research results, not a claim that PFFs already distribute the FTW release shown earlier.
 This leads to the evaluation question: which tasks and regions establish that a representation is useful?
-Source: Rao et al., Planetary Feature Fields are Scalable Earth Representations, arXiv:2609.37784v1, Figure 1 and abstract. Figure panels reused under CC BY 4.0.
+Source: Rao et al., Planetary Feature Fields are Scalable Earth Representations, arXiv:2609.37784v1, abstract. Animation supplied by Isaac Corley; credit Arjun Rao, Copernicus Sentinel-2, and Microsoft Planetary Computer as shown in the clip.
 :::
 
 ## Evaluating geographic models {#research .tg-light}
