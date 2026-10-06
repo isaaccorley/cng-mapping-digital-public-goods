@@ -19,6 +19,7 @@ The NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
 Models* paper follows them, alongside Features of The World and Benchmarks of
 The World. Project QR codes and open-source acknowledgements precede the closing
 links. The final QR code opens the project links in manual mode.
+Sources and attribution are in speaker notes instead of slide footers.
 
 ## Present and review
 

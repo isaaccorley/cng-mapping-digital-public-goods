@@ -64,7 +64,7 @@ Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 ```{=html}
 <div class="image-slide"><img src="assets/stills/netherlands-2e.jpg?v=20261003" alt="Second-edition FTW field polygons in Flevoland">
 <div class="image-head"><h2>Global FTW · 2nd edition</h2><p>Annual field maps for 2017–2025, for locating fields and examining agricultural change.</p></div>
-<div class="image-credit">Sentinel-2 inputs at 10 m · prediction grid at 2.5 m · selected qualitative examples · FTW / Copernicus / CDSE / Source Cooperative</div></div>
+</div>
 ```
 
 ::: {.notes}
@@ -79,6 +79,7 @@ Archive simplification and extraction also affect the rendered boundaries.
 These selected examples do not establish global accuracy.
 First, show what the probability raster and extracted polygons look like; then compare editions and years.
 Source: preview catalog README.
+Reference: Sentinel-2 inputs at 10 m · prediction grid at 2.5 m · selected qualitative examples · FTW / Copernicus / CDSE / Source Cooperative
 :::
 
 ## Sentinel-2 quarterly mosaics {#mosaics .tg-light .product-detail data-autoslide="15000"}
@@ -86,15 +87,16 @@ Source: preview catalog README.
 ```{=html}
 <div class="product-layout mosaic-layout">
 <div><p class="mosaic-years">2017–2026</p><p>We rehosted the Copernicus quarterly mosaics on Source Cooperative.</p><p><strong>10 m · RGB + near-infrared</strong><br>COGs with overviews: stream a region or zoom level over HTTPS.</p><p class="coverage-detail">2026 · Q1/Q2</p></div>
-<figure><img src="assets/stills/mosaics-source-coop.png" alt="Source Cooperative catalog listing Sentinel-2 quarterly mosaic folders from 2017 through 2026"><figcaption>Public file access without a CDSE account.</figcaption></figure>
+<figure><img src="assets/stills/mosaics-source-coop.png" alt="Source Cooperative catalog listing Sentinel-2 quarterly mosaic folders from 2017 through 2026"></figure>
 </div>
-<p class="source-note"><a href="https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics">source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics</a><br>Copernicus Sentinel data · ESA / Sinergise / CDSE · mirror by Taylor Geospatial</p>
 ```
 
 ::: {.notes}
 About 15 seconds. We also rehost the Sentinel-2 quarterly mosaics that underlie this workflow. These are Copernicus products, not newly generated composites from Taylor Geospatial. RGB and near-infrared are available at 10 m as COGs with overviews, so users can stream only the regions and resolutions they need.
 The public README checked on 5 October describes all quarters from 2017 through 2025, plus a transferred 2026 Q2 outside the catalog; it describes Q1 as incomplete. The slide therefore does not claim a complete 2026 record. Published quarter manifests are the place to check coverage.
 Source: https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics and its public README.
+Reference: source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics (https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics) · Copernicus Sentinel data · ESA / Sinergise / CDSE · mirror by Taylor Geospatial
+Figure note: Public file access without a CDSE account.
 :::
 
 ## France · probability masks and polygons {#france-layers .full data-autoslide="15000"}
@@ -113,12 +115,12 @@ Source and capture details: MEDIA.md and assets/scenes.json.
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · 2025 · identical imagery and symbology</p>
 <div class="comparison-pair"><article><h3>Sorriso, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261003b" aria-label="Sorriso, Brazil · Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261003b" type="video/mp4"></video><p>Large fields and an urban edge.</p></article><article><h3>Flevoland, Netherlands</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261003b" aria-label="Flevoland, Netherlands · Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261003b" type="video/mp4"></video><p>A dense network of fields, roads, and canals.</p></article></div>
-<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
 About 15 seconds. Compare large Brazilian fields with the denser Dutch network. Each pair uses identical imagery and line styling. Changes include model, extraction, simplification, and publishing effects; this is not a controlled accuracy test.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
+Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples
 :::
 
 ## Mixed and irregular field shapes {#editions-mixed-irregular .paired .tg-light data-autoslide="15000"}
@@ -126,12 +128,12 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · same camera and imagery within each example</p>
 <div class="comparison-pair"><article><h3>Iowa, United States</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261003b" aria-label="Iowa, United States · Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261003b" type="video/mp4"></video><p>Mixed field sizes in Iowa · 2024.</p></article><article><h3>Normandy, France</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261003b" aria-label="Normandy, France · Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261003b" type="video/mp4"></video><p>Small irregular fields and hedgerows · 2025.</p></article></div>
-<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
 About 15 seconds. Iowa adds larger fields and wooded waterways; Normandy adds smaller irregular parcels.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
+Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples
 :::
 
 ## Fields along terrain and narrow strips {#editions-terrain-strips .paired .tg-light data-autoslide="15000"}
@@ -139,13 +141,13 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · 2025</p>
 <div class="comparison-pair"><article><h3>Overberg, South Africa</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261003b" aria-label="Overberg, South Africa · Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261003b" type="video/mp4"></video><p>Curved fields follow terrain and waterways.</p></article><article><h3>Mazovia, Poland</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261003b" aria-label="Mazovia, Poland · Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261003b" type="video/mp4"></video><p>Narrow strip fields remain a difficult setting.</p></article></div>
-<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
 About 15 seconds. The boundary shapes vary across these farming systems. Both versions still miss fields in Poland; avoid implying complete recovery.
 So far we have changed the map edition while holding the imagery fixed. Next, compare maps and imagery across years.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
+Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples
 :::
 
 ## New field blocks {#change-new-fields .paired .tg-light data-autoslide="15000"}
@@ -153,12 +155,12 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
 <div class="comparison-pair"><article><h3>Matopiba, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/matopiba-change-poster.jpg?v=20261003b" aria-label="Matopiba, Brazil · New rectangular field blocks"><source src="assets/media/matopiba-change.mp4?v=20261003b" type="video/mp4"></video><p>New rectangular fields across the plateau · Q3.</p></article><article><h3>Masindi, Uganda</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/masindi-change-poster.jpg?v=20261003b" aria-label="Masindi, Uganda · New gridded fields"><source src="assets/media/masindi-change.mp4?v=20261003b" type="video/mp4"></video><p>A new grid of fields around existing roads · Q1.</p></article></div>
-<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
 About 15 seconds. Repeated maps let us examine where the agricultural landscape changes. Both the imagery and the annual outlines show new field blocks. The viewer selects 2018 as the early baseline because 2017 predictions are under-detected in some regions. Matopiba uses Q3 in both years to avoid cloud gaps in the viewer’s Q1 example. No crop type or hectare total is inferred.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
+Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples
 :::
 
 ## Expansion of irrigated fields {#change-irrigation .paired .tg-light data-autoslide="15000"}
@@ -166,12 +168,12 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
 <div class="comparison-pair"><article><h3>Ili Valley, China</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/ili-change-poster.jpg?v=20261003b" aria-label="Ili Valley, China · New fields across the valley floor"><source src="assets/media/ili-change.mp4?v=20261003b" type="video/mp4"></video><p>New fields across the valley floor · Q3.</p></article><article><h3>Kura lowland, Azerbaijan</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/kura-change-poster.jpg?v=20261003b" aria-label="Kura lowland, Azerbaijan · New irrigated field patterns"><source src="assets/media/kura-change.mp4?v=20261003b" type="video/mp4"></video><p>New rectangular fields and center pivots · Q3.</p></article></div>
-<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
 About 15 seconds. These examples show irrigation patterns becoming more extensive. Compare the vegetation, access tracks, and field geometry as well as the predictions. Do not infer water use or the cause of conversion from these images.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
+Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples
 :::
 
 ## Changes in field layout and crop activity {#change-layout-activity .paired .tg-light data-autoslide="15000"}
@@ -179,12 +181,12 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
 <div class="comparison-pair"><article><h3>West Bahia, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/bahia-layout-change-poster.jpg?v=20261003b" aria-label="West Bahia, Brazil · Rectangular fields replaced by center pivots"><source src="assets/media/bahia-layout-change.mp4?v=20261003b" type="video/mp4"></video><p>Rectangular fields replaced by center pivots · Q1.</p></article><article><h3>Al-Jawf, Saudi Arabia</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/al-jawf-change-poster.jpg?v=20261003b" aria-label="Al-Jawf, Saudi Arabia · Fewer green center pivots in 2025"><source src="assets/media/al-jawf-change.mp4?v=20261003b" type="video/mp4"></video><p>Fewer green pivots in the later mosaic · Q3.</p></article></div>
-<p class="pair-source">FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples</p>
 ```
 
 ::: {.notes}
 About 15 seconds. Bahia is a layout change: the land remains agricultural. In Al-Jawf, many formerly green circles are pale in the later mosaic. This does not establish permanent abandonment or a cause. Independent annual predictions and seasonal imagery require interpretation, rather than simply equating lost polygons with lost cropland.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
+Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples
 :::
 
 ## Tools we built for processing at scale {#processing-tools .tg-light data-autoslide="15000"}
@@ -230,7 +232,6 @@ Source: preview catalog metadata.
 <div><h3>Source Cooperative</h3><p>The preview catalog hosts the files and documentation.</p><img class="catalog-shot" src="assets/stills/source-catalog.jpg?v=20261003" alt="Source Cooperative FTW preview catalog"></div>
 <div><h3>Portolan</h3><p>Portolan provides catalog discovery<br>for STAC and cloud-optimized files.</p><img class="registry-shot" src="assets/stills/portolan-registry.jpg?v=20261003" alt="Existing Global FTW catalog in the Portolan registry"><p class="small">Thank you to the Portolan community.</p></div>
 </div>
-<p class="source-note">The Portolan screenshot shows the existing Global FTW catalog.</p>
 ```
 
 ::: {.notes}
@@ -242,6 +243,7 @@ The current second-edition catalog is linked from https://github.com/fieldsofthe
 The viewer now reads the second-edition product at ftw/global-data-2e.
 FTW produces a map for one task. Our next two papers investigate representations that can be reused across products and tasks.
 Sources: https://source.coop/ftw/global-data-2e and https://www.portolan-sdi.org/blog/introducing-portolan.
+Reference: The Portolan screenshot shows the existing Global FTW catalog.
 :::
 
 ## MIND the Gap {#mind .tg-light .research-detail data-autoslide="15000"}
@@ -254,9 +256,8 @@ Sources: https://source.coop/ftw/global-data-2e and https://www.portolan-sdi.org
 <p><strong>MIND</strong> produces reusable location embeddings with broad and finer spatial detail. A predictor can select the detail without retraining the encoder.</p>
 <p class="research-release">Released model weights and global embeddings in Zarr on Source Cooperative.</p>
 </div>
-<figure class="mind-figure"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/mind-embedding-poster.jpg" aria-label="MIND geographic embedding globe cycling from coarse to fine-grained features"><source src="assets/research/mind-embedding.mp4" type="video/mp4"></video><figcaption>PCA colors of successive embedding chunks.<br>Compare spatial patterns; colors vary between chunks.</figcaption></figure>
+<figure class="mind-figure"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/mind-embedding-poster.jpg" aria-label="MIND geographic embedding globe cycling from coarse to fine-grained features"><source src="assets/research/mind-embedding.mp4" type="video/mp4"></video></figure>
 </div>
-<p class="research-citation">Corley et al. (2026) · <a href="https://arxiv.org/abs/2609.25454">Paper</a> · <a href="https://research.taylorgeospatial.org/mind/">research.taylorgeospatial.org/mind</a></p>
 ```
 
 ::: {.notes}
@@ -271,6 +272,8 @@ The model takes coordinates at inference; this is not a new satellite image of t
 We release the model and precomputed global embeddings.
 Next, PFFs ask how several existing Earth-observation products can share a compact representation over space and time.
 Sources: https://research.taylorgeospatial.org/mind/ and https://arxiv.org/abs/2609.25454.
+Reference: Corley et al. (2026) · Paper (https://arxiv.org/abs/2609.25454) · research.taylorgeospatial.org/mind (https://research.taylorgeospatial.org/mind/)
+Figure note: PCA colors of successive embedding chunks. Compare spatial patterns; colors vary between chunks.
 :::
 
 ## Planetary Feature Fields {#pffs .tg-light .research-detail data-autoslide="15000"}
@@ -285,10 +288,8 @@ Sources: https://research.taylorgeospatial.org/mind/ and https://arxiv.org/abs/2
 </div>
 <figure class="pff-figure">
 <video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/pff-animation-poster.jpg" aria-label="NDVI mapping demonstration comparing Microsoft Planetary Computer and Planetary Feature Fields"><source src="assets/research/pff-animation.mp4" type="video/mp4"></video>
-<figcaption>NDVI access demo by Arjun Rao · original 4× animation timing.</figcaption>
 </figure>
 </div>
-<p class="research-citation">Rao et al. (2026) · <a href="https://arxiv.org/abs/2609.37784">arXiv:2609.37784</a> · Compression relative to uncompressed source data; performance on evaluated downstream tasks.</p>
 ```
 
 ::: {.notes}
@@ -304,6 +305,8 @@ New timesteps and product decoders can be added while preserving existing output
 These are research results, not a claim that PFFs already distribute the FTW release shown earlier.
 This leads to the evaluation question: which tasks and regions establish that a representation is useful?
 Source: Rao et al., Planetary Feature Fields are Scalable Earth Representations, arXiv:2609.37784v1, abstract. Animation supplied by Isaac Corley; credit Arjun Rao, Copernicus Sentinel-2, and Microsoft Planetary Computer as shown in the clip.
+Reference: Rao et al. (2026) · arXiv:2609.37784 (https://arxiv.org/abs/2609.37784) · Compression relative to uncompressed source data; performance on evaluated downstream tasks.
+Figure note: NDVI access demo by Arjun Rao · original 4× animation timing.
 :::
 
 ## Evaluating geographic models {#research .tg-light data-autoslide="15000"}
@@ -316,7 +319,7 @@ Source: Rao et al., Planetary Feature Fields are Scalable Earth Representations,
 <p>Papers use different evaluation code and methods, so reported rankings are hard to compare.</p>
 <p>Performance depends on the task, sensor, and region. Strong results on selected benchmarks do not establish generalist capability.</p>
 <p>We propose shared evaluation code and comparable tests across those settings.</p>
-<a href="https://arxiv.org/abs/2605.12678">Corley et al. · arXiv:2605.12678</a></div>
+</div>
 </div>
 ```
 
@@ -378,7 +381,6 @@ Code: https://github.com/fieldsoftheworld/ftw-global-data-catalog and https://gi
 <a class="openlayers-logo" href="https://openlayers.org/"><img src="assets/logos/openlayers.svg" alt="">OpenLayers</a>
 <p>hyparquet · proj4js · rustac<br>PMTiles · tylertoo</p></article>
 </div>
-<p class="credits-source"><a href="https://github.com/taylor-geospatial/global-ftw-2e">taylor-geospatial/global-ftw-2e</a> · Selected tools from the pipeline and viewer</p>
 ```
 
 ::: {.notes}
@@ -386,14 +388,16 @@ About 15 seconds. Both the public products and the research depend on open-sourc
 The dependency and import audit is pinned to upstream cbda0b122f12509624d29f9a4ae04dae27485661 in assets/provenance/open-source-tools.json. Official logo sources are recorded alongside it.
 The released coverage simplifier was later extracted as coarsen; do not imply the standalone coarsen package produced this release.
 These are software acknowledgements, not partner endorsements.
+Reference: taylor-geospatial/global-ftw-2e (https://github.com/taylor-geospatial/global-ftw-2e) · Selected tools from the pipeline and viewer
 :::
 
 ## Data and research {#end .tg-dark data-autoslide="15000"}
 
 ```{=html}
-<div class="closing"><a class="closing-qr" href="?autoSlide=0#/project-links"><img src="assets/qr/slides.png" alt="QR code for the slides and all project links"><span>Slides + all links</span></a><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition viewer</a><a href="https://research.taylorgeospatial.org/mind/">MIND the Gap</a><a href="https://arxiv.org/abs/2609.37784">Planetary Feature Fields</a></div><p class="closing-source"><a href="https://source.coop/ftw/global-data-2e">Data on Source Cooperative</a> · <a href="https://fieldsofthe.world/">FTW models and code</a> · <a href="media.html">13 FTW comparison clips</a></p></div>
+<div class="closing"><a class="closing-qr" href="?autoSlide=0#/project-links"><img src="assets/qr/slides.png" alt="QR code for the slides and all project links"><span>Slides + all links</span></a><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition viewer</a><a href="https://research.taylorgeospatial.org/mind/">MIND the Gap</a><a href="https://arxiv.org/abs/2609.37784">Planetary Feature Fields</a></div></div>
 ```
 
 ::: {.notes}
 About 15 seconds. These are the places to follow the work and access the clips. Leave the slide open for questions. This is slide 20, reached at 4:45 in the five-minute talk. It remains visible at the end. All slides have a fixed 15-second interval; the deck does not loop.
+Reference: Data on Source Cooperative (https://source.coop/ftw/global-data-2e) · FTW models and code (https://fieldsofthe.world/) · 13 FTW comparison clips (media.html)
 :::
