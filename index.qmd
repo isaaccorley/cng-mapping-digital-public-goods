@@ -366,7 +366,7 @@ Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ 
 <div class="paper-layout">
 <a class="paper-page" href="https://arxiv.org/pdf/2605.12678v3"><img src="assets/research/state-of-the-art-page1.png" alt="First page of No One Knows the State of the Art in Geospatial Foundation Models, arXiv version 3"></a>
 <div class="paper paper-standalone">
-<p class="acceptance">Accepted at NeurIPS 2026</p>
+<p class="acceptance">NeurIPS 2026</p>
 <h3>No One Knows the State of the Art in Geospatial Foundation Models</h3>
 <p>Papers use different evaluation code and methods, so reported rankings are hard to compare.</p>
 <p>Performance varies across tasks, sensors, and regions. Strong results on a few benchmarks do not establish generalist capabilities.</p>
@@ -404,8 +404,8 @@ Source: https://arxiv.org/abs/2605.12678.
 <a href="https://onnxruntime.ai/"><img src="assets/logos/onnxruntime.png" alt="ONNX Runtime"></a>
 <a href="https://proj.org/"><img src="assets/logos/proj.svg" alt="PROJ"></a>
 <a href="https://research.taylorgeospatial.org/coarsen/"><img src="assets/logos/coarsen.png" alt="coarsen"></a>
-<a href="https://libgeos.org/"><img src="assets/logos/geos.png" alt="GEOS"></a>
-<a href="https://openlayers.org/"><img src="assets/logos/openlayers.svg" alt="OpenLayers"></a>
+<a href="https://libgeos.org/"><img src="assets/logos/geos-wordmark.png" alt="GEOS"></a>
+<a class="oss-openlayers" href="https://openlayers.org/"><img src="assets/logos/openlayers.svg" alt=""><span>OpenLayers</span></a>
 <a href="https://research.taylorgeospatial.org/contourrs/"><img src="assets/logos/contourrs.png" alt="contourrs"></a>
 </div>
 ```

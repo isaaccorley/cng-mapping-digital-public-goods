@@ -153,8 +153,8 @@ $presentation-h2-font-size: 1.5em;
 .reveal .mosaic-layout { grid-template-columns:.9fr 1.1fr;gap:50px; }
 .reveal .mosaic-layout .mosaic-years { font-size:54px;margin-bottom:20px; }
 .reveal .mosaic-layout .coverage-detail { font-size:22px;color:#6c514e; }
-.reveal .closing-qr { position:absolute;right:90px;top:85px;width:270px;text-align:center;font-size:25px;text-decoration:none; }
-.reveal .closing-qr img { width:270px;height:270px;display:block;margin-bottom:16px; }
+.reveal .closing-qr { position:absolute;right:120px;top:50%;transform:translateY(-50%);width:360px;text-align:center;font-size:25px;text-decoration:none; }
+.reveal .closing-qr img { width:360px;height:360px;display:block;margin-bottom:16px; }
 .reveal #processing-tools h2 { margin-bottom:23px; }
 .reveal .tools-intro { font-size:28px;margin:0 0 32px;max-width:1300px; }
 .reveal .processing-tools { display:grid;grid-template-columns:repeat(3,1fr);gap:55px; }
@@ -180,3 +180,6 @@ $presentation-h2-font-size: 1.5em;
 .reveal .oss-logo-cloud a { display:flex;align-items:center;justify-content:center;width:260px;height:125px; }
 .reveal .oss-logo-cloud img { max-width:250px;max-height:115px;object-fit:contain; }
 .reveal .oss-logo-cloud img[alt="OpenLayers"],.reveal .oss-logo-cloud img[alt="PROJ"] { max-width:125px; }
+
+.reveal .oss-logo-cloud .oss-openlayers { gap:12px;text-decoration:none;color:#242424;font-size:32px; }
+.reveal .oss-logo-cloud .oss-openlayers img { width:60px;height:60px; }

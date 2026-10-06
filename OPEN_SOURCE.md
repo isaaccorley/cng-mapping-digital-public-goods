@@ -65,3 +65,7 @@ Tools without an official logo remain acknowledged in speaker notes.
 | GEOS | [Project asset](https://github.com/libgeos/geos/blob/main/web/static/geos-logo/geos-lg-black.png) | `assets/logos/geos.png` |
 | PROJ | [Project asset](https://github.com/OSGeo/PROJ/blob/master/media/logo.svg) | `assets/logos/proj.svg` |
 | MapLibre | [Project asset](https://github.com/maplibre/maplibre.github.io/blob/main/public/img/maplibre-logos/maplibre-logo-for-light-bg.svg) | `assets/logos/maplibre.svg` |
+
+The collage uses the official [GEOS wordmark](https://github.com/libgeos/geos/blob/main/web/static/geos-logo/geos-social-black.png)
+in `assets/logos/geos-wordmark.png`. OpenLayers uses its official icon beside
+the project name; its repository provides icon-only logo files.
