@@ -16,9 +16,9 @@ and model evaluation. FTW occupies 12 slides, including the quarterly mosaic
 mirror, processing tools, formats, and access.
 MIND the Gap and Planetary Feature Fields each have a dedicated 15-second slide.
 The NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
-Models* paper follows them, alongside Features of The World and Benchmarks of
-The World. Open-source acknowledgements and project QR codes precede the closing
-links. The final QR code opens the project links in manual mode.
+Models* paper has its own slide after Features of The World and Benchmarks of
+The World. Open-source acknowledgements precede the final slide, which has
+clickable project links and one QR code that opens that slide in manual mode.
 Sources and attribution are in speaker notes instead of slide footers.
 
 ## Present and review
@@ -78,12 +78,11 @@ changed field layout, and reduced crop activity; they do not claim area totals.
 Wipes take 1.2 seconds, with holds before and after. Both videos receive a play
 request on slide entry; one loading clip cannot block its neighbour. Playback
 resumes after returning to the tab. Native controls provide a manual fallback
-if the browser blocks autoplay. The open-source credits slide is followed by project QR codes, then the ending
-slide.
+if the browser blocks autoplay. The open-source credits slide is followed by the final project-links slide.
 
 The mosaic slide links the [quarterly Sentinel-2 mirror](https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics)
 and highlights COG overviews and HTTP streaming. The processing-tools slide links
-coarsen, contourrs, and fbp. The project-links slide points to the
+coarsen, contourrs, and fbp. The final slide links to the
 [FTW pipeline and catalog](https://github.com/fieldsoftheworld/ftw-global-data-catalog),
 alongside the datasets and research projects. Training code is in the companion
 [ftw-baselines repository](https://github.com/fieldsoftheworld/ftw-baselines).

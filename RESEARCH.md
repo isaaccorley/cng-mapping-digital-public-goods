@@ -71,8 +71,8 @@ Use `?autoSlide=0` to review the complete clips and navigate manually.
 | Three change-comparison slides | 45 |
 | Processing tools, data formats, and access | 45 |
 | MIND and PFFs | 30 |
-| Evaluation research | 15 |
-| Project links, open source, and closing | 45 |
+| Features, benchmarks, and NeurIPS position paper | 30 |
+| Open source and final project links | 30 |
 | Total | 300 |
 
 ## Mosaic mirror and reusable tools

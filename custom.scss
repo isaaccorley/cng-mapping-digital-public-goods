@@ -101,7 +101,6 @@ $presentation-h2-font-size: 1.5em;
 .reveal .talk-route span { font-size:22px;color:#6c514e; }
 .reveal .overview:has(.talk-route) h2 { font-size:56px;margin-bottom:22px; }
 .reveal .overview:has(.talk-route) .overview-body { font-size:26px; }
-.reveal .research-overview { display:grid;grid-template-columns:.82fr 1.28fr;gap:70px;align-items:start;padding-top:24px; }
 .reveal .research-projects article { border-top:2px solid #3b1e1c;padding-top:22px;margin-bottom:52px; }
 .reveal .research-projects h3 { font-size:36px;margin:0 0 17px; }
 .reveal .research-projects p { font-size:27px;line-height:1.45;margin:0 0 15px; }
@@ -124,9 +123,9 @@ $presentation-h2-font-size: 1.5em;
 .reveal .distribution .catalog-shot { width:100%;height:410px;object-fit:cover;object-position:top left; }
 .reveal .distribution .registry-shot { width:100%;height:350px;object-fit:contain; }
 .reveal .closing { padding:30px 0; }
-.reveal .closing h2 { font-size:80px;margin:85px 0 35px; }
+.reveal .closing h2 { font-size:64px;margin:30px 0 20px; }
 .reveal .closing p { font-size:27px; }
-.reveal .closing-links { display:flex;gap:45px;margin-top:50px;font-size:25px; }
+.reveal .closing-links { display:grid;grid-template-columns:1fr 1fr;gap:24px 36px;max-width:1040px;margin-top:42px;font-size:27px; }
 
 /* Paired examples keep labels readable outside the video. */
 .reveal .paired h2 { margin-bottom:64px; }
@@ -166,15 +165,8 @@ $presentation-h2-font-size: 1.5em;
 .reveal .mosaic-layout { grid-template-columns:.9fr 1.1fr;gap:50px; }
 .reveal .mosaic-layout .mosaic-years { font-size:54px;margin-bottom:20px; }
 .reveal .mosaic-layout .coverage-detail { font-size:22px;color:#6c514e; }
-.reveal #project-links h2 { margin-bottom:22px; }
-.reveal .project-qr-grid { display:grid;grid-template-columns:repeat(4,1fr);gap:24px 32px; }
-.reveal .project-qr-grid a { display:flex;flex-direction:column;align-items:center;text-align:center;font-size:24px;line-height:1.2;text-decoration:none; }
-.reveal .project-qr-grid img { width:214px;height:214px; }
-.reveal .project-qr-grid span { margin-top:12px; }
-.reveal .pipeline-scope { border-top:2px solid var(--accent);padding-top:17px;margin-top:27px;font-size:24px;line-height:1.45; }
 .reveal .closing-qr { position:absolute;right:90px;top:85px;width:270px;text-align:center;font-size:25px;text-decoration:none; }
 .reveal .closing-qr img { width:270px;height:270px;display:block;margin-bottom:16px; }
-.reveal .pipeline-scope .tools-return { font-size:19px; }
 .reveal #processing-tools h2 { margin-bottom:23px; }
 .reveal .tools-intro { font-size:28px;margin:0 0 32px;max-width:1300px; }
 .reveal .processing-tools { display:grid;grid-template-columns:repeat(3,1fr);gap:55px; }
@@ -185,3 +177,10 @@ $presentation-h2-font-size: 1.5em;
 .reveal .processing-tools .tool-language { font-size:21px;color:#6c514e;min-height:0; }
 .reveal .processing-tools a { display:block;width:170px; }
 .reveal .processing-tools a img { width:170px;height:170px; }
+
+.reveal .research-projects-wide { display:grid;grid-template-columns:1fr 1fr;gap:90px;margin-top:90px; }
+.reveal .research-projects-wide h3 { font-size:44px; }
+.reveal .research-projects-wide p { font-size:34px; }
+.reveal .paper-standalone { max-width:1280px;margin-top:35px; }
+.reveal .paper-standalone h3 { font-size:54px;margin-bottom:35px; }
+.reveal .paper-standalone p { font-size:30px;margin-bottom:25px; }

@@ -343,26 +343,37 @@ Reference: Rao et al. (2026) · arXiv:2609.37784 (https://arxiv.org/abs/2609.377
 Figure note: NDVI access demo by Arjun Rao · original 4× animation timing.
 :::
 
-## Evaluating geospatial models {#research .tg-light data-autoslide="15000"}
+## Feature mapping and model evaluation {#research .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="research-overview">
-<div class="research-projects"><article><h3>Features of The World</h3><p>We study how to map roads, buildings, solar panels, and trees.</p><small>Active research</small></article>
-<article><h3>Benchmarks of The World</h3><p>We build shared tools to compare models across tasks, sensors, and regions.</p><small>Research and evaluation tools</small></article></div>
-<div class="paper"><p class="acceptance">Accepted at NeurIPS 2026</p><h3>No One Knows the State of the Art in Geospatial Foundation Models</h3>
-<p>Papers use different evaluation code and methods, so reported rankings are hard to compare.</p>
-<p>Performance depends on the task, sensor, and region.
-High scores on selected benchmarks do not show that a model works well across those settings.</p>
-<p>We propose shared evaluation code and comparable tests.</p>
-</div>
+<div class="research-projects research-projects-wide">
+<article><h3>Features of The World</h3><p>We study how to map roads, buildings, solar panels, and trees.</p><small>Active research</small></article>
+<article><h3>Benchmarks of The World</h3><p>We build shared tools to compare models across tasks, sensors, and regions.</p><small>Research and evaluation tools</small></article>
 </div>
 ```
 
 ::: {.notes}
 About 15 seconds.
-FTW, MIND, and PFFs need the same evaluation standards as the models we compare them with.
 Features of The World extends feature mapping beyond fields.
 Benchmarks of The World develops tools for comparing model quality, geographic generalization, and compute requirements.
+FTW, MIND, and PFFs need the same evaluation standards as the models we compare them with.
+Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/.
+:::
+
+## Evaluating geospatial foundation models {#state-of-the-art .tg-light data-autoslide="15000"}
+
+```{=html}
+<div class="paper paper-standalone">
+<p class="acceptance">Accepted at NeurIPS 2026</p>
+<h3>No One Knows the State of the Art<br>in Geospatial Foundation Models</h3>
+<p>Papers use different evaluation code and methods, so reported rankings are hard to compare.</p>
+<p>Performance varies across tasks, sensors, and regions. Strong results on a few benchmarks do not establish generalist capabilities.</p>
+<p>We propose shared evaluation code and comparable tests.</p>
+</div>
+```
+
+::: {.notes}
+About 15 seconds.
 Our position paper was accepted at NeurIPS 2026.
 Published evaluations use different code, preprocessing, adaptation methods, and scoring implementations, so reported rankings are difficult to compare.
 Model performance varies across tasks, sensors, and regions.
@@ -370,7 +381,7 @@ Strong results on a few benchmarks do not establish that a model generalizes acr
 We propose shared evaluation code and comparable tests to help people choose models.
 The paper calls for coordinating evaluation across the community, including our own group.
 The slide omits numerical audit results from the older preprint while revisions are in progress.
-Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/ ; https://arxiv.org/abs/2605.12678.
+Source: https://arxiv.org/abs/2605.12678.
 :::
 
 ## Built with open-source software {#open-source .tg-light data-autoslide="15000"}
@@ -407,42 +418,36 @@ These acknowledgements credit software contributors and do not imply partner end
 Reference: taylor-geospatial/global-ftw-2e (https://github.com/taylor-geospatial/global-ftw-2e) · Selected tools from the pipeline and viewer
 :::
 
-## Projects, data, and code {#project-links .tg-light data-autoslide="15000"}
+## Projects, data, and code {#end .tg-dark data-autoslide="15000"}
 
 ```{=html}
-<div class="project-qr-grid">
-<a href="https://research.taylorgeospatial.org/global-ftw-2e/"><img src="assets/qr/ftw.png" alt="QR code for Global FTW · 2nd edition"><span>Global FTW · 2nd edition</span></a>
-<a href="https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics"><img src="assets/qr/mosaics.png" alt="QR code for Sentinel-2 mosaics"><span>Sentinel-2 mosaics</span></a>
-<a href="https://github.com/fieldsoftheworld/ftw-global-data-catalog"><img src="assets/qr/pipeline.png" alt="QR code for FTW pipeline + catalog"><span>FTW pipeline + catalog</span></a>
-<a href="https://research.taylorgeospatial.org/mind/"><img src="assets/qr/mind.png" alt="QR code for MIND the Gap"><span>MIND the Gap</span></a>
-<a href="https://arxiv.org/abs/2609.37784"><img src="assets/qr/pffs.png" alt="QR code for Planetary Feature Fields"><span>Planetary Feature Fields</span></a>
-<a href="https://taylorgeospatial.org/innovation-program/features-of-the-world/"><img src="assets/qr/features.png" alt="QR code for Features of The World"><span>Features of The World</span></a>
-<a href="https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/"><img src="assets/qr/benchmarks.png" alt="QR code for Benchmarks of The World"><span>Benchmarks of The World</span></a>
-<a href="https://arxiv.org/abs/2605.12678"><img src="assets/qr/evaluation.png" alt="QR code for NeurIPS position paper"><span>NeurIPS position paper</span></a>
+<div class="closing">
+<a class="closing-qr" href="?autoSlide=0#/end"><img src="assets/qr/slides.png?v=20261006-end" alt="QR code for this slide and all project links"><span>Slides + all links</span></a>
+<img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial">
+<h2>Projects, data, and code</h2>
+<p>Isaac Corley · isaac.corley@taylorgeospatial.org</p>
+<div class="closing-links">
+<a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition</a>
+<a href="https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics">Sentinel-2 mosaics</a>
+<a href="https://github.com/fieldsoftheworld/ftw-global-data-catalog">FTW pipeline + catalog</a>
+<a href="https://research.taylorgeospatial.org/mind/">MIND the Gap</a>
+<a href="https://arxiv.org/abs/2609.37784">Planetary Feature Fields</a>
+<a href="https://taylorgeospatial.org/innovation-program/features-of-the-world/">Features of The World</a>
+<a href="https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/">Benchmarks of The World</a>
+<a href="https://arxiv.org/abs/2605.12678">NeurIPS position paper</a>
+<a href="https://research.taylorgeospatial.org/coarsen/">coarsen</a>
+<a href="https://research.taylorgeospatial.org/contourrs/">contourrs</a>
+<a href="https://github.com/fieldsoftheworld/fbp">fbp</a>
 </div>
-<p class="pipeline-scope"><strong>Open-sourcing the FTW workflow</strong><br>Inputs &amp; preprocessing → training → inference on AWS / HPC → postprocessing → files &amp; catalog<br><a class="tools-return" href="?autoSlide=0#/processing-tools">coarsen · contourrs · fbp — tool links</a></p>
+</div>
 ```
 
 ::: {.notes}
 About 15 seconds.
-The QR codes link to the projects.
-We are open-sourcing the full FTW workflow, including input processing, preprocessing, model training, and inference.
-The code covers efficient execution on AWS or HPC clusters, polygon postprocessing, and file organization and formatting.
-The pipeline QR points to fieldsoftheworld/ftw-global-data-catalog.
-Training tools are in the companion ftw-baselines repository.
-The closing QR opens these links in manual mode for access after the talk.
-Code: https://github.com/fieldsoftheworld/ftw-global-data-catalog and https://github.com/fieldsoftheworld/ftw-baselines.
-:::
-
-## Data and research {#end .tg-dark data-autoslide="15000"}
-
-```{=html}
-<div class="closing"><a class="closing-qr" href="?autoSlide=0#/project-links"><img src="assets/qr/slides.png" alt="QR code for the slides and all project links"><span>Slides + all links</span></a><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition viewer</a><a href="https://research.taylorgeospatial.org/mind/">MIND the Gap</a><a href="https://arxiv.org/abs/2609.37784">Planetary Feature Fields</a></div></div>
-```
-
-::: {.notes}
-About 15 seconds.
-The links provide access to the projects and clips.
+The single QR opens this final slide in manual mode; each project name is a clickable link.
+We are open-sourcing the full FTW workflow: inputs, preprocessing, training, AWS or HPC inference, postprocessing, and file organization and formatting.
+The FTW pipeline and catalog link points to fieldsoftheworld/ftw-global-data-catalog.
+Training tools are in https://github.com/fieldsoftheworld/ftw-baselines.
 Leave the slide open for questions.
 Slide 20 appears at 4:45 in the five-minute talk and stays visible at the end.
 All slides have a fixed 15-second interval, and the deck does not loop.
