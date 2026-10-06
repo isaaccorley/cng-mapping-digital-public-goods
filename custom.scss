@@ -83,7 +83,7 @@ $presentation-h2-font-size: 1.5em;
 .reveal .tg-cover { height:900px;display:grid;grid-template-columns:1.22fr 1fr; }
 .reveal .tg-cover-copy { padding:66px 64px;position:relative; }
 .reveal .tg-cover .eyebrow { margin-top:68px;color:#a7d0dc; }
-.reveal .tg-cover h1 { font-size:77px;line-height:1.08;margin:30px 0; }
+.reveal .tg-cover h1 { font-size:68px;line-height:1.12;margin:30px 0; }
 .reveal .tg-cover .presenter { position:absolute;bottom:68px;font-size:29px; }
 .reveal .tg-cover .presenter span { font-size:20px;color:#a7d0dc; }
 .reveal .tg-cover-map { width:100%;height:900px;object-fit:cover; }
@@ -129,12 +129,10 @@ $presentation-h2-font-size: 1.5em;
 .reveal .closing-links { display:flex;gap:45px;margin-top:50px;font-size:25px; }
 
 /* Paired examples keep labels readable outside the video. */
-.reveal .paired h2 { margin-bottom:20px; }
-.reveal .pair-subtitle { font-size:26px;margin:0 0 38px;color:#6c514e; }
+.reveal .paired h2 { margin-bottom:64px; }
 .reveal .comparison-pair { display:grid;grid-template-columns:1fr 1fr;gap:34px; }
 .reveal .comparison-pair h3 { font-size:34px;margin:0 0 22px; }
 .reveal .comparison-pair video { display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#3b1e1c; }
-.reveal .comparison-pair p { font-size:26px;margin:24px 0 0;line-height:1.4; }
 .reveal .credits-intro { font-size:28px;margin:0 0 35px; }
 .reveal .open-source-columns { display:grid;grid-template-columns:1fr 1fr 1fr;gap:55px; }
 .reveal .open-source-columns article { border-top:2px solid #80a0d8;padding-top:24px; }
@@ -181,8 +179,9 @@ $presentation-h2-font-size: 1.5em;
 .reveal .tools-intro { font-size:28px;margin:0 0 32px;max-width:1300px; }
 .reveal .processing-tools { display:grid;grid-template-columns:repeat(3,1fr);gap:55px; }
 .reveal .processing-tools article { border-top:2px solid var(--accent);padding-top:23px; }
-.reveal .processing-tools h3 { font-size:42px;margin:0 0 12px; }
-.reveal .processing-tools p { font-size:27px;line-height:1.4;margin:0 0 20px;min-height:115px; }
+.reveal .processing-tools .tool-brand { display:flex;align-items:center;height:100px;font-size:68px;margin:0 0 20px; }
+.reveal .processing-tools .tool-brand img { width:100%;height:100%;object-fit:contain;object-position:left center;mix-blend-mode:multiply; }
+.reveal .processing-tools p { font-size:26px;line-height:1.4;margin:0 0 20px;min-height:146px; }
 .reveal .processing-tools .tool-language { font-size:21px;color:#6c514e;min-height:0; }
-.reveal .processing-tools a { display:flex;align-items:center;gap:22px;font-size:20px;text-decoration:none; }
-.reveal .processing-tools img { width:210px;height:210px; }
+.reveal .processing-tools a { display:block;width:170px; }
+.reveal .processing-tools a img { width:170px;height:170px; }

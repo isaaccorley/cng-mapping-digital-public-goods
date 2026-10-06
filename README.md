@@ -65,7 +65,7 @@ comparison and provides downloads.
 
 | Comparison | Clips | Main-deck layout |
 |---|---:|---|
-| Original FTW → 2nd edition | 6 | Two countries per slide, three slides |
+| Global FTW 1st edition → 2nd edition | 6 | Two countries per slide, three slides |
 | Probability mask → PMTiles | 1 | Normandy, France |
 | 2018 → 2025 | 6 | Two examples per slide, three slides |
 

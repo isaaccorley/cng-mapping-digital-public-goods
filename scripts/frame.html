@@ -13,13 +13,12 @@ h1{font:500 28px 'Space Grotesk',sans-serif;margin:0 0 6px}p{font-size:16px;marg
 .state{font:500 21px 'Space Grotesk',sans-serif;color:#a7d0dc;text-align:right;max-width:42%}
 .stamp{position:absolute;top:112px;padding:9px 15px;background:#3b1e1c;color:#f4f4eb;font:500 20px 'Space Grotesk',sans-serif}
 .stamp.before{right:20px}.stamp.after{left:20px}
-footer{position:absolute;bottom:0;left:0;max-width:83%;padding:10px 20px;background:#3b1e1c;font-size:11px;color:#f4f4eb}
 .legend{position:absolute;bottom:50px;left:20px;background:#3b1e1c;padding:10px 13px;font-size:12px;display:none}
 .legend i{display:block;width:180px;height:9px;margin:7px 0;background:linear-gradient(90deg,#3b1e1c,#80a0d8,#a7d0dc)}
 .legend span{display:flex;justify-content:space-between}
-body.panel header,body.panel footer{display:none}body.panel .stamp{top:22px;font-size:36px;padding:12px 20px}body.panel .stamp.before{right:24px}body.panel .stamp.after{left:24px}
+body.panel header{display:none}body.panel .stamp{top:22px;font-size:36px;padding:12px 20px}body.panel .stamp.before{right:24px}body.panel .stamp.after{left:24px}
 </style>
-<div class="frame"><img id="map" alt=""><header><div><h1></h1><p></p></div><div class="state"></div></header><div class="stamp"></div><div class="legend">Field probability<i></i><span><b>0.5</b><b>1</b></span></div><footer></footer></div>
+<div class="frame"><img id="map" alt=""><header><div><h1></h1><p></p></div><div class="state"></div></header><div class="stamp"></div><div class="legend">Field probability<i></i><span><b>0.5</b><b>1</b></span></div></div>
 <script type="module">
 const query=new URLSearchParams(location.search);
 const data=await (await fetch('../assets/scenes.json')).json();
@@ -32,13 +31,6 @@ document.querySelector('.state').textContent=scene.kind==='edition'?'Edition com
 document.querySelector('.stamp').textContent=scene[`${side}_label`];
 document.querySelector('.stamp').classList.add(side);
 const img=document.querySelector('img');img.src=`../assets/stills/${scene[side]}.jpg?v=${data.media_version||data.captured}`;img.alt=`${scene.place}, ${scene[`${side}_label`]}`;
-document.querySelector('footer').textContent=scene.kind==='edition'
- ? 'FTW predictions (CC BY 4.0) · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Identical symbology; selected qualitative example'
- : scene.kind==='layers'
- ? `FTW-2e preview · ${scene.year} · COG ${scene.channel==='boundary'?'boundary probability (p ≥ 0.25)':'field probability (p ≥ 0.5)'} / PMTiles polygons · Same camera and Sentinel-2 background`
- : scene.kind==='probability'
- ? `FTW predictions (CC BY 4.0) · p(field) ≥ 0.5 · Sentinel-2 ${scene.quarter} background · Check changes against imagery`
- : 'Sentinel-2 / Copernicus / CDSE · Quarterly RGB mosaics · Hosted by Taylor Geospatial on Source Cooperative · Same season and camera';
 if(scene.kind==='probability'||(scene.kind==='layers'&&side==='before'&&scene.channel!=='boundary')) document.querySelector('.legend').style.display='block';
 await img.decode();await document.fonts.ready;document.body.dataset.ready='true';
 </script>

@@ -4,6 +4,8 @@ The main deck contains 13 clips, all captured from real FTW data and satellite
 imagery. Six edition comparisons and the Normandy probability/polygon example
 use the refreshed 3 October stills. Six new change comparisons use the current
 viewer’s curated examples. No satellite pixels or field geometries are generated.
+Edition labels were updated on 6 October to “Global FTW 1st edition” and
+“2nd edition.” The source imagery, boundaries, and wipe timing are unchanged.
 
 ## Current comparisons
 

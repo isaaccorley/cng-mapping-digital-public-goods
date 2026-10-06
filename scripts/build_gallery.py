@@ -10,7 +10,7 @@ scenes = manifest["clips"]
 version = manifest.get("media_version", manifest["captured"].replace("-", ""))
 groups = [
     ("change", "2018 → 2025", {"outlines"}),
-    ("editions", "Original FTW → 2nd edition", {"edition"}),
+    ("editions", "Global FTW 1st edition → 2nd edition", {"edition"}),
     ("layers", "Probability masks → PMTiles", {"layers"}),
 ]
 parts = []
@@ -56,7 +56,7 @@ a{color:#3b1e1c;text-underline-offset:4px}nav{display:flex;gap:30px;flex-wrap:wr
 """
     + "\n".join(parts)
     + """
-<footer>Selected examples from the Global FTW second-edition preview. Change clips show each year’s extracted outlines over that year’s satellite mosaic. Sources, camera positions, rendering thresholds, and exclusions are documented in MEDIA.md in the repository.</footer></main></html>
+<footer>Global FTW 1st and 2nd edition comparisons. Sources and capture details are documented in MEDIA.md in the repository.</footer></main></html>
 """
 )
 (ROOT / "media.html").write_text(page)

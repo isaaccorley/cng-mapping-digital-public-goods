@@ -42,6 +42,11 @@ name. Logo attribution does not imply sponsorship or endorsement.
 | numpy | [Project asset](https://github.com/numpy/numpy/blob/main/branding/logo/primary/numpylogo.svg) | `assets/logos/numpy.svg` |
 | pytorch | [Project asset](https://github.com/pytorch/pytorch.github.io/blob/site/assets/images/logo-dark.svg) | `assets/logos/pytorch.svg` |
 | arrow | [Project asset](https://arrow.apache.org/img/arrow-logo_horizontal_black-txt_transparent-bg.svg) | `assets/logos/arrow.svg` |
+| coarsen | [Project asset](https://github.com/taylor-geospatial/coarsen/blob/main/docs/assets/logo.png) | `assets/logos/coarsen.png` |
+| contourrs | [Project asset](https://github.com/taylor-geospatial/contourrs/blob/main/assets/logo.png) | `assets/logos/contourrs.png` |
+
+The processing-tools slide uses the coarsen and contourrs logos. The fbp
+repository had no logo on 6 October 2026, so that tool retains its name.
 
 Additional usage references: [PyTorch](https://pytorch.org/brand-guidelines/),
 [GeoPandas](https://docs.geopandas.org/en/latest/about/logo.html),
