@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ftw",
+    "label": "Global FTW · 2nd edition",
+    "url": "https://research.taylorgeospatial.org/global-ftw-2e/"
+  },
+  {
+    "id": "mosaics",
+    "label": "Sentinel-2 mosaics",
+    "url": "https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics"
+  },
+  {
+    "id": "pipeline",
+    "label": "FTW pipeline + catalog",
+    "url": "https://github.com/fieldsoftheworld/ftw-global-data-catalog"
+  },
+  {
+    "id": "mind",
+    "label": "MIND the Gap",
+    "url": "https://research.taylorgeospatial.org/mind/"
+  },
+  {
+    "id": "pffs",
+    "label": "Planetary Feature Fields",
+    "url": "https://arxiv.org/abs/2609.37784"
+  },
+  {
+    "id": "features",
+    "label": "Features of The World",
+    "url": "https://taylorgeospatial.org/innovation-program/features-of-the-world/"
+  },
+  {
+    "id": "benchmarks",
+    "label": "Benchmarks of The World",
+    "url": "https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/"
+  },
+  {
+    "id": "evaluation",
+    "label": "NeurIPS position paper",
+    "url": "https://arxiv.org/abs/2605.12678"
+  },
+  {
+    "id": "slides",
+    "label": "Slides and project links",
+    "url": "https://isaac.earth/cng-mapping-digital-public-goods/?autoSlide=0#/project-links"
+  },
+  {
+    "id": "coarsen",
+    "label": "coarsen",
+    "url": "https://research.taylorgeospatial.org/coarsen/"
+  },
+  {
+    "id": "contourrs",
+    "label": "contourrs",
+    "url": "https://research.taylorgeospatial.org/contourrs/"
+  },
+  {
+    "id": "fbp",
+    "label": "fbp",
+    "url": "https://github.com/fieldsoftheworld/fbp"
+  }
+]

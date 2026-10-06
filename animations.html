@@ -2,7 +2,9 @@
 (() => {
   function setup() {
     if (!window.Reveal || !Reveal.isReady()) { setTimeout(setup, 50); return; }
-    Reveal.configure({autoSlide:0,controls:true});
+    const manual = new URLSearchParams(window.location.search).get('autoSlide') === '0';
+    // false also disables data-autoslide overrides; numeric zero does not.
+    Reveal.configure({autoSlide:manual ? false : 15000,autoSlideStoppable:false,controls:true});
     async function play(video) {
       video.muted = true;
       video.defaultMuted = true;

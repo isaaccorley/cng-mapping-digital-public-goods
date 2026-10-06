@@ -1,19 +1,24 @@
 # Mapping the World as a Digital Public Good
 
 Isaac Corley’s Taylor Geospatial overview for **CNG Forum 2026**, Snowbird.
-The [agenda](https://2026.cloudnativegeo.org/#/agenda?day=3&lang=en) lists a
-**seven-minute talk, 8 October at 15:33 America/Denver**.
+The [agenda](https://2026.cloudnativegeo.org/#/agenda?day=3&lang=en) lists the slot
+on **8 October at 15:33 America/Denver**. The plenary lightning-talk format is
+**20 slides × 15 seconds = 5 minutes**, per the
+[CNG presenter guidance](https://cloudnativegeo.org/blog/2026/04/share-your-work-at-cng-forum-2026/).
+The agenda's seven-minute slot should not be used as the speaking duration.
 
 [Live deck](https://isaac.earth/cng-mapping-digital-public-goods/) ·
 [Clip gallery](https://isaac.earth/cng-mapping-digital-public-goods/media.html)
 
-The Quarto deck has **17 slides with manual advance**. The talk moves from
+The Quarto deck has **20 slides with automatic advance**. The talk moves from
 field mapping and agricultural change to reusable geographic representations
-and model evaluation. FTW takes five minutes of the suggested seven-minute talk.
-MIND the Gap and Planetary Feature Fields each have a dedicated 30-second slide.
+and model evaluation. FTW occupies 12 slides, including the quarterly mosaic
+mirror, processing tools, formats, and access.
+MIND the Gap and Planetary Feature Fields each have a dedicated 15-second slide.
 The NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
 Models* paper follows them, alongside Features of The World and Benchmarks of
-The World. Open-source acknowledgements precede the closing links.
+The World. Project QR codes and open-source acknowledgements precede the closing
+links. The final QR code opens the project links in manual mode.
 
 ## Present and review
 
@@ -22,9 +27,16 @@ uv sync --frozen
 uv run quarto preview index.qmd
 ```
 
-Use arrow keys to advance; press `S` for speaker notes. The slides never advance
-automatically. Every film restarts on entry, loops silently, and pauses when
-its slide is left. `?autoSlide=0` links from the earlier version still work.
+The presentation clock starts when the deck opens. Each slide advances after
+15 seconds, including slides with longer videos. Arrow-key navigation and video
+controls do not disable the timer. The closing slide is reached at 4:45 and
+remains visible; the deck does not loop. Open or reload the normal deck URL on cue.
+
+For manual review, use
+[?autoSlide=0](https://isaac.earth/cng-mapping-digital-public-goods/?autoSlide=0).
+Use arrow keys to advance and press `S` for speaker notes. Every film restarts on
+entry, loops silently, and pauses when its slide is left. Manual review disables
+both the global timer and the explicit per-slide timings.
 
 ```sh
 python3 scripts/build_gallery.py
@@ -40,6 +52,8 @@ use posters; the HTML deck plays videos.
 
 The MIND slide includes a local 30-second embedding-globe clip from the project
 site. The PFF slide plays the supplied 22.3-second NDVI access demonstration.
+Conference mode advances both slides at 15 seconds; manual review allows the
+full clips to play. Clip timing and media files are unchanged.
 [RESEARCH.md](RESEARCH.md) records the sources, figure attribution, and clip edit.
 
 ## Comparison library
@@ -65,6 +79,19 @@ request on slide entry; one loading clip cannot block its neighbour. Playback
 resumes after returning to the tab. Native controls provide a manual fallback
 if the browser blocks autoplay. An open-source credits slide appears immediately
 before the ending slide.
+
+The mosaic slide links the [quarterly Sentinel-2 mirror](https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics)
+and highlights COG overviews and HTTP streaming. The processing-tools slide links
+coarsen, contourrs, and fbp. The project-links slide points to the
+[FTW pipeline and catalog](https://github.com/fieldsoftheworld/ftw-global-data-catalog),
+alongside the datasets and research projects. Training code is in the companion
+[ftw-baselines repository](https://github.com/fieldsoftheworld/ftw-baselines).
+
+QR images are local files generated from `assets/project-links.json`:
+
+```sh
+uv run scripts/build_qr_codes.py
+```
 
 Exact camera positions, quarters, sources, thresholds, exclusions, and rebuild
 steps are in [MEDIA.md](MEDIA.md) and [assets/scenes.json](assets/scenes.json).

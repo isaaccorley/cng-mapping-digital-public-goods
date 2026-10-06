@@ -6,7 +6,7 @@ const { runInNewContext } = require('node:vm');
 const source = readFileSync('animations.html', 'utf8').replace(/<\/?script>/g, '');
 const flush = () => new Promise(resolve => setImmediate(resolve));
 
-function fixture(playResults = [Promise.resolve(), Promise.resolve()]) {
+function fixture(playResults = [Promise.resolve(), Promise.resolve()], search = '') {
   const documentEvents = {};
   const windowEvents = {};
   const slideEvents = {};
@@ -35,20 +35,22 @@ function fixture(playResults = [Promise.resolve(), Promise.resolve()]) {
     querySelectorAll: () => videos,
     addEventListener(name, listener) { documentEvents[name] = listener; },
   };
+  let config;
   const Reveal = {
     isReady: () => true,
-    configure() {},
+    configure(options) { config = options; },
     getCurrentSlide: () => currentSlide,
     on(name, listener) { slideEvents[name] = listener; },
   };
   const window = {
     Reveal,
+    location: { search },
     addEventListener(name, listener) { windowEvents[name] = listener; },
   };
-  runInNewContext(source, { window, document, Reveal, setTimeout });
+  runInNewContext(source, { window, document, Reveal, setTimeout, URLSearchParams });
   documentEvents.DOMContentLoaded();
   return {
-    videos, document, documentEvents, windowEvents,
+    videos, document, documentEvents, windowEvents, config,
     leave() {
       currentSlide = emptySlide;
       slideEvents.slidechanged({ currentSlide });
@@ -59,6 +61,27 @@ function fixture(playResults = [Promise.resolve(), Promise.resolve()]) {
     },
   };
 }
+
+test('conference mode keeps automatic 15-second advances enabled after interaction', () => {
+  const { config } = fixture();
+  assert.equal(config.autoSlide, 15000);
+  assert.equal(config.autoSlideStoppable, false);
+});
+
+test('manual review disables even explicit per-slide timers', () => {
+  const { config } = fixture(undefined, '?autoSlide=0');
+  // Reveal treats false as a full opt-out; numeric zero still permits slide overrides.
+  assert.equal(config.autoSlide, false);
+});
+
+test('all 20 slides have explicit 15-second timings so longer videos cannot extend them', () => {
+  const deck = readFileSync('index.qmd', 'utf8');
+  const headings = deck.match(/^## .+$/gm);
+  assert.equal(headings.length, 20);
+  assert.ok(headings.every(heading => heading.includes('data-autoslide="15000"')));
+  assert.match(deck, /auto-slide: 15000/);
+  assert.match(deck, /auto-slide-stoppable: false/);
+});
 
 test('metadata-only videos start without waiting for canplay from either clip', async () => {
   const { videos } = fixture();

@@ -171,3 +171,31 @@ $presentation-h2-font-size: 1.5em;
 .reveal .research-citation a { text-decoration:underline; }
 .reveal .pff-layout { grid-template-columns:.8fr 1.2fr;gap:55px; }
 .reveal .pff-figure video { display:block;width:100%;height:535px;object-fit:contain; }
+
+/* Data access and project links within the 15-second slide format. */
+.reveal .product-layout { display:grid;grid-template-columns:.7fr 1.3fr;gap:65px;align-items:center; }
+.reveal .product-layout p { font-size:32px;line-height:1.45;margin:0 0 30px; }
+.reveal .product-layout figure { margin:0;min-width:0; }
+.reveal .product-layout img { display:block;width:100%;height:535px;object-fit:contain; }
+.reveal .product-layout figcaption { font-size:21px;line-height:1.4;color:#6c514e;margin-top:16px; }
+.reveal .mosaic-layout { grid-template-columns:.9fr 1.1fr;gap:50px; }
+.reveal .mosaic-layout .mosaic-years { font-size:54px;margin-bottom:20px; }
+.reveal .mosaic-layout .coverage-detail { font-size:22px;color:#6c514e; }
+.reveal #project-links h2 { margin-bottom:22px; }
+.reveal .project-qr-grid { display:grid;grid-template-columns:repeat(4,1fr);gap:24px 32px; }
+.reveal .project-qr-grid a { display:flex;flex-direction:column;align-items:center;text-align:center;font-size:24px;line-height:1.2;text-decoration:none; }
+.reveal .project-qr-grid img { width:214px;height:214px; }
+.reveal .project-qr-grid span { margin-top:12px; }
+.reveal .pipeline-scope { border-top:2px solid var(--accent);padding-top:17px;margin-top:27px;font-size:24px;line-height:1.45; }
+.reveal .closing-qr { position:absolute;right:90px;top:85px;width:270px;text-align:center;font-size:25px;text-decoration:none; }
+.reveal .closing-qr img { width:270px;height:270px;display:block;margin-bottom:16px; }
+.reveal .pipeline-scope .tools-return { font-size:19px; }
+.reveal #processing-tools h2 { margin-bottom:23px; }
+.reveal .tools-intro { font-size:28px;margin:0 0 32px;max-width:1300px; }
+.reveal .processing-tools { display:grid;grid-template-columns:repeat(3,1fr);gap:55px; }
+.reveal .processing-tools article { border-top:2px solid var(--accent);padding-top:23px; }
+.reveal .processing-tools h3 { font-size:42px;margin:0 0 12px; }
+.reveal .processing-tools p { font-size:27px;line-height:1.4;margin:0 0 20px;min-height:115px; }
+.reveal .processing-tools .tool-language { font-size:21px;color:#6c514e;min-height:0; }
+.reveal .processing-tools a { display:flex;align-items:center;gap:22px;font-size:20px;text-decoration:none; }
+.reveal .processing-tools img { width:210px;height:210px; }

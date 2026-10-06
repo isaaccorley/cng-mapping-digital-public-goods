@@ -57,15 +57,48 @@ The previous static panels remain in `assets/research/` as reference material.
 They came from [Figure 1, version 1](https://arxiv.org/html/2609.37784v1#S0.F1), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), retrieved on 3 October 2026.
 They show original and PFF-VM outputs for Sentinel-2 (2017), TESSERA (2021), and biomass (2022), at 53.389°N, 16.089°E.
 
-## Seven-minute pacing
+## Five-minute conference timing
+
+The deck follows the [CNG plenary Ignite format](https://cloudnativegeo.org/blog/2026/04/share-your-work-at-cng-forum-2026/): 20 slides at 15 seconds each.
+Every slide has an explicit `data-autoslide="15000"` attribute so Reveal does not extend the interval to finish longer videos.
+The MIND and PFF clips retain their original media timing, but the slides advance at 15 seconds.
+Use `?autoSlide=0` to review the complete clips and navigate manually.
 
 | Section | Seconds |
 | --- | ---: |
-| Title and Taylor Geospatial | 20 |
-| FTW product and edition comparisons | 140 |
-| Three change-comparison slides | 120 |
-| Data formats and access | 40 |
-| MIND and PFFs | 60 |
-| Evaluation research | 20 |
-| Open source and closing | 20 |
-| Total | 420 |
+| Title and Taylor Geospatial | 30 |
+| FTW product, quarterly mosaics, and edition comparisons | 90 |
+| Three change-comparison slides | 45 |
+| Processing tools, data formats, and access | 45 |
+| MIND and PFFs | 30 |
+| Evaluation research | 15 |
+| Project links, open source, and closing | 45 |
+| Total | 300 |
+
+## Mosaic mirror and reusable tools
+
+Added on 5 October 2026. The [mosaic mirror](https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics)
+contains 10 m RGB/NIR COGs with overviews. Its public README describes complete
+2017–2025 quarters and a transferred 2026 Q2 outside the catalog, with Q1 incomplete
+at the README's audit date. The slide uses the requested concise label
+“2017–2026” and “2026 · Q1/Q2”; it makes no complete-2026 claim.
+The catalog screenshot was captured from Source Cooperative.
+
+The tools slide describes operations, without transferring benchmark speedups
+to the FTW workload:
+
+- [coarsen](https://research.taylorgeospatial.org/coarsen/): Rust geometry
+  simplification with a Shapely interface; shared edges stay aligned for valid coverages.
+- [contourrs](https://research.taylorgeospatial.org/contourrs/): Rust raster
+  polygonization and contour bands, with Python and Arrow outputs.
+- [fbp](https://github.com/fieldsoftheworld/fbp): field-instance postprocessing,
+  including BoundaryVote and windowed processing.
+
+The [global pipeline repository](https://github.com/fieldsoftheworld/ftw-global-data-catalog)
+contains mosaic preparation, inference, postprocessing, map tiles, and publishing.
+Training code is in [ftw-baselines](https://github.com/fieldsoftheworld/ftw-baselines).
+The fbp repository and README are also public. The workflow spans these repositories;
+the catalog repository is the main entry point linked from the slide.
+
+`assets/project-links.json` records the QR destinations; `scripts/build_qr_codes.py`
+generates them with a standard quiet zone and medium error correction.

@@ -5,7 +5,10 @@ format:
   revealjs:
     theme: [default, custom.scss]
     css: [assets/fonts/fonts.css, assets/fonts/tg-fonts.css]
-    auto-slide: 0
+    auto-slide: 15000
+    auto-slide-stoppable: false
+    default-timing: 15
+    loop: false
     slide-number: false
     progress: true
     navigation-mode: linear
@@ -19,7 +22,7 @@ format:
     include-after-body: animations.html
 ---
 
-## Mapping the World as a Digital Public Good {#cover .full .tg-dark}
+## Mapping the World as a Digital Public Good {#cover .full .tg-dark data-autoslide="15000"}
 
 ```{=html}
 <div class="tg-cover">
@@ -32,10 +35,10 @@ format:
 ```
 
 ::: {.notes}
-About 5 seconds. The agenda lists this seven-minute talk on 8 October 2026 at 15:33 America/Denver. Exact title and description are saved in assets/provenance/cng-agenda-2026-10-02.txt. Manual slide advance throughout; every video loops until you advance.
+About 15 seconds. CNG plenary lightning talks use 20 slides at 15 seconds each. The agenda entry begins on 8 October 2026 at 15:33 America/Denver; its seven-minute slot is not the five-minute speaking format. Timing starts when the deck opens. Use ?autoSlide=0 for manual rehearsal. Every video loops until the slide advances.
 :::
 
-## Taylor Geospatial {#taylor-geospatial .tg-light}
+## Taylor Geospatial {#taylor-geospatial .tg-light data-autoslide="15000"}
 
 ```{=html}
 <div class="overview">
@@ -56,7 +59,7 @@ FTW remains the main example throughout the talk.
 Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 :::
 
-## Global FTW · 2nd edition {#ftw-preview .full}
+## Global FTW · 2nd edition {#ftw-preview .full data-autoslide="15000"}
 
 ```{=html}
 <div class="image-slide"><img src="assets/stills/netherlands-2e.jpg?v=20261003" alt="Second-edition FTW field polygons in Flevoland">
@@ -65,7 +68,7 @@ Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 ```
 
 ::: {.notes}
-About 25 seconds.
+About 15 seconds.
 Our first example is a map product for a specific task: locating agricultural fields.
 Fields of The World provides open data, models, and tools for agricultural field mapping.
 This is the second global map edition, separate from benchmark-dataset versioning.
@@ -78,18 +81,34 @@ First, show what the probability raster and extracted polygons look like; then c
 Source: preview catalog README.
 :::
 
-## France · probability masks and polygons {#france-layers .full}
+## Sentinel-2 quarterly mosaics {#mosaics .tg-light .product-detail data-autoslide="15000"}
+
+```{=html}
+<div class="product-layout mosaic-layout">
+<div><p class="mosaic-years">2017–2026</p><p>We rehosted the Copernicus quarterly mosaics on Source Cooperative.</p><p><strong>10 m · RGB + near-infrared</strong><br>COGs with overviews: stream a region or zoom level over HTTPS.</p><p class="coverage-detail">2026 · Q1/Q2</p></div>
+<figure><img src="assets/stills/mosaics-source-coop.png" alt="Source Cooperative catalog listing Sentinel-2 quarterly mosaic folders from 2017 through 2026"><figcaption>Public file access without a CDSE account.</figcaption></figure>
+</div>
+<p class="source-note"><a href="https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics">source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics</a><br>Copernicus Sentinel data · ESA / Sinergise / CDSE · mirror by Taylor Geospatial</p>
+```
+
+::: {.notes}
+About 15 seconds. We also rehost the Sentinel-2 quarterly mosaics that underlie this workflow. These are Copernicus products, not newly generated composites from Taylor Geospatial. RGB and near-infrared are available at 10 m as COGs with overviews, so users can stream only the regions and resolutions they need.
+The public README checked on 5 October describes all quarters from 2017 through 2025, plus a transferred 2026 Q2 outside the catalog; it describes Q1 as incomplete. The slide therefore does not claim a complete 2026 record. Published quarter manifests are the place to check coverage.
+Source: https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics and its public README.
+:::
+
+## France · probability masks and polygons {#france-layers .full data-autoslide="15000"}
 
 ```{=html}
 <div class="film"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261003b" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261003b" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
-About 25 seconds. The same prediction is useful in two forms. The COG stores field probability. The PMTiles archive presents extracted polygons. The raster retains low-confidence regions and soft transitions; extraction produces individual geometry. The displayed field ramp starts at 128/255, approximately 0.5. Camera: 48.88, -1.05; zoom 14; Q3. Next, compare the published polygons across field sizes and shapes.
+About 15 seconds. The same prediction is useful in two forms. The COG stores field probability. The PMTiles archive presents extracted polygons. The raster retains low-confidence regions and soft transitions; extraction produces individual geometry. The displayed field ramp starts at 128/255, approximately 0.5. Camera: 48.88, -1.05; zoom 14; Q3. Next, compare the published polygons across field sizes and shapes.
 Source and capture details: MEDIA.md and assets/scenes.json.
 :::
 
-## Original FTW and the 2nd edition {#editions-large-dense .paired .tg-light}
+## Original FTW and the 2nd edition {#editions-large-dense .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · 2025 · identical imagery and symbology</p>
@@ -98,11 +117,11 @@ Source and capture details: MEDIA.md and assets/scenes.json.
 ```
 
 ::: {.notes}
-About 30 seconds. Compare large Brazilian fields with the denser Dutch network. Each pair uses identical imagery and line styling. Changes include model, extraction, simplification, and publishing effects; this is not a controlled accuracy test.
+About 15 seconds. Compare large Brazilian fields with the denser Dutch network. Each pair uses identical imagery and line styling. Changes include model, extraction, simplification, and publishing effects; this is not a controlled accuracy test.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## Mixed and irregular field shapes {#editions-mixed-irregular .paired .tg-light}
+## Mixed and irregular field shapes {#editions-mixed-irregular .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · same camera and imagery within each example</p>
@@ -111,11 +130,11 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```
 
 ::: {.notes}
-About 30 seconds. Iowa adds larger fields and wooded waterways; Normandy adds smaller irregular parcels.
+About 15 seconds. Iowa adds larger fields and wooded waterways; Normandy adds smaller irregular parcels.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## Fields along terrain and narrow strips {#editions-terrain-strips .paired .tg-light}
+## Fields along terrain and narrow strips {#editions-terrain-strips .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
 <p class="pair-subtitle">Original FTW (alpha) → 2nd edition · 2025</p>
@@ -124,12 +143,12 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```
 
 ::: {.notes}
-About 30 seconds. The boundary shapes vary across these farming systems. Both versions still miss fields in Poland; avoid implying complete recovery.
+About 15 seconds. The boundary shapes vary across these farming systems. Both versions still miss fields in Poland; avoid implying complete recovery.
 So far we have changed the map edition while holding the imagery fixed. Next, compare maps and imagery across years.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## New field blocks {#change-new-fields .paired .tg-light}
+## New field blocks {#change-new-fields .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
@@ -138,11 +157,11 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```
 
 ::: {.notes}
-About 40 seconds. Repeated maps let us examine where the agricultural landscape changes. Both the imagery and the annual outlines show new field blocks. The viewer selects 2018 as the early baseline because 2017 predictions are under-detected in some regions. Matopiba uses Q3 in both years to avoid cloud gaps in the viewer’s Q1 example. No crop type or hectare total is inferred.
+About 15 seconds. Repeated maps let us examine where the agricultural landscape changes. Both the imagery and the annual outlines show new field blocks. The viewer selects 2018 as the early baseline because 2017 predictions are under-detected in some regions. Matopiba uses Q3 in both years to avoid cloud gaps in the viewer’s Q1 example. No crop type or hectare total is inferred.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## Expansion of irrigated fields {#change-irrigation .paired .tg-light}
+## Expansion of irrigated fields {#change-irrigation .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
@@ -151,11 +170,11 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```
 
 ::: {.notes}
-About 40 seconds. These examples show irrigation patterns becoming more extensive. Compare the vegetation, access tracks, and field geometry as well as the predictions. Do not infer water use or the cause of conversion from these images.
+About 15 seconds. These examples show irrigation patterns becoming more extensive. Compare the vegetation, access tracks, and field geometry as well as the predictions. Do not infer water use or the cause of conversion from these images.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## Changes in field layout and crop activity {#change-layout-activity .paired .tg-light}
+## Changes in field layout and crop activity {#change-layout-activity .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
 <p class="pair-subtitle">2018 → 2025 · annual GeoParquet outlines over same-quarter Sentinel-2 mosaics</p>
@@ -164,11 +183,28 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```
 
 ::: {.notes}
-About 40 seconds. Bahia is a layout change: the land remains agricultural. In Al-Jawf, many formerly green circles are pale in the later mosaic. This does not establish permanent abandonment or a cause. Independent annual predictions and seasonal imagery require interpretation, rather than simply equating lost polygons with lost cropland.
+About 15 seconds. Bahia is a layout change: the land remains agricultural. In Al-Jawf, many formerly green circles are pale in the later mosaic. This does not establish permanent abandonment or a cause. Independent annual predictions and seasonal imagery require interpretation, rather than simply equating lost polygons with lost cropland.
 Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 :::
 
-## COG, GeoParquet, and PMTiles {#formats .tg-light}
+## Tools we built for processing at scale {#processing-tools .tg-light data-autoslide="15000"}
+
+```{=html}
+<p class="tools-intro">Raster-to-vector conversion, geometry simplification, and field-instance extraction became bottlenecks at global scale.</p>
+<div class="processing-tools">
+<article><h3>coarsen</h3><p class="tool-language">Rust core · Python / Shapely</p><p>Reduce geometry vertices while keeping shared field boundaries aligned.</p><a href="https://research.taylorgeospatial.org/coarsen/"><img src="assets/qr/coarsen.png" alt="QR code for coarsen"><span>Documentation + code</span></a></article>
+<article><h3>contourrs</h3><p class="tool-language">Rust core · Python / Arrow</p><p>Convert raster regions and contour bands to polygons, with direct Arrow output.</p><a href="https://research.taylorgeospatial.org/contourrs/"><img src="assets/qr/contourrs.png" alt="QR code for contourrs"><span>Documentation + code</span></a></article>
+<article><h3>fbp</h3><p class="tool-language">Field boundary postprocessing</p><p>Turn semantic predictions into individual fields; process large rasters in windows.</p><a href="https://github.com/fieldsoftheworld/fbp"><img src="assets/qr/fbp.png" alt="QR code for fbp"><span>Algorithms + code</span></a></article>
+</div>
+```
+
+::: {.notes}
+About 15 seconds. Existing tools were not efficient enough for every stage at this scale, so we built reusable pieces. Coarsen simplifies geometry in Rust while preserving shared boundaries. Contourrs converts rasters and contours to polygons with Arrow output. Fbp brings field-instance postprocessing algorithms, including BoundaryVote, behind one interface and handles large rasters in windows.
+These are reusable tools developed around the work; do not imply every current standalone package version produced the earlier release. No universal speedup is claimed: the project documentation gives benchmark conditions and limitations.
+Sources checked 5 October 2026: https://research.taylorgeospatial.org/coarsen/ ; https://research.taylorgeospatial.org/contourrs/ ; https://github.com/fieldsoftheworld/fbp.
+:::
+
+## COG, GeoParquet, and PMTiles {#formats .tg-light data-autoslide="15000"}
 
 ```{=html}
 <div class="format-maps"><div><p><strong>COG</strong>Field and boundary probabilities</p><img src="assets/stills/france-field-2025.jpg?v=20261003" alt="COG field probabilities"></div><div><p><strong>PMTiles</strong>Regional summaries and field polygons</p><img src="assets/stills/pmtiles-overview.jpg?v=20261003" alt="PMTiles regional coverage map"></div></div>
@@ -178,7 +214,7 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 ```
 
 ::: {.notes}
-About 25 seconds.
+About 15 seconds.
 These examples are useful only if people can work with the underlying data.
 Cloud-optimized GeoTIFFs store probabilities, GeoParquet stores geometry and attributes, and PMTiles provides fast map browsing.
 The screenshots show the preview data.
@@ -187,7 +223,7 @@ The current catalog lists raster and vector collections for 2017–2025.
 Source: preview catalog metadata.
 :::
 
-## Source Cooperative and Portolan {#distribution .tg-light}
+## Source Cooperative and Portolan {#distribution .tg-light data-autoslide="15000"}
 
 ```{=html}
 <div class="distribution">
@@ -202,13 +238,13 @@ About 15 seconds.
 Source Cooperative hosts the files and documentation.
 Portolan provides catalog discovery through STAC and cloud-optimized files.
 The registry screenshot shows the existing FTW catalog.
-Registration of the second edition is not confirmed here.
+The current second-edition catalog is linked from https://github.com/fieldsoftheworld/ftw-global-data-catalog; this older screenshot is retained to illustrate the registry interface.
 The viewer now reads the second-edition product at ftw/global-data-2e.
 FTW produces a map for one task. Our next two papers investigate representations that can be reused across products and tasks.
 Sources: https://source.coop/ftw/global-data-2e and https://www.portolan-sdi.org/blog/introducing-portolan.
 :::
 
-## MIND the Gap {#mind .tg-light .research-detail}
+## MIND the Gap {#mind .tg-light .research-detail data-autoslide="15000"}
 
 ```{=html}
 <p class="research-subtitle">A Geographic Implicit Neural Representation with Adjustable Spatial Scale</p>
@@ -224,7 +260,7 @@ Sources: https://source.coop/ftw/global-data-2e and https://www.portolan-sdi.org
 ```
 
 ::: {.notes}
-About 30 seconds.
+About 15 seconds.
 We also work on geographic INRs, which learn functions that return features for a location.
 An embedding is a set of numbers that can be reused to predict different properties of that location.
 MIND learns from several existing representations and arranges its embedding into nested chunks.
@@ -237,7 +273,7 @@ Next, PFFs ask how several existing Earth-observation products can share a compa
 Sources: https://research.taylorgeospatial.org/mind/ and https://arxiv.org/abs/2609.25454.
 :::
 
-## Planetary Feature Fields {#pffs .tg-light .research-detail}
+## Planetary Feature Fields {#pffs .tg-light .research-detail data-autoslide="15000"}
 
 ```{=html}
 <p class="research-subtitle">Planetary Feature Fields are Scalable Earth Representations</p>
@@ -256,7 +292,7 @@ Sources: https://research.taylorgeospatial.org/mind/ and https://arxiv.org/abs/2
 ```
 
 ::: {.notes}
-About 30 seconds.
+About 15 seconds.
 PFFs learn a shared representation of several products within local regions, queried by location and time.
 The clip compares NDVI mapping through Microsoft Planetary Computer and PFFs.
 NDVI is a vegetation index computed from red and near-infrared values.
@@ -270,7 +306,7 @@ This leads to the evaluation question: which tasks and regions establish that a 
 Source: Rao et al., Planetary Feature Fields are Scalable Earth Representations, arXiv:2609.37784v1, abstract. Animation supplied by Isaac Corley; credit Arjun Rao, Copernicus Sentinel-2, and Microsoft Planetary Computer as shown in the clip.
 :::
 
-## Evaluating geographic models {#research .tg-light}
+## Evaluating geographic models {#research .tg-light data-autoslide="15000"}
 
 ```{=html}
 <div class="research-overview">
@@ -285,7 +321,7 @@ Source: Rao et al., Planetary Feature Fields are Scalable Earth Representations,
 ```
 
 ::: {.notes}
-About 20 seconds.
+About 15 seconds.
 The same question applies to FTW, MIND, and PFFs: how do we know where a model is useful?
 Our new methods need the same careful evaluation as the models we compare with.
 Features of The World extends feature mapping beyond fields.
@@ -300,7 +336,28 @@ The slide omits numerical audit results from the older preprint while revisions 
 Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/ ; https://arxiv.org/abs/2605.12678.
 :::
 
-## Built with open-source software {#open-source .tg-light}
+## Projects, data, and code {#project-links .tg-light data-autoslide="15000"}
+
+```{=html}
+<div class="project-qr-grid">
+<a href="https://research.taylorgeospatial.org/global-ftw-2e/"><img src="assets/qr/ftw.png" alt="QR code for Global FTW · 2nd edition"><span>Global FTW · 2nd edition</span></a>
+<a href="https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics"><img src="assets/qr/mosaics.png" alt="QR code for Sentinel-2 mosaics"><span>Sentinel-2 mosaics</span></a>
+<a href="https://github.com/fieldsoftheworld/ftw-global-data-catalog"><img src="assets/qr/pipeline.png" alt="QR code for FTW pipeline + catalog"><span>FTW pipeline + catalog</span></a>
+<a href="https://research.taylorgeospatial.org/mind/"><img src="assets/qr/mind.png" alt="QR code for MIND the Gap"><span>MIND the Gap</span></a>
+<a href="https://arxiv.org/abs/2609.37784"><img src="assets/qr/pffs.png" alt="QR code for Planetary Feature Fields"><span>Planetary Feature Fields</span></a>
+<a href="https://taylorgeospatial.org/innovation-program/features-of-the-world/"><img src="assets/qr/features.png" alt="QR code for Features of The World"><span>Features of The World</span></a>
+<a href="https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/"><img src="assets/qr/benchmarks.png" alt="QR code for Benchmarks of The World"><span>Benchmarks of The World</span></a>
+<a href="https://arxiv.org/abs/2605.12678"><img src="assets/qr/evaluation.png" alt="QR code for NeurIPS position paper"><span>NeurIPS position paper</span></a>
+</div>
+<p class="pipeline-scope"><strong>Open-sourcing the FTW workflow</strong><br>Inputs &amp; preprocessing → training → inference on AWS / HPC → postprocessing → files &amp; catalog<br><a class="tools-return" href="?autoSlide=0#/processing-tools">coarsen · contourrs · fbp — tool links</a></p>
+```
+
+::: {.notes}
+About 15 seconds. All the projects are linked here. We are open-sourcing the full FTW workflow: input processing and preprocessing, model training and inference, efficient execution on AWS or HPC clusters, polygon postprocessing, and the organization and formatting of the released files. The pipeline QR points to fieldsoftheworld/ftw-global-data-catalog. Training tools live in the companion ftw-baselines repository. The closing slide links back to this page in manual mode so people can scan after the talk.
+Code: https://github.com/fieldsoftheworld/ftw-global-data-catalog and https://github.com/fieldsoftheworld/ftw-baselines.
+:::
+
+## Built with open-source software {#open-source .tg-light data-autoslide="15000"}
 
 ```{=html}
 <p class="credits-intro">Thank you to the maintainers and contributors whose work we build on.</p>
@@ -325,18 +382,18 @@ Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ 
 ```
 
 ::: {.notes}
-About 10 seconds. Both the public products and the research depend on open-source maintainers, from training and geospatial processing to data access in the browser. Thank them before moving to the final links.
+About 15 seconds. Both the public products and the research depend on open-source maintainers, from training and geospatial processing to data access in the browser. Thank them before moving to the final links.
 The dependency and import audit is pinned to upstream cbda0b122f12509624d29f9a4ae04dae27485661 in assets/provenance/open-source-tools.json. Official logo sources are recorded alongside it.
 The released coverage simplifier was later extracted as coarsen; do not imply the standalone coarsen package produced this release.
 These are software acknowledgements, not partner endorsements.
 :::
 
-## Data and research {#end .tg-dark}
+## Data and research {#end .tg-dark data-autoslide="15000"}
 
 ```{=html}
-<div class="closing"><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition viewer</a><a href="https://research.taylorgeospatial.org/mind/">MIND the Gap</a><a href="https://arxiv.org/abs/2609.37784">Planetary Feature Fields</a></div><p class="closing-source"><a href="https://source.coop/ftw/global-data-2e">Data on Source Cooperative</a> · <a href="https://fieldsofthe.world/">FTW models and code</a> · <a href="media.html">13 FTW comparison clips</a></p></div>
+<div class="closing"><a class="closing-qr" href="?autoSlide=0#/project-links"><img src="assets/qr/slides.png" alt="QR code for the slides and all project links"><span>Slides + all links</span></a><img class="tg-logo" src="assets/tg-logo.svg" alt="Taylor Geospatial"><h2>Data and research</h2><p>Isaac Corley · isaac.corley@taylorgeospatial.org</p><div class="closing-links"><a href="https://research.taylorgeospatial.org/global-ftw-2e/">Global FTW · 2nd edition viewer</a><a href="https://research.taylorgeospatial.org/mind/">MIND the Gap</a><a href="https://arxiv.org/abs/2609.37784">Planetary Feature Fields</a></div><p class="closing-source"><a href="https://source.coop/ftw/global-data-2e">Data on Source Cooperative</a> · <a href="https://fieldsofthe.world/">FTW models and code</a> · <a href="media.html">13 FTW comparison clips</a></p></div>
 ```
 
 ::: {.notes}
-About 10 seconds. These are the places to follow the work and access the clips. Leave the slide open for questions. Suggested pacing totals seven minutes: five minutes for FTW, one minute for MIND and PFFs, and one minute for the opening, evaluation, acknowledgements, and closing. Manual pacing is intentional.
+About 15 seconds. These are the places to follow the work and access the clips. Leave the slide open for questions. This is slide 20, reached at 4:45 in the five-minute talk. It remains visible at the end. All slides have a fixed 15-second interval; the deck does not loop.
 :::
