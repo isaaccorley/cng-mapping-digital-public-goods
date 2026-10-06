@@ -183,3 +183,8 @@ $presentation-h2-font-size: 1.5em;
 
 .reveal .oss-logo-cloud .oss-openlayers { gap:12px;text-decoration:none;color:#242424;font-size:32px; }
 .reveal .oss-logo-cloud .oss-openlayers img { width:60px;height:60px; }
+
+.reveal .ftw-viewer-qr { position:absolute;right:64px;bottom:64px;display:block; }
+.reveal .ftw-viewer-qr img { display:block;width:300px;height:300px; }
+
+.reveal #france-layers .film { inset:90px 160px;width:1280px;height:720px; }

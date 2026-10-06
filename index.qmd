@@ -69,6 +69,7 @@ Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 ```{=html}
 <div class="image-slide"><img src="assets/stills/netherlands-2e.jpg?v=20261006-data" alt="Second-edition FTW field polygons in Flevoland">
 <div class="image-head"><h2>Global FTW · 2nd edition</h2><p>Annual field maps · 2017–2025</p></div>
+<a class="ftw-viewer-qr" href="https://research.taylorgeospatial.org/global-ftw-2e/"><img src="assets/qr/ftw.png" alt="Scan to explore Global FTW 2nd edition"></a>
 </div>
 ```
 
@@ -108,7 +109,7 @@ Reference: source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics (https://
 Figure note: Public file access without a CDSE account.
 :::
 
-## France · probability masks and polygons {#france-layers .full data-autoslide="15000"}
+## France · probability masks and polygons {#france-layers .full .tg-dark data-autoslide="15000"}
 
 ```{=html}
 <div class="film"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261006-data" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261006-data" type="video/mp4"></video></div>
