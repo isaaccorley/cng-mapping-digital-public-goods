@@ -17,7 +17,7 @@ mirror, processing tools, formats, and access.
 MIND the Gap and Planetary Feature Fields each have a dedicated 15-second slide.
 The NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
 Models* paper follows them, alongside Features of The World and Benchmarks of
-The World. Project QR codes and open-source acknowledgements precede the closing
+The World. Open-source acknowledgements and project QR codes precede the closing
 links. The final QR code opens the project links in manual mode.
 Sources and attribution are in speaker notes instead of slide footers.
 
@@ -78,8 +78,8 @@ changed field layout, and reduced crop activity; they do not claim area totals.
 Wipes take 1.2 seconds, with holds before and after. Both videos receive a play
 request on slide entry; one loading clip cannot block its neighbour. Playback
 resumes after returning to the tab. Native controls provide a manual fallback
-if the browser blocks autoplay. An open-source credits slide appears immediately
-before the ending slide.
+if the browser blocks autoplay. The open-source credits slide is followed by project QR codes, then the ending
+slide.
 
 The mosaic slide links the [quarterly Sentinel-2 mirror](https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics)
 and highlights COG overviews and HTTP streaming. The processing-tools slide links
@@ -101,7 +101,7 @@ Source Cooperative, and Portolan screenshots.
 
 ## Preview status
 
-This is a sneak peek. Figures were refreshed on 3 October 2026 from the
+This is a sneak peek. Figures were refreshed on 6 October 2026 from the
 [new viewer](https://research.taylorgeospatial.org/global-ftw-2e/) and
 [`ftw/global-data-2e`](https://source.coop/ftw/global-data-2e), including the
 updated PMTiles and GeoParquet exports. All slides and clips use the Taylor

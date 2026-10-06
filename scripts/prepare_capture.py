@@ -12,7 +12,7 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WEB = ROOT / ".capture/web"
-SOURCE = "https://research.taylorgeospatial.org/global-ftw-2e/web/"
+SOURCE = "https://research.taylorgeospatial.org/global-ftw-2e/"
 WEB.mkdir(parents=True, exist_ok=True)
 (WEB / "js").mkdir(exist_ok=True)
 # Read the deployed modules; use its repository tree to enumerate bundled assets.
@@ -37,7 +37,8 @@ while pending:
     name = pending.pop()
     if name in snapshot:
         continue
-    data = urllib.request.urlopen(SOURCE + name, timeout=30).read()
+    url = SOURCE + (name if name == "index.html" else "web/" + name)
+    data = urllib.request.urlopen(url, timeout=30).read()
     (WEB / name).parent.mkdir(parents=True, exist_ok=True)
     (WEB / name).write_bytes(data)
     snapshot[name] = hashlib.sha256(data).hexdigest()
@@ -60,17 +61,15 @@ src = src.replace(
   return view;""",
 )
 src = src.replace(
-    "  sync();\n  window.ftw = {",
-    """  map.on('loadstart', () => { document.body.dataset.captureReady = 'false'; });
-  map.on('rendercomplete', () => {
-    const sourcesReady = map.getLayers().getArray().every(layer =>
-      !layer.getVisible() || !layer.getSource || layer.getSource()?.getState() === 'ready');
-    if ((!state.show.outlines || document.body.dataset.outlinesReady === 'true') && sourcesReady && (!rasterOn() || (raster && last.tiles.length > 0 && raster.layers.inflight === 0 && raster.layers.errors.size === 0))) {
-      document.body.dataset.captureReady = 'true';
-    }
+    "  const ready = () => sync();",
+    """  document.body.dataset.captureReady = 'false';
+  map.on('idle', () => {
+    const rasterReady = !rasterOn() || (raster && last.tiles.length > 0 && raster.layers.inflight === 0 && raster.layers.errors.size === 0);
+    const vectorsReady = (!state.show.pmtiles || pmtiles.ready) && (!state.show.outlines || document.body.dataset.outlinesReady === 'true');
+    document.body.dataset.captureReady = String(rasterReady && vectorsReady && map.areTilesLoaded());
+    document.body.dataset.captureState = JSON.stringify({year: state.year, quarter: state.quarter, show: state.show, center: map.getCenter(), zoom: webZoom(map.getZoom()), tiles: last.tiles, errors: raster?.layers.errors.size ?? 0, outlines: outlines?.count() ?? 0});
   });
-  sync();
-  window.ftw = {""",
+  const ready = () => sync();""",
 )
 main.write_text(src)
 vector = WEB / "js/vector.js"
@@ -81,19 +80,25 @@ src = vector.read_text().replace(
 src = src.replace(
     "      await Promise.all(Array.from({ length: CONCURRENCY }, worker));",
     "      await Promise.all(Array.from({ length: CONCURRENCY }, worker));\n"
-    "      if (token === this.token) { document.body.dataset.outlinesReady = 'true'; this.map.render(); }",
+    "      if (token === this.token) { document.body.dataset.outlinesReady = 'true'; this.map.triggerRepaint(); }",
 )
 vector.write_text(src)
 alpha = WEB / "js/alpha.js"
-src = alpha.read_text().replace("COLORS.alpha, width: 1.2", "'#80a0d8', width: 1.4")
+src = alpha.read_text().replace(
+    "'line-color': COLORS.alpha, 'line-width': 1.2",
+    "'line-color': '#80a0d8', 'line-width': 0.7",
+)
 src = src.replace("COLORS.alphaFill", "'rgba(128,160,216,0.07)'")
 alpha.write_text(src)
 pm = WEB / "js/pmtiles.js"
 src = pm.read_text().replace(
     "const FIELD_GREEN = '#33a02c';", "const FIELD_GREEN = '#80a0d8';"
 )
-src = src.replace("hexAlpha(FIELD_GREEN, 0.25)", "hexAlpha(FIELD_GREEN, 0.07)")
-src = src.replace("FIELD_GREEN, width: 1", "FIELD_GREEN, width: 1.4")
+src = src.replace("const FIELD_FLAT_ALPHA = 0.25;", "const FIELD_FLAT_ALPHA = 0.07;")
+src = src.replace(
+    "'line-color': FIELD_GREEN, 'line-width': 1",
+    "'line-color': FIELD_GREEN, 'line-width': 0.7",
+)
 pm.write_text(src)
 config = WEB / "js/config.js"
 src = config.read_text()
@@ -113,23 +118,32 @@ src = src.replace(
 config.write_text(src)
 map_file = WEB / "js/map.js"
 src = map_file.read_text().replace(
-    "  const view = new View({",
-    "  if (new URLSearchParams(location.search).has('kind')) basemap.setVisible(false);\n  const view = new View({",
+    "    style: baseStyle(),",
+    "    style: {...baseStyle(), layers: []},",
+)
+src = src.replace(
+    "antialias: true, alpha: true",
+    "antialias: true, alpha: true, preserveDrawingBuffer: true",
 )
 map_file.write_text(src)
+refstyle = WEB / "js/refstyle.js"
+src = refstyle.read_text().replace(
+    "?? REF_ANCHOR", "?? (map.getLayer(REF_ANCHOR) ? REF_ANCHOR : undefined)"
+)
+refstyle.write_text(src)
 with (WEB / "style.css").open("a") as f:
     f.write("""
 /* Film capture: preserve the map scale; remove the temporary app chrome. */
-#panel, #hint, .ol-zoom, .ol-attribution { display: none !important; }
+#panel, #hint, #stars, #halo, #globe-hint, .maplibregl-ctrl-top-right, .maplibregl-ctrl-attrib { display: none !important; }
 #map { inset: 0 !important; width: 100vw !important; height: 100vh !important; }
-.ol-scale-line { bottom: 22px !important; right: 24px !important; left: auto !important; }
+.maplibregl-ctrl-bottom-right { bottom: 22px !important; right: 24px !important; }
 #hint { font-size: 18px; }
 body, #map { background: #3b1e1c !important; }
 """)
 index = WEB / "index.html"
 index.write_text(
-    index.read_text().replace(
-        'href="style.css"', 'href="style.css?capture=tg-20261003"'
-    )
+    index.read_text()
+    .replace("web/", "")
+    .replace('href="style.css"', 'href="style.css?capture=tg-20261006-data"')
 )
 print("Capture viewer ready at .capture/web; serve repo on localhost:8765")

@@ -30,7 +30,7 @@ format:
 <p class="eyebrow">CNG Forum 2026 · Snowbird, Utah</p>
 <h1>Mapping the World<br>as a Digital Public Good</h1>
 <p class="presenter">Isaac Corley<br><span>Director of AI/ML Research · Taylor Geospatial</span></p></div>
-<img class="tg-cover-map" src="assets/stills/france-2e.jpg?v=20261003" alt="Predicted field boundaries in Normandy, France">
+<img class="tg-cover-map" src="assets/stills/france-2e.jpg?v=20261006-data" alt="Predicted field boundaries in Normandy, France">
 </div>
 ```
 
@@ -51,7 +51,7 @@ Every video loops until the slide advances.
 <div><p class="eyebrow">Taylor Geospatial</p><h2>Open Maps, Embeddings<br>and Geospatial AI Research</h2>
 <p class="overview-body">We develop open datasets, models, and tools with research and application partners.</p>
 <ol class="talk-route"><li><strong>Field mapping</strong><span>Global FTW and agricultural change</span></li><li><strong>Geographic embeddings</strong><span>MIND the Gap and Planetary Feature Fields</span></li><li><strong>Model evaluation</strong><span>Comparable tests across tasks and regions</span></li></ol></div>
-<div class="overview-map"><img src="assets/stills/netherlands-2e.jpg?v=20261003" alt="Global FTW field boundaries in the Netherlands"><p>Predicted field boundaries in Flevoland, Netherlands.<br><span>Global FTW · 2nd edition · 2025</span></p></div>
+<div class="overview-map"><img src="assets/stills/netherlands-2e.jpg?v=20261006-data" alt="Global FTW field boundaries in the Netherlands"><p>Predicted field boundaries in Flevoland, Netherlands.<br><span>Global FTW · 2nd edition · 2025</span></p></div>
 </div>
 ```
 
@@ -67,7 +67,7 @@ Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 ## Global FTW · 2nd edition {#ftw-preview .full data-autoslide="15000"}
 
 ```{=html}
-<div class="image-slide"><img src="assets/stills/netherlands-2e.jpg?v=20261003" alt="Second-edition FTW field polygons in Flevoland">
+<div class="image-slide"><img src="assets/stills/netherlands-2e.jpg?v=20261006-data" alt="Second-edition FTW field polygons in Flevoland">
 <div class="image-head"><h2>Global FTW · 2nd edition</h2><p>Annual field maps · 2017–2025</p></div>
 </div>
 ```
@@ -111,7 +111,7 @@ Figure note: Public file access without a CDSE account.
 ## France · probability masks and polygons {#france-layers .full data-autoslide="15000"}
 
 ```{=html}
-<div class="film"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261006" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261006" type="video/mp4"></video></div>
+<div class="film"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261006-data" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261006-data" type="video/mp4"></video></div>
 ```
 
 ::: {.notes}
@@ -127,7 +127,7 @@ Source and capture details: MEDIA.md and assets/scenes.json.
 ## Global FTW 1st edition → 2nd edition {#editions-large-dense .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Sorriso, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261006" aria-label="Sorriso, Brazil · Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261006" type="video/mp4"></video></article><article><h3>Flevoland, Netherlands</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261006" aria-label="Flevoland, Netherlands · Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261006" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Sorriso, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261006-data" aria-label="Sorriso, Brazil · Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Flevoland, Netherlands</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261006-data" aria-label="Flevoland, Netherlands · Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261006-data" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -142,7 +142,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Mixed and irregular field shapes {#editions-mixed-irregular .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Iowa, United States</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261006" aria-label="Iowa, United States · Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261006" type="video/mp4"></video></article><article><h3>Normandy, France</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261006" aria-label="Normandy, France · Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261006" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Iowa, United States</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261006-data" aria-label="Iowa, United States · Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Normandy, France</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261006-data" aria-label="Normandy, France · Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261006-data" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -155,7 +155,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Fields along terrain and narrow strips {#editions-terrain-strips .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Overberg, South Africa</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261006" aria-label="Overberg, South Africa · Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261006" type="video/mp4"></video></article><article><h3>Mazovia, Poland</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261006" aria-label="Mazovia, Poland · Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261006" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Overberg, South Africa</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261006-data" aria-label="Overberg, South Africa · Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Mazovia, Poland</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261006-data" aria-label="Mazovia, Poland · Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261006-data" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -170,7 +170,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## New field blocks {#change-new-fields .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Matopiba, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/matopiba-change-poster.jpg?v=20261003b" aria-label="Matopiba, Brazil · New rectangular field blocks"><source src="assets/media/matopiba-change.mp4?v=20261003b" type="video/mp4"></video></article><article><h3>Masindi, Uganda</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/masindi-change-poster.jpg?v=20261003b" aria-label="Masindi, Uganda · New gridded fields"><source src="assets/media/masindi-change.mp4?v=20261003b" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Matopiba, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/matopiba-change-poster.jpg?v=20261006-data" aria-label="Matopiba, Brazil · New rectangular field blocks"><source src="assets/media/matopiba-change.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Masindi, Uganda</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/masindi-change-poster.jpg?v=20261006-data" aria-label="Masindi, Uganda · New gridded fields"><source src="assets/media/masindi-change.mp4?v=20261006-data" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -186,7 +186,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Expansion of irrigated fields {#change-irrigation .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Ili Valley, China</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/ili-change-poster.jpg?v=20261003b" aria-label="Ili Valley, China · New fields across the valley floor"><source src="assets/media/ili-change.mp4?v=20261003b" type="video/mp4"></video></article><article><h3>Kura lowland, Azerbaijan</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/kura-change-poster.jpg?v=20261003b" aria-label="Kura lowland, Azerbaijan · New irrigated field patterns"><source src="assets/media/kura-change.mp4?v=20261003b" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Ili Valley, China</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/ili-change-poster.jpg?v=20261006-data" aria-label="Ili Valley, China · New fields across the valley floor"><source src="assets/media/ili-change.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Kura lowland, Azerbaijan</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/kura-change-poster.jpg?v=20261006-data" aria-label="Kura lowland, Azerbaijan · New irrigated field patterns"><source src="assets/media/kura-change.mp4?v=20261006-data" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -201,7 +201,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Changes in field layout and crop activity {#change-layout-activity .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>West Bahia, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/bahia-layout-change-poster.jpg?v=20261003b" aria-label="West Bahia, Brazil · Rectangular fields replaced by center pivots"><source src="assets/media/bahia-layout-change.mp4?v=20261003b" type="video/mp4"></video></article><article><h3>Al-Jawf, Saudi Arabia</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/al-jawf-change-poster.jpg?v=20261003b" aria-label="Al-Jawf, Saudi Arabia · Fewer green center pivots in 2025"><source src="assets/media/al-jawf-change.mp4?v=20261003b" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>West Bahia, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/bahia-layout-change-poster.jpg?v=20261006-data" aria-label="West Bahia, Brazil · Rectangular fields replaced by center pivots"><source src="assets/media/bahia-layout-change.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Al-Jawf, Saudi Arabia</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/al-jawf-change-poster.jpg?v=20261006-data" aria-label="Al-Jawf, Saudi Arabia · Fewer green center pivots in 2025"><source src="assets/media/al-jawf-change.mp4?v=20261006-data" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -239,9 +239,9 @@ Sources checked 5 October 2026: https://research.taylorgeospatial.org/coarsen/ ;
 ## COG, GeoParquet, and PMTiles {#formats .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="format-maps"><div><p><strong>COG</strong>Field and boundary probabilities</p><img src="assets/stills/france-field-2025.jpg?v=20261003" alt="COG field probabilities"></div><div><p><strong>PMTiles</strong>Regional summaries and field polygons</p><img src="assets/stills/pmtiles-overview.jpg?v=20261003" alt="PMTiles regional coverage map"></div></div>
+<div class="format-maps"><div><p><strong>COG</strong>Field and boundary probabilities</p><img src="assets/stills/france-field-2025.jpg?v=20261006-data" alt="COG field probabilities"></div><div><p><strong>PMTiles</strong>Regional summaries and field polygons</p><img src="assets/stills/pmtiles-overview.jpg?v=20261006-data" alt="PMTiles regional coverage map"></div></div>
 <p class="format-table-label"><strong>GeoParquet</strong> · Geometry and per-field attributes</p>
-<img class="format-table" src="assets/stills/geoparquet-table.jpg?v=20261003" alt="Actual GeoParquet table preview showing identifiers, geometry, bounding boxes, metrics, and scores">
+<img class="format-table" src="assets/stills/geoparquet-table.jpg?v=20261006-data" alt="Actual GeoParquet table preview showing identifiers, geometry, bounding boxes, metrics, and scores">
 ```
 
 ::: {.notes}
@@ -373,33 +373,6 @@ The slide omits numerical audit results from the older preprint while revisions 
 Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/ ; https://arxiv.org/abs/2605.12678.
 :::
 
-## Projects, data, and code {#project-links .tg-light data-autoslide="15000"}
-
-```{=html}
-<div class="project-qr-grid">
-<a href="https://research.taylorgeospatial.org/global-ftw-2e/"><img src="assets/qr/ftw.png" alt="QR code for Global FTW · 2nd edition"><span>Global FTW · 2nd edition</span></a>
-<a href="https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics"><img src="assets/qr/mosaics.png" alt="QR code for Sentinel-2 mosaics"><span>Sentinel-2 mosaics</span></a>
-<a href="https://github.com/fieldsoftheworld/ftw-global-data-catalog"><img src="assets/qr/pipeline.png" alt="QR code for FTW pipeline + catalog"><span>FTW pipeline + catalog</span></a>
-<a href="https://research.taylorgeospatial.org/mind/"><img src="assets/qr/mind.png" alt="QR code for MIND the Gap"><span>MIND the Gap</span></a>
-<a href="https://arxiv.org/abs/2609.37784"><img src="assets/qr/pffs.png" alt="QR code for Planetary Feature Fields"><span>Planetary Feature Fields</span></a>
-<a href="https://taylorgeospatial.org/innovation-program/features-of-the-world/"><img src="assets/qr/features.png" alt="QR code for Features of The World"><span>Features of The World</span></a>
-<a href="https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/"><img src="assets/qr/benchmarks.png" alt="QR code for Benchmarks of The World"><span>Benchmarks of The World</span></a>
-<a href="https://arxiv.org/abs/2605.12678"><img src="assets/qr/evaluation.png" alt="QR code for NeurIPS position paper"><span>NeurIPS position paper</span></a>
-</div>
-<p class="pipeline-scope"><strong>Open-sourcing the FTW workflow</strong><br>Inputs &amp; preprocessing → training → inference on AWS / HPC → postprocessing → files &amp; catalog<br><a class="tools-return" href="?autoSlide=0#/processing-tools">coarsen · contourrs · fbp — tool links</a></p>
-```
-
-::: {.notes}
-About 15 seconds.
-The QR codes link to the projects.
-We are open-sourcing the full FTW workflow, including input processing, preprocessing, model training, and inference.
-The code covers efficient execution on AWS or HPC clusters, polygon postprocessing, and file organization and formatting.
-The pipeline QR points to fieldsoftheworld/ftw-global-data-catalog.
-Training tools are in the companion ftw-baselines repository.
-The closing QR opens these links in manual mode for access after the talk.
-Code: https://github.com/fieldsoftheworld/ftw-global-data-catalog and https://github.com/fieldsoftheworld/ftw-baselines.
-:::
-
 ## Built with open-source software {#open-source .tg-light data-autoslide="15000"}
 
 ```{=html}
@@ -432,6 +405,33 @@ Official logo sources are recorded alongside it.
 The coverage simplifier used for this release later became the standalone coarsen package.
 These acknowledgements credit software contributors and do not imply partner endorsement.
 Reference: taylor-geospatial/global-ftw-2e (https://github.com/taylor-geospatial/global-ftw-2e) · Selected tools from the pipeline and viewer
+:::
+
+## Projects, data, and code {#project-links .tg-light data-autoslide="15000"}
+
+```{=html}
+<div class="project-qr-grid">
+<a href="https://research.taylorgeospatial.org/global-ftw-2e/"><img src="assets/qr/ftw.png" alt="QR code for Global FTW · 2nd edition"><span>Global FTW · 2nd edition</span></a>
+<a href="https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics"><img src="assets/qr/mosaics.png" alt="QR code for Sentinel-2 mosaics"><span>Sentinel-2 mosaics</span></a>
+<a href="https://github.com/fieldsoftheworld/ftw-global-data-catalog"><img src="assets/qr/pipeline.png" alt="QR code for FTW pipeline + catalog"><span>FTW pipeline + catalog</span></a>
+<a href="https://research.taylorgeospatial.org/mind/"><img src="assets/qr/mind.png" alt="QR code for MIND the Gap"><span>MIND the Gap</span></a>
+<a href="https://arxiv.org/abs/2609.37784"><img src="assets/qr/pffs.png" alt="QR code for Planetary Feature Fields"><span>Planetary Feature Fields</span></a>
+<a href="https://taylorgeospatial.org/innovation-program/features-of-the-world/"><img src="assets/qr/features.png" alt="QR code for Features of The World"><span>Features of The World</span></a>
+<a href="https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/"><img src="assets/qr/benchmarks.png" alt="QR code for Benchmarks of The World"><span>Benchmarks of The World</span></a>
+<a href="https://arxiv.org/abs/2605.12678"><img src="assets/qr/evaluation.png" alt="QR code for NeurIPS position paper"><span>NeurIPS position paper</span></a>
+</div>
+<p class="pipeline-scope"><strong>Open-sourcing the FTW workflow</strong><br>Inputs &amp; preprocessing → training → inference on AWS / HPC → postprocessing → files &amp; catalog<br><a class="tools-return" href="?autoSlide=0#/processing-tools">coarsen · contourrs · fbp — tool links</a></p>
+```
+
+::: {.notes}
+About 15 seconds.
+The QR codes link to the projects.
+We are open-sourcing the full FTW workflow, including input processing, preprocessing, model training, and inference.
+The code covers efficient execution on AWS or HPC clusters, polygon postprocessing, and file organization and formatting.
+The pipeline QR points to fieldsoftheworld/ftw-global-data-catalog.
+Training tools are in the companion ftw-baselines repository.
+The closing QR opens these links in manual mode for access after the talk.
+Code: https://github.com/fieldsoftheworld/ftw-global-data-catalog and https://github.com/fieldsoftheworld/ftw-baselines.
 :::
 
 ## Data and research {#end .tg-dark data-autoslide="15000"}

@@ -1,0 +1,117 @@
+{
+  "checked": "2026-10-06",
+  "objects": [
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2024/fields-2024.pmtiles",
+      "content-type": "application/vnd.pmtiles",
+      "content-length": "28778245676",
+      "etag": "\"910d1b0f8387d3616a7dcdf56ad668ae-1716\"",
+      "last-modified": "Tue, 06 Oct 2026 03:13:14 GMT",
+      "x-amz-version-id": "i0gYmIviMSvX1TyxcIwYv3VybxAGZTr6"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/fields-2025.pmtiles",
+      "content-type": "application/vnd.pmtiles",
+      "content-length": "30797883366",
+      "etag": "\"551cff02c0cf1462f1764009d43691b0-1836\"",
+      "last-modified": "Mon, 05 Oct 2026 21:09:19 GMT",
+      "x-amz-version-id": "dIoh_MfDnmEqx8raLfDD7HF5BRGOk_Jk"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2018/zone=23/utm23.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "1051823859",
+      "etag": "\"c0b46db6a36bf318ae4940511818491e-126\"",
+      "last-modified": "Tue, 06 Oct 2026 18:20:21 GMT",
+      "x-amz-version-id": "uThxEd3qVyaIgw5OTWUny6n5RqXw3WII"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2018/zone=36/utm36.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "3476276630",
+      "etag": "\"1c2580a29acd2d8fbdbc638ce4aa2964-415\"",
+      "last-modified": "Tue, 06 Oct 2026 18:26:38 GMT",
+      "x-amz-version-id": "VWwm1n_naH22I.zDCJ.vMapF8UsdZJA5"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2018/zone=44/utm44.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "703515358",
+      "etag": "\"ac9ab40a15595c620ab6a0eca9581be5-84\"",
+      "last-modified": "Tue, 06 Oct 2026 18:29:48 GMT",
+      "x-amz-version-id": "eFwK.Wi1K8g3AILv6QB0c8StEV0ZeZe_"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2018/zone=39/utm39.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "1454233231",
+      "etag": "\"2b760978f891d8c0461067cb88518366-174\"",
+      "last-modified": "Tue, 06 Oct 2026 18:27:42 GMT",
+      "x-amz-version-id": "0SMN2qtxm5KnChGo.xto4tBilVWjTAoP"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2018/zone=37/utm37.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "2245495141",
+      "etag": "\"d47588d2d8d19b4a72be72518c34785f-268\"",
+      "last-modified": "Tue, 06 Oct 2026 18:27:04 GMT",
+      "x-amz-version-id": "l0K0B7_K3chATfjqcSb3YPYZR544NXcH"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/zone=23/utm23.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "1098237907",
+      "etag": "\"5d9634bd023c3b1ef772116dedefaee0-131\"",
+      "last-modified": "Mon, 05 Oct 2026 17:47:28 GMT",
+      "x-amz-version-id": "hBzIoPyqBXPt9KfClv2Vigk9qHzCBwB_"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/zone=36/utm36.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "3850213600",
+      "etag": "\"89975d12ebf7989fd1846ee0e360a76f-459\"",
+      "last-modified": "Mon, 05 Oct 2026 17:31:33 GMT",
+      "x-amz-version-id": ".CF0va4YKQPnJIojGMgBH1.KeTO9p7Qk"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/zone=44/utm44.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "959225980",
+      "etag": "\"1f9a1619b72c9acdc8ac0b4146902443-115\"",
+      "last-modified": "Mon, 05 Oct 2026 17:33:27 GMT",
+      "x-amz-version-id": "ISZhsGjudYHd5sSi1qqsnzCd9mu3ut35"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/zone=39/utm39.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "1365376889",
+      "etag": "\"97025d56331bf13727f77cd2aef339c7-163\"",
+      "last-modified": "Mon, 05 Oct 2026 17:42:34 GMT",
+      "x-amz-version-id": "8p9nk6q2QL__fDydA9azfTMIdIh9e9lC"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/zone=37/utm37.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "2314695257",
+      "etag": "\"ac5a86918526e94ac72253a83c128657-276\"",
+      "last-modified": "Mon, 05 Oct 2026 17:42:07 GMT",
+      "x-amz-version-id": "fFuFUXCbD0Y4MoZuWujIZzGk2Dew3DYT"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/vector/2025/zone=15/utm15.parquet",
+      "content-type": "binary/octet-stream",
+      "content-length": "2263225915",
+      "etag": "\"8dad0fc887699d09a738b3df43b4023f-270\"",
+      "last-modified": "Mon, 05 Oct 2026 17:57:14 GMT",
+      "x-amz-version-id": "nSo3d.Ma1lLRrhfZeOnuL6rVak64XY.P"
+    },
+    {
+      "url": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=30/gzd=30U/30UXV_0_0/30UXV_0_0.tif",
+      "content-type": "image/tiff",
+      "content-length": "793238398",
+      "etag": "\"4e126b676b388dccf36bb0ed20193707-95\"",
+      "last-modified": "Mon, 05 Oct 2026 08:37:54 GMT",
+      "x-amz-version-id": "Bw.lSFcW8kyViqDh9cTyQsZgxX5ExEvK"
+    }
+  ]
+}

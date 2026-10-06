@@ -1,6 +1,6 @@
 {
-  "captured": "2026-10-03",
-  "viewer": "https://research.taylorgeospatial.org/global-ftw-2e/web/",
+  "captured": "2026-10-06",
+  "viewer": "https://research.taylorgeospatial.org/global-ftw-2e/",
   "preview_data": "https://data.source.coop/ftw/global-data-2e",
   "clips": [
     {
@@ -237,7 +237,7 @@
       "viewer_example": "LN06"
     }
   ],
-  "media_version": "20261006",
+  "media_version": "20261006-data",
   "viewer_repository": "taylor-geospatial/global-ftw-2e",
   "duration_seconds": 10,
   "wipe_seconds": 1.2

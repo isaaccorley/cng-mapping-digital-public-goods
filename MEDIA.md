@@ -1,11 +1,10 @@
 # Media sources and capture notes
 
-The main deck contains 13 clips, all captured from real FTW data and satellite
-imagery. Six edition comparisons and the Normandy probability/polygon example
-use the refreshed 3 October stills. Six new change comparisons use the current
-viewer’s curated examples. No satellite pixels or field geometries are generated.
-Edition labels were updated on 6 October to “Global FTW 1st edition” and
-“2nd edition.” The source imagery, boundaries, and wipe timing are unchanged.
+The main deck contains 13 clips captured from real FTW data and satellite
+imagery. All map stills, probability masks, annual outlines, videos, and posters
+were refreshed on 6 October 2026 from the corrected exports, using the same
+locations, years, quarters, and cameras. No satellite pixels or field geometries
+are generated. Edition labels and wipe timing are unchanged.
 
 ## Current comparisons
 
@@ -47,7 +46,7 @@ reflectance × 10,000). Each year uses its own Sentinel-2 quarterly mosaic and
 annual outlines. Undated basemap fallback is disabled. The edition comparisons
 use the same background image on both sides.
 
-PMTiles uses TG periwinkle (`#80a0d8`), 1.4 CSS-pixel strokes, and 7% fill on
+PMTiles uses TG periwinkle (`#80a0d8`), 0.7 CSS-pixel strokes in the current MapLibre viewer, and 7% fill on
 both sides. GeoParquet outlines retain the viewer’s 1.6-pixel strokes with the
 same periwinkle and 7% fill. Geometry, scores, and selection thresholds are
 unchanged. Field probability uses the viewer threshold of 128/255, about 0.5,
@@ -60,7 +59,7 @@ examples are not a global accuracy or completeness assessment.
 
 ## Sources and screenshots
 
-- Viewer: https://research.taylorgeospatial.org/global-ftw-2e/web/
+- Viewer: https://research.taylorgeospatial.org/global-ftw-2e/
 - Source repository: https://github.com/taylor-geospatial/global-ftw-2e
 - Data product: https://source.coop/ftw/global-data-2e
 - Annual PMTiles: `https://data.source.coop/ftw/global-data-2e/vector/{year}/fields-{year}.pmtiles`
@@ -74,14 +73,20 @@ examples are not a global accuracy or completeness assessment.
 FTW predictions are CC BY 4.0. Imagery credits are Sentinel-2 / Copernicus / CDSE,
 hosted by Taylor Geospatial on Source Cooperative. The figures reflect the
 updated PMTiles and GeoParquet exports with small holes filled. Object metadata
-for the refreshed exports is in `assets/provenance/data-headers-2026-10-03.json`.
+for the refreshed exports is in `assets/provenance/data-headers-2026-10-06.json`.
 
-The format and distribution slides retain the verified screenshots:
+The GeoParquet table and PMTiles overview were also refreshed on 6 October.
+The distribution screenshots are unchanged:
 `source-catalog.jpg` shows the 2e catalog; `geoparquet-table.jpg` is the portal’s
 actual 2025 UTM 15 table preview; `pmtiles-overview.jpg` uses published coverage
 values with unchanged breaks at 0, 2, 10, 25, 50, and 75 percent.
 `portolan-registry.jpg` shows the existing Global FTW catalog at
 https://www.portolan-sdi.org/registry, not confirmed registration of the 2e product.
+
+Capture cameras and PNG hashes are recorded in
+`assets/provenance/captures-2026-10-06.json`; deployed viewer module hashes are
+in `assets/provenance/viewer-source-sha256-2026-10-06.json`. The capture adapter
+now uses MapLibre loading events and waits for the selected layers to finish.
 
 ## Rebuild
 
