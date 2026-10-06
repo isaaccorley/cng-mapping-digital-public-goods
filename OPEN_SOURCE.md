@@ -52,3 +52,16 @@ Additional usage references: [PyTorch](https://pytorch.org/brand-guidelines/),
 [GeoPandas](https://docs.geopandas.org/en/latest/about/logo.html),
 [DuckDB](https://duckdb.org/design/), and
 [Apache Arrow](https://arrow.apache.org/visual_identity/).
+
+## Logo collage refresh, 6 October 2026
+
+The credits slide is one ungrouped collage of available official logos, with
+project links on each logo. The current viewer uses MapLibre 6.12.0, verified
+in the deployed `web/vendor/package.json`; OpenLayers credits the earlier viewer.
+Tools without an official logo remain acknowledged in speaker notes.
+
+| Project | Official source | Local file |
+|---|---|---|
+| GEOS | [Project asset](https://github.com/libgeos/geos/blob/main/web/static/geos-logo/geos-lg-black.png) | `assets/logos/geos.png` |
+| PROJ | [Project asset](https://github.com/OSGeo/PROJ/blob/master/media/logo.svg) | `assets/logos/proj.svg` |
+| MapLibre | [Project asset](https://github.com/maplibre/maplibre.github.io/blob/main/public/img/maplibre-logos/maplibre-logo-for-light-bg.svg) | `assets/logos/maplibre.svg` |

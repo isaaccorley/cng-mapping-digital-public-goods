@@ -363,12 +363,15 @@ Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ 
 ## Evaluating geospatial foundation models {#state-of-the-art .tg-light data-autoslide="15000"}
 
 ```{=html}
+<div class="paper-layout">
+<a class="paper-page" href="https://arxiv.org/pdf/2605.12678v3"><img src="assets/research/state-of-the-art-page1.png" alt="First page of No One Knows the State of the Art in Geospatial Foundation Models, arXiv version 3"></a>
 <div class="paper paper-standalone">
 <p class="acceptance">Accepted at NeurIPS 2026</p>
-<h3>No One Knows the State of the Art<br>in Geospatial Foundation Models</h3>
+<h3>No One Knows the State of the Art in Geospatial Foundation Models</h3>
 <p>Papers use different evaluation code and methods, so reported rankings are hard to compare.</p>
 <p>Performance varies across tasks, sensors, and regions. Strong results on a few benchmarks do not establish generalist capabilities.</p>
 <p>We propose shared evaluation code and comparable tests.</p>
+</div>
 </div>
 ```
 
@@ -380,7 +383,8 @@ Model performance varies across tasks, sensors, and regions.
 Strong results on a few benchmarks do not establish that a model generalizes across those settings.
 We propose shared evaluation code and comparable tests to help people choose models.
 The paper calls for coordinating evaluation across the community, including our own group.
-The slide omits numerical audit results from the older preprint while revisions are in progress.
+The screenshot is the first page of arXiv version 3 (10 September 2026).
+The spoken summary omits numerical audit results while revisions are in progress.
 Source: https://arxiv.org/abs/2605.12678.
 :::
 
@@ -388,22 +392,21 @@ Source: https://arxiv.org/abs/2605.12678.
 
 ```{=html}
 <p class="credits-intro">Thank you to the maintainers and contributors of these tools.</p>
-<div class="open-source-columns">
-<article><h3>Training and inference</h3>
+<div class="oss-logo-cloud">
 <a href="https://pytorch.org/"><img src="assets/logos/pytorch.svg" alt="PyTorch"></a>
-<a href="https://github.com/microsoft/torchgeo"><img src="assets/logos/torchgeo.svg" alt="TorchGeo"></a>
-<a href="https://onnxruntime.ai/"><img src="assets/logos/onnxruntime.png" alt="ONNX Runtime"></a>
-<p>Training, data loading,<br>and model execution</p></article>
-<article><h3>Geospatial processing</h3>
 <a href="https://gdal.org/"><img src="assets/logos/gdal.svg" alt="GDAL"></a>
-<a href="https://geopandas.org/"><img src="assets/logos/geopandas.svg" alt="GeoPandas"></a>
-<a href="https://numpy.org/"><img src="assets/logos/numpy.svg" alt="NumPy"></a>
-<p>Rasterio · Shapely · GEOS · PROJ<br>BoundaryVote / fbp</p></article>
-<article><h3>Data and browser tools</h3>
 <a href="https://duckdb.org/"><img src="assets/logos/duckdb.svg" alt="DuckDB"></a>
+<a href="https://github.com/microsoft/torchgeo"><img src="assets/logos/torchgeo.svg" alt="TorchGeo"></a>
+<a href="https://geopandas.org/"><img src="assets/logos/geopandas.svg" alt="GeoPandas"></a>
+<a href="https://maplibre.org/"><img src="assets/logos/maplibre.svg" alt="MapLibre"></a>
+<a href="https://numpy.org/"><img src="assets/logos/numpy.svg" alt="NumPy"></a>
 <a href="https://arrow.apache.org/"><img src="assets/logos/arrow.svg" alt="Apache Arrow"></a>
-<a class="openlayers-logo" href="https://openlayers.org/"><img src="assets/logos/openlayers.svg" alt="">OpenLayers</a>
-<p>hyparquet · proj4js · rustac<br>PMTiles · tylertoo</p></article>
+<a href="https://onnxruntime.ai/"><img src="assets/logos/onnxruntime.png" alt="ONNX Runtime"></a>
+<a href="https://proj.org/"><img src="assets/logos/proj.svg" alt="PROJ"></a>
+<a href="https://research.taylorgeospatial.org/coarsen/"><img src="assets/logos/coarsen.png" alt="coarsen"></a>
+<a href="https://libgeos.org/"><img src="assets/logos/geos.png" alt="GEOS"></a>
+<a href="https://openlayers.org/"><img src="assets/logos/openlayers.svg" alt="OpenLayers"></a>
+<a href="https://research.taylorgeospatial.org/contourrs/"><img src="assets/logos/contourrs.png" alt="contourrs"></a>
 </div>
 ```
 
@@ -412,7 +415,9 @@ About 15 seconds.
 Our products and research use these open-source tools for training, geospatial processing, and browser data access.
 Thank you to their maintainers and contributors.
 The dependency and import audit is pinned to upstream cbda0b122f12509624d29f9a4ae04dae27485661 in assets/provenance/open-source-tools.json.
-Official logo sources are recorded alongside it.
+Official logo sources are recorded in OPEN_SOURCE.md.
+MapLibre is now used by the live viewer; OpenLayers supported the earlier viewer.
+Additional dependencies include Rasterio, Shapely, fbp, hyparquet, proj4js, rustac, PMTiles, and tylertoo.
 The coverage simplifier used for this release later became the standalone coarsen package.
 These acknowledgements credit software contributors and do not imply partner endorsement.
 Reference: taylor-geospatial/global-ftw-2e (https://github.com/taylor-geospatial/global-ftw-2e) · Selected tools from the pipeline and viewer

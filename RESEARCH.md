@@ -102,3 +102,11 @@ the catalog repository is the main entry point linked from the slide.
 
 `assets/project-links.json` records the QR destinations; `scripts/build_qr_codes.py`
 generates them with a standard quiet zone and medium error correction.
+
+## Position-paper first page
+
+The dedicated NeurIPS paper slide shows the complete first page of
+[arXiv:2605.12678v3](https://arxiv.org/pdf/2605.12678v3), dated 10 September 2026.
+`assets/research/state-of-the-art-page1.png` was rendered directly from that PDF
+with Poppler at 1800 pixels on the long edge. The image links to the PDF.
+The acceptance label follows the author's conference-status confirmation.

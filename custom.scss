@@ -133,18 +133,6 @@ $presentation-h2-font-size: 1.5em;
 .reveal .comparison-pair h3 { font-size:34px;margin:0 0 22px; }
 .reveal .comparison-pair video { display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#3b1e1c; }
 .reveal .credits-intro { font-size:28px;margin:0 0 35px; }
-.reveal .open-source-columns { display:grid;grid-template-columns:1fr 1fr 1fr;gap:55px; }
-.reveal .open-source-columns article { border-top:2px solid #80a0d8;padding-top:24px; }
-.reveal .open-source-columns h3 { font-size:30px;margin:0 0 14px; }
-.reveal .open-source-columns a { height:120px;display:flex;align-items:center;justify-content:center;text-decoration:none; }
-.reveal .open-source-columns img { width:300px;height:76px;object-fit:contain; }
-.reveal .open-source-columns p { font-size:23px;line-height:1.6;margin-top:22px; }
-.reveal .open-source-columns .openlayers-logo { gap:20px;font-size:34px; }
-.reveal .open-source-columns .openlayers-logo img { width:65px;height:65px; }
-.reveal .open-source-columns img[alt="ONNX Runtime"],
-.reveal .open-source-columns img[alt="Apache Arrow"] { width:340px;height:150px; }
-.reveal .open-source-columns img[alt="GDAL"] { height:100px; }
-
 /* Research clips use the same TG framing as FTW. */
 .reveal .research-detail h2 { margin-bottom:14px; }
 .reveal .research-subtitle { font-size:27px;color:#6c514e;margin:0 0 30px; }
@@ -178,9 +166,17 @@ $presentation-h2-font-size: 1.5em;
 .reveal .processing-tools a { display:block;width:170px; }
 .reveal .processing-tools a img { width:170px;height:170px; }
 
-.reveal .research-projects-wide { display:grid;grid-template-columns:1fr 1fr;gap:90px;margin-top:90px; }
+.reveal .research-projects-wide { display:grid;grid-template-columns:1fr 1fr;gap:90px;min-height:600px;align-items:center; }
+.reveal .research-projects-wide article { margin-bottom:0; }
 .reveal .research-projects-wide h3 { font-size:44px; }
 .reveal .research-projects-wide p { font-size:34px; }
-.reveal .paper-standalone { max-width:1280px;margin-top:35px; }
-.reveal .paper-standalone h3 { font-size:54px;margin-bottom:35px; }
-.reveal .paper-standalone p { font-size:30px;margin-bottom:25px; }
+.reveal .paper-layout { display:grid;grid-template-columns:510px 1fr;gap:65px;align-items:center; }
+.reveal .paper-page img { display:block;width:100%;height:630px;object-fit:contain; }
+.reveal .paper-standalone { margin:0;border:0;padding:0; }
+.reveal .paper-standalone h3 { font-size:43px;margin-bottom:28px; }
+.reveal .paper-standalone p { font-size:28px;margin-bottom:25px; }
+
+.reveal .oss-logo-cloud { display:flex;flex-wrap:wrap;justify-content:center;align-content:center;gap:34px 48px;min-height:640px; }
+.reveal .oss-logo-cloud a { display:flex;align-items:center;justify-content:center;width:260px;height:125px; }
+.reveal .oss-logo-cloud img { max-width:250px;max-height:115px;object-fit:contain; }
+.reveal .oss-logo-cloud img[alt="OpenLayers"],.reveal .oss-logo-cloud img[alt="PROJ"] { max-width:125px; }
