@@ -1,7 +1,7 @@
 # Research slides
 
 The two research slides follow FTW's data-access slides.
-MIND introduces reusable geographic embeddings; PFFs extend the discussion to compact representations of multiple products over space and time.
+MIND introduces reusable geospatial embeddings; PFFs extend the discussion to compact representations of multiple products over space and time.
 The evaluation slide then asks how to compare the resulting models across tasks and regions.
 These papers are separate research projects; the deck does not claim they generated the FTW release.
 

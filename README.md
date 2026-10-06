@@ -11,7 +11,7 @@ The agenda's seven-minute slot should not be used as the speaking duration.
 [Clip gallery](https://isaac.earth/cng-mapping-digital-public-goods/media.html)
 
 The Quarto deck has **20 slides with automatic advance**. The talk moves from
-field mapping and agricultural change to reusable geographic representations
+field mapping and agricultural change to reusable geospatial representations
 and model evaluation. FTW occupies 12 slides, including the quarterly mosaic
 mirror, processing tools, formats, and access.
 MIND the Gap and Planetary Feature Fields each have a dedicated 15-second slide.

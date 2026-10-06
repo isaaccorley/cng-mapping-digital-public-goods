@@ -50,7 +50,7 @@ Every video loops until the slide advances.
 <div class="overview">
 <div><p class="eyebrow">Taylor Geospatial</p><h2>Open Maps, Embeddings<br>and Geospatial AI Research</h2>
 <p class="overview-body">We develop open datasets, models, and tools with research and application partners.</p>
-<ol class="talk-route"><li><strong>Field mapping</strong><span>Global FTW and agricultural change</span></li><li><strong>Geographic embeddings</strong><span>MIND the Gap and Planetary Feature Fields</span></li><li><strong>Model evaluation</strong><span>Comparable tests across tasks and regions</span></li></ol></div>
+<ol class="talk-route"><li><strong>Field mapping</strong><span>Global FTW and agricultural change</span></li><li><strong>Geospatial embeddings</strong><span>MIND the Gap and Planetary Feature Fields</span></li><li><strong>Model evaluation</strong><span>Comparable tests across tasks and regions</span></li></ol></div>
 <div class="overview-map"><img src="assets/stills/netherlands-2e.jpg?v=20261006-data" alt="Global FTW field boundaries in the Netherlands"><p>Predicted field boundaries in Flevoland, Netherlands.<br><span>Global FTW · 2nd edition · 2025</span></p></div>
 </div>
 ```
@@ -60,7 +60,7 @@ About 15 seconds.
 Taylor Geospatial is a nonprofit working with research and application partners on open geospatial AI.
 We develop datasets, models, and tools for mapping and model evaluation.
 Most of this talk covers FTW field maps and agricultural change.
-MIND and PFFs study geographic embeddings, and our position paper examines model evaluation.
+MIND and PFFs study geospatial embeddings, and our position paper examines model evaluation.
 Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 :::
 
@@ -280,22 +280,22 @@ Sources: https://source.coop/ftw/global-data-2e and https://www.portolan-sdi.org
 <p class="research-subtitle">A Geographic Implicit Neural Representation with Adjustable Spatial Scale</p>
 <div class="research-detail-layout mind-layout">
 <div class="research-copy">
-<p>Geographic implicit neural representations (INRs) learn features from coordinates.</p>
+<p>Geospatial implicit neural representations (INRs) learn features from coordinates.</p>
 <p><strong>MIND</strong> produces reusable location embeddings at coarse and fine scales.
 Predictors can choose the spatial detail without retraining the encoder.</p>
 <p class="research-release">Model weights and global Zarr embeddings are available on Source Cooperative.</p>
 </div>
-<figure class="mind-figure"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/mind-embedding-poster.jpg" aria-label="MIND geographic embedding globe cycling from coarse to fine-grained features"><source src="assets/research/mind-embedding.mp4" type="video/mp4"></video></figure>
+<figure class="mind-figure"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/mind-embedding-poster.jpg" aria-label="MIND geospatial embedding globe cycling from coarse to fine-grained features"><source src="assets/research/mind-embedding.mp4" type="video/mp4"></video></figure>
 </div>
 ```
 
 ::: {.notes}
 About 15 seconds.
-Geographic INRs learn features from location coordinates.
+Geospatial INRs learn features from location coordinates.
 An embedding represents a location as numbers that can be reused to predict its properties.
 MIND learns from several existing representations and arranges its embedding into nested chunks.
 Early chunks tend to describe broad geographic variation, while later chunks add finer detail.
-A downstream predictor can select or downweight chunks without retraining the geographic encoder.
+A downstream predictor can select or downweight chunks without retraining the geospatial encoder.
 The globe shows successive 64-dimensional storage chunks, each colored with a separate principal component analysis (PCA).
 The colors represent embeddings, so they do not show land-cover classes or change through time.
 At inference, the model takes coordinates without a new satellite image of the location.
@@ -343,7 +343,7 @@ Reference: Rao et al. (2026) · arXiv:2609.37784 (https://arxiv.org/abs/2609.377
 Figure note: NDVI access demo by Arjun Rao · original 4× animation timing.
 :::
 
-## Evaluating geographic models {#research .tg-light data-autoslide="15000"}
+## Evaluating geospatial models {#research .tg-light data-autoslide="15000"}
 
 ```{=html}
 <div class="research-overview">
