@@ -117,11 +117,11 @@ $presentation-h2-font-size: 1.5em;
 .reveal .format-table-label { font-size:25px;margin:30px 0 14px; }
 .reveal .format-table { width:100%;height:240px;object-fit:cover;object-position:left top; }
 .reveal .format-note { font-size:25px;margin-top:24px; }
-.reveal .distribution { display:grid;grid-template-columns:1.2fr 1fr;gap:80px; }
+.reveal .distribution { display:grid;grid-template-columns:1fr 1fr;gap:55px; }
 .reveal .distribution h3 { font-size:36px;margin-bottom:15px; }
 .reveal .distribution p { font-size:27px; }
-.reveal .distribution .catalog-shot { width:100%;height:410px;object-fit:cover;object-position:top left; }
-.reveal .distribution .registry-shot { width:100%;height:350px;object-fit:contain; }
+.reveal .distribution .catalog-shot { width:100%;height:500px;object-fit:contain;object-position:top left; }
+.reveal .distribution .registry-shot { width:100%;height:500px;object-fit:contain;object-position:top left; }
 .reveal .closing { padding:30px 0; }
 .reveal .closing h2 { font-size:64px;margin:30px 0 20px; }
 .reveal .closing p { font-size:27px; }
@@ -186,5 +186,3 @@ $presentation-h2-font-size: 1.5em;
 
 .reveal .ftw-viewer-qr { position:absolute;right:64px;bottom:64px;display:block; }
 .reveal .ftw-viewer-qr img { display:block;width:300px;height:300px; }
-
-.reveal #france-layers .film { inset:90px 160px;width:1280px;height:720px; }

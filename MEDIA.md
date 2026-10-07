@@ -1,6 +1,6 @@
 # Media sources and capture notes
 
-The main deck contains 13 clips captured from real FTW data and satellite
+The clip library contains 13 clips captured from real FTW data and satellite
 imagery. All map stills, probability masks, annual outlines, videos, and posters
 were refreshed on 6 October 2026 from the corrected exports, using the same
 locations, years, quarters, and cameras. No satellite pixels or field geometries
@@ -76,12 +76,21 @@ updated PMTiles and GeoParquet exports with small holes filled. Object metadata
 for the refreshed exports is in `assets/provenance/data-headers-2026-10-06.json`.
 
 The GeoParquet table and PMTiles overview were also refreshed on 6 October.
-The distribution screenshots are unchanged:
-`source-catalog.jpg` shows the 2e catalog; `geoparquet-table.jpg` is the portal’s
-actual 2025 UTM 15 table preview; `pmtiles-overview.jpg` uses published coverage
-values with unchanged breaks at 0, 2, 10, 25, 50, and 75 percent.
-`portolan-registry.jpg` shows the existing Global FTW catalog at
-https://www.portolan-sdi.org/registry, not confirmed registration of the 2e product.
+The Source Cooperative screenshots were refreshed on 7 October 2026:
+`mosaics-source-coop.png` shows the quarterly mosaic catalog and year folders;
+`source-catalog.jpg` shows the public Global FTW 2nd edition product.
+`portolan-catalog.jpg` shows the 2nd edition catalog with raster and vector trees:
+https://browser.portolan-sdi.org/#/external/data.source.coop/ftw/global-data-2e/catalog.json.
+`geoparquet-table.jpg` is the portal's actual 2025 UTM 15 table preview;
+`pmtiles-overview.jpg` uses published coverage values with unchanged breaks at
+0, 2, 10, 25, 50, and 75 percent.
+
+The main deck uses 12 FTW clips. The probability-to-polygons slide was replaced
+by `ftw-pipeline.png`, copied unchanged from PR #1 at commit
+`1d97ec9698aa0b9c2049a963a40166ef43f29541` (3200 × 1800).
+The figure source is `docs/figures/pipeline-architecture-tg.tex` in
+`taylor-geospatial/global-ftw-2e`. The tools slide remains in the deck.
+The removed probability clip remains available in the gallery.
 
 Capture cameras and PNG hashes are recorded in
 `assets/provenance/captures-2026-10-06.json`; deployed viewer module hashes are

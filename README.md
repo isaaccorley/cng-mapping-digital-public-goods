@@ -61,12 +61,14 @@ full clips to play. Clip timing and media files are unchanged.
 
 **13 silent, 10-second H.264 loops**, 1280 × 720 at 30 fps.
 Individual MP4s and posters are in `assets/media/`; the gallery groups them by
-comparison and provides downloads.
+comparison and provides downloads. The deck uses 12 comparison clips; the
+probability-to-polygons slide was replaced by the pipeline diagram from
+[PR #1](https://github.com/isaaccorley/cng-mapping-digital-public-goods/pull/1).
 
 | Comparison | Clips | Main-deck layout |
 |---|---:|---|
 | Global FTW 1st edition → 2nd edition | 6 | Two countries per slide, three slides |
-| Probability mask → PMTiles | 1 | Normandy, France |
+| Probability mask → PMTiles | 1 | Gallery only |
 | 2018 → 2025 | 6 | Two examples per slide, three slides |
 
 Change examples come from the current viewer’s curated list: Brazil, Uganda,
@@ -104,8 +106,9 @@ This is a sneak peek. Figures were refreshed on 6 October 2026 from the
 [new viewer](https://research.taylorgeospatial.org/global-ftw-2e/) and
 [`ftw/global-data-2e`](https://source.coop/ftw/global-data-2e), including the
 updated PMTiles and GeoParquet exports. All slides and clips use the Taylor
-Geospatial palette. Source Cooperative still marks the product unlisted.
-The Portolan screenshot shows the existing Global FTW catalog.
+Geospatial palette. The Source Cooperative product is public. Both Source Cooperative screenshots
+and the Global FTW 2nd edition Portolan catalog screenshot were refreshed on
+7 October 2026.
 These selected examples are not a global accuracy or completeness assessment.
 
 The GitHub Actions workflow renders, uploads a Pages artifact, and deploys

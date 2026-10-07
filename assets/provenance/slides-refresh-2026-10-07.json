@@ -1,0 +1,29 @@
+{
+  "captured": "2026-10-07",
+  "assets": [
+    {
+      "file": "assets/stills/mosaics-source-coop.png",
+      "source": "https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics",
+      "method": "Full-page browser capture cropped to top 1280 \u00d7 850 pixels.",
+      "sha256": "ca124817045819158d03fae205435e0c26c10505bfeb08b2893e82fdb1d5ec90"
+    },
+    {
+      "file": "assets/stills/source-catalog.jpg",
+      "source": "https://source.coop/ftw/global-data-2e",
+      "method": "Full-page browser capture cropped to top 1280 \u00d7 900 pixels.",
+      "sha256": "34589c95025dccea3087654526c54e45edf469d5e77cccbdaa5a26935f308a6e"
+    },
+    {
+      "file": "assets/stills/portolan-catalog.jpg",
+      "source": "https://browser.portolan-sdi.org/#/external/data.source.coop/ftw/global-data-2e/catalog.json",
+      "method": "Full-page browser capture, 1280 \u00d7 1051 pixels.",
+      "sha256": "b611fc1134b0699cf91cf9f0270d819c4a87351e5b3eeff5448520bbc9e69025"
+    },
+    {
+      "file": "assets/stills/ftw-pipeline.png",
+      "source": "https://github.com/isaaccorley/cng-mapping-digital-public-goods/pull/1",
+      "method": "Unchanged PNG from commit 1d97ec9698aa0b9c2049a963a40166ef43f29541.",
+      "sha256": "1f83b95110406fa8a080277c30dd15bc4d3c6cf0e10ec5bc64a398618defa5f7"
+    }
+  ]
+}

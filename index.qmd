@@ -92,7 +92,7 @@ Reference: Sentinel-2 inputs at 10 m · prediction grid at 2.5 m · selected qua
 ```{=html}
 <div class="product-layout mosaic-layout">
 <div><p class="mosaic-years">2017–2026</p><p>We rehosted the Copernicus quarterly mosaics on Source Cooperative.</p><p><strong>10 m · RGB+NIR</strong><br>COGs include overviews for streaming regions and zoom levels over HTTPS.</p><p class="coverage-detail">2026 · Q1/Q2</p></div>
-<figure><img src="assets/stills/mosaics-source-coop.png" alt="Source Cooperative catalog listing Sentinel-2 quarterly mosaic folders from 2017 through 2026"></figure>
+<figure><a href="https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics"><img src="assets/stills/mosaics-source-coop.png?v=20261007" alt="Source Cooperative catalog listing Sentinel-2 quarterly mosaic folders from 2017 through 2026"></a></figure>
 </div>
 ```
 
@@ -109,20 +109,19 @@ Reference: source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics (https://
 Figure note: Public file access without a CDSE account.
 :::
 
-## France · probability masks and polygons {#france-layers .full .tg-dark data-autoslide="15000"}
+## Global FTW pipeline {#ftw-pipeline .full data-autoslide="15000"}
 
 ```{=html}
-<div class="film"><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-layers-poster.jpg?v=20261006-data" aria-label="Normandy, France: Irregular fields and hedgerows · 2025"><source src="assets/media/france-layers.mp4?v=20261006-data" type="video/mp4"></video></div>
+<div class="image-slide"><img src="assets/stills/ftw-pipeline.png" alt="Global FTW pipeline from imagery preparation and model inference through field-boundary postprocessing, spatial reconciliation, and publication"></div>
 ```
 
 ::: {.notes}
 About 15 seconds.
-The COG stores field probabilities, and the PMTiles archive stores the extracted polygons.
-The raster retains low-confidence regions and soft transitions, while extraction produces individual geometries.
-The displayed field ramp starts at 128/255, approximately 0.5.
-Camera: 48.88, -1.05; zoom 14; Q3.
-The following examples compare polygons across field sizes and shapes.
-Source and capture details: MEDIA.md and assets/scenes.json.
+The pipeline starts with quarterly mosaics and produces probability COGs, field polygons, and cloud-optimized catalogs.
+BoundaryVote extracts polygons, followed by spatial reconciliation and publication as GeoParquet and PMTiles.
+The diagram shows imagery preparation, inference, postprocessing, and publication using a real 2025 tile.
+Figure from PR #1, commit 1d97ec9698aa0b9c2049a963a40166ef43f29541.
+Source: docs/figures/pipeline-architecture-tg.tex in taylor-geospatial/global-ftw-2e.
 :::
 
 ## Global FTW 1st edition → 2nd edition {#editions-large-dense .paired .tg-light data-autoslide="15000"}
@@ -259,8 +258,8 @@ Source: preview catalog metadata.
 
 ```{=html}
 <div class="distribution">
-<div><h3>Source Cooperative</h3><img class="catalog-shot" src="assets/stills/source-catalog.jpg?v=20261003" alt="Source Cooperative FTW catalog"></div>
-<div><h3>Portolan</h3><img class="registry-shot" src="assets/stills/portolan-registry.jpg?v=20261003" alt="Global FTW catalog in the Portolan registry"><p class="small">Thank you to the Portolan community.</p></div>
+<div><h3>Source Cooperative</h3><a href="https://source.coop/ftw/global-data-2e"><img class="catalog-shot" src="assets/stills/source-catalog.jpg?v=20261007" alt="Source Cooperative FTW catalog"></a></div>
+<div><h3>Portolan</h3><a href="https://browser.portolan-sdi.org/#/external/data.source.coop/ftw/global-data-2e/catalog.json"><img class="registry-shot" src="assets/stills/portolan-catalog.jpg?v=20261007" alt="Global FTW 2nd edition catalog in Portolan Browser"></a><p class="small">Thank you to the Portolan community.</p></div>
 </div>
 ```
 
@@ -272,7 +271,7 @@ The current second-edition catalog is linked from https://github.com/fieldsofthe
 The viewer now reads the second-edition product at ftw/global-data-2e.
 FTW maps fields.
 MIND and PFFs study representations that can be reused across products and tasks.
-Sources: https://source.coop/ftw/global-data-2e and https://www.portolan-sdi.org/blog/introducing-portolan.
+Sources: https://source.coop/ftw/global-data-2e and https://browser.portolan-sdi.org/#/external/data.source.coop/ftw/global-data-2e/catalog.json.
 :::
 
 ## MIND the Gap {#mind .tg-light .research-detail data-autoslide="15000"}
