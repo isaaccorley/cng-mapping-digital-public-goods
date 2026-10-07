@@ -81,8 +81,8 @@ resumes after returning to the tab. Native controls provide a manual fallback
 if the browser blocks autoplay. The open-source credits slide is followed by the final project-links slide.
 
 The mosaic slide links the [quarterly Sentinel-2 mirror](https://source.coop/tge-labs/sentinel-2-quarterly-cloudless-mosaics)
-and highlights COG overviews and HTTP streaming. The processing-tools slide links
-coarsen, contourrs, and fbp. The final slide links to the
+and highlights COG overviews and HTTP streaming. The processing slide is the pipeline diagram only
+(`assets/stills/ftw-pipeline.png`, from `global-ftw-2e`'s `pipeline-architecture-tg.tex`). The final slide links to the
 [FTW pipeline and catalog](https://github.com/fieldsoftheworld/ftw-global-data-catalog),
 alongside the datasets and research projects. Training code is in the companion
 [ftw-baselines repository](https://github.com/fieldsoftheworld/ftw-baselines).

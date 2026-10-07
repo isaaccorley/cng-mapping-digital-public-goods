@@ -215,26 +215,17 @@ Source cameras, dates, and rendering details: MEDIA.md and assets/scenes.json.
 Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Selected qualitative examples
 :::
 
-## Tools for large datasets {#processing-tools .tg-light data-autoslide="15000"}
+## FTW processing pipeline {#processing-tools .full .tg-light data-autoslide="15000"}
 
 ```{=html}
-<p class="tools-intro">Converting rasters to polygons, simplifying geometry, and extracting fields slowed processing at global scale.</p>
-<div class="processing-tools">
-<article><h3 class="tool-brand"><img src="assets/logos/coarsen.png" alt="coarsen"></h3><p class="tool-language">Rust core · Python / Shapely</p><p>coarsen reduces vertices while keeping shared field boundaries aligned.</p><a href="https://research.taylorgeospatial.org/coarsen/"><img src="assets/qr/coarsen.png" alt="QR code for coarsen"></a></article>
-<article><h3 class="tool-brand"><img src="assets/logos/contourrs.png" alt="contourrs"></h3><p class="tool-language">Rust core · Python / Arrow</p><p>contourrs converts raster regions and contour bands to polygons, with direct Arrow output.</p><a href="https://research.taylorgeospatial.org/contourrs/"><img src="assets/qr/contourrs.png" alt="QR code for contourrs"></a></article>
-<article><h3 class="tool-brand">fbp</h3><p class="tool-language">Field boundary postprocessing</p><p>fbp extracts individual fields from semantic predictions and processes large rasters in windows.</p><a href="https://github.com/fieldsoftheworld/fbp"><img src="assets/qr/fbp.png" alt="QR code for fbp"></a></article>
-</div>
+<div class="image-slide"><img src="assets/stills/ftw-pipeline.png?v=20261006e" alt="Global FTW 2nd edition pipeline: imagery preparation, inference, BoundaryVote, spatial reconciliation and publication, with a real 2025 tile at each step"></div>
 ```
 
 ::: {.notes}
 About 15 seconds.
-Some processing stages were too slow at this scale, so we built reusable tools.
-Coarsen simplifies geometry in Rust while preserving shared boundaries.
-Contourrs converts rasters and contours to polygons with Arrow output.
-Fbp implements field-instance postprocessing algorithms, including BoundaryVote, through a common interface and processes large rasters in windows.
-We developed these tools during the project, but the current standalone versions were not necessarily used to produce the earlier release.
-The documentation gives benchmark conditions and limitations because speedups depend on the workload.
-Sources checked 5 October 2026: https://research.taylorgeospatial.org/coarsen/ ; https://research.taylorgeospatial.org/contourrs/ ; https://github.com/fieldsoftheworld/fbp.
+Diagram only. Five phases: imagery preparation, inference, BoundaryVote, spatial reconciliation, publication.
+Each panel is a real 2025 tile at that step.
+Slow stages became the open-source tools coarsen, contourrs and fbp.
 :::
 
 ## COG, GeoParquet, and PMTiles {#formats .tg-light data-autoslide="15000"}

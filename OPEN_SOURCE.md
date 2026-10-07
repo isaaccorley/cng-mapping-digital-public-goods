@@ -45,8 +45,8 @@ name. Logo attribution does not imply sponsorship or endorsement.
 | coarsen | [Project asset](https://github.com/taylor-geospatial/coarsen/blob/main/docs/assets/logo.png) | `assets/logos/coarsen.png` |
 | contourrs | [Project asset](https://github.com/taylor-geospatial/contourrs/blob/main/assets/logo.png) | `assets/logos/contourrs.png` |
 
-The processing-tools slide uses the coarsen and contourrs logos. The fbp
-repository had no logo on 6 October 2026, so that tool retains its name.
+The coarsen and contourrs logos were used on the processing-tools slide, which is now the pipeline
+diagram. The fbp repository had no logo on 6 October 2026.
 
 Additional usage references: [PyTorch](https://pytorch.org/brand-guidelines/),
 [GeoPandas](https://docs.geopandas.org/en/latest/about/logo.html),
