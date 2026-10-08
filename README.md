@@ -12,13 +12,12 @@ The agenda's seven-minute slot should not be used as the speaking duration.
 
 The Quarto deck has **20 slides with automatic advance**. The talk moves from
 field mapping and agricultural change to reusable geospatial representations
-and model evaluation. FTW occupies 12 slides, including the quarterly mosaic
+and model evaluation. FTW occupies 13 slides, including the quarterly mosaic
 mirror, processing tools, formats, and access.
 MIND the Gap and Planetary Feature Fields each have a dedicated 15-second slide
 after the model-evaluation paper.
 The NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
-Models* paper has its own slide after Features of The World and Benchmarks of
-The World. Open-source acknowledgements precede the final slide, which has
+Models* paper has its own slide after the GeoLibre integration demo. Open-source acknowledgements precede the final slide, which has
 clickable project links and one QR code that opens that slide in manual mode.
 Sources and attribution are in speaker notes instead of slide footers.
 

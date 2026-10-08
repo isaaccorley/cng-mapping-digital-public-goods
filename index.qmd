@@ -65,11 +65,11 @@ MIND and PFFs study geospatial embeddings, and our position paper examines model
 Sources: https://taylorgeospatial.org/about-us/ and the CNG agenda.
 :::
 
-## Global FTW · 2nd edition {#ftw-preview .full data-autoslide="15000"}
+## Global FTW · 2nd edition - Better, Smoother, Longer {#ftw-preview .full data-autoslide="15000"}
 
 ```{=html}
 <div class="image-slide"><img src="assets/stills/netherlands-2e.jpg?v=20261006-data" alt="Second-edition FTW field polygons in Flevoland">
-<div class="image-head"><h2>Global FTW · 2nd edition</h2><p>Annual field maps · 2017–2025</p></div>
+<div class="image-head"><h2>Global FTW · 2nd edition - Better, Smoother, Longer</h2><p>Annual field maps · 2017–2025</p></div>
 <a class="ftw-viewer-qr" href="https://research.taylorgeospatial.org/global-ftw-2e/"><img src="assets/qr/ftw.png" alt="Scan to explore Global FTW 2nd edition"></a>
 </div>
 ```
@@ -275,21 +275,22 @@ MIND and PFFs study representations that can be reused across products and tasks
 Sources: https://source.coop/ftw/global-data-2e and https://browser.portolan-sdi.org/#/external/data.source.coop/ftw/global-data-2e/catalog.json.
 :::
 
-## Feature mapping and model evaluation {#research .tg-light data-autoslide="15000"}
+## Global FTW in GeoLibre {#geolibre .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="research-projects research-projects-wide">
-<article><h3>Features of The World</h3><p>We study how to map roads, buildings, solar panels, and trees.</p><small>Active research</small></article>
-<article><h3>Benchmarks of The World</h3><p>We build shared tools to compare models across tasks, sensors, and regions.</p><small>Research and evaluation tools</small></article>
-</div>
+<div class="geolibre-brand"><a href="https://web.geolibre.app/?plugin=fields-of-the-world"><img src="assets/logos/geolibre.png" alt="GeoLibre logo"><span>GeoLibre</span></a><p>Qiusheng Wu</p></div>
+<video class="geolibre-demo" data-autoplay muted loop playsinline preload="metadata" poster="assets/media/geolibre-ftw-poster.jpg" aria-label="GeoLibre showing Global FTW 2nd edition, zooming into fields and filtering by field score"><source src="assets/media/geolibre-ftw.mp4" type="video/mp4"></video>
 ```
 
 ::: {.notes}
 About 15 seconds.
-Features of The World extends feature mapping beyond fields.
-Benchmarks of The World develops tools for comparing model quality, geographic generalization, and compute requirements.
-FTW, MIND, and PFFs need the same evaluation standards as the models we compare them with.
-Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/.
+Qiusheng Wu's GeoLibre integrates the Global FTW 2nd edition.
+This recording shows the 2025 PMTiles layer over Sentinel-2 imagery in Normandy.
+The demo enables boundaries, zooms into individual fields, and filters by field score.
+The score ranks predictions; it is not calibrated accuracy.
+Recorded from https://web.geolibre.app/?plugin=fields-of-the-world on 8 October 2026.
+Logo: https://github.com/opengeos/GeoLibre/blob/main/docs/assets/geolibre-icon.png.
+Basemap: EOX Sentinel-2 cloudless 2025, modified Copernicus Sentinel data.
 :::
 
 ## Evaluating geospatial foundation models {#state-of-the-art .tg-light data-autoslide="15000"}
@@ -409,6 +410,7 @@ Figure note: PFF forward pass; supplied animation timing preserved.
 <a class="oss-name" href="https://shapely.readthedocs.io/">Shapely</a>
 <a class="oss-named-icon" href="https://github.com/hyparam/hyparquet"><img src="assets/logos/hyparquet.jpg" alt=""><span>hyparquet</span></a>
 <a href="https://openeo.org/"><img src="assets/logos/openeo.png" alt="openEO"></a>
+<span class="oss-more">and more…</span>
 </div>
 ```
 

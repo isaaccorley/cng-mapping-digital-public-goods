@@ -128,3 +128,14 @@ than an equivalent GIF. The old PMTiles overview still is no longer on the slide
 Fonts are self-hosted Space Grotesk under OFL. TG brand assets come from its
 brand bundle. Official open-source logos and dependency evidence are documented
 in [OPEN_SOURCE.md](OPEN_SOURCE.md).
+
+## GeoLibre integration demo
+
+`assets/media/geolibre-ftw.mp4` records the live Fields of the World plugin at
+https://web.geolibre.app/?plugin=fields-of-the-world on 8 October 2026.
+The 1600 × 900 capture shows 2025 FTW 2nd-edition boundaries over EOX Sentinel-2
+cloudless imagery near 48.88, -1.05, zooms from level 12 to 14, then raises the
+field-score filter to 51. It is a silent, roughly 12-second loop with the real
+GeoLibre interface retained. No map geometry or UI state is synthesized.
+The logo is the official `docs/assets/geolibre-icon.png` from
+https://github.com/opengeos/GeoLibre; GeoLibre is credited to Qiusheng Wu.
