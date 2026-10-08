@@ -240,7 +240,7 @@ Sources checked 5 October 2026: https://research.taylorgeospatial.org/coarsen/ ;
 ## COG, GeoParquet, and PMTiles {#formats .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="format-maps"><div><p><strong>COG</strong>Field and boundary probabilities</p><img src="assets/stills/france-field-2025.jpg?v=20261006-data" alt="COG field probabilities"></div><div><p><strong>PMTiles</strong>Regional summaries and field polygons</p><img src="assets/stills/pmtiles-overview.jpg?v=20261006-data" alt="PMTiles regional coverage map"></div></div>
+<div class="format-maps"><div><p><strong>COG</strong>Field and boundary probabilities</p><img src="assets/stills/france-field-2025.jpg?v=20261006-data" alt="COG field probabilities"></div><div><p><strong>PMTiles</strong>Regional summaries and field polygons</p><video data-autoplay muted loop playsinline preload="metadata" poster="assets/media/pmtiles-globe-zoom-poster.jpg" aria-label="Live FTW viewer zooming from global coverage summaries to individual fields in Normandy"><source src="assets/media/pmtiles-globe-zoom.mp4" type="video/mp4"></video></div></div>
 <p class="format-table-label"><strong>GeoParquet</strong> · Geometry and per-field attributes</p>
 <img class="format-table" src="assets/stills/geoparquet-table.jpg?v=20261006-data" alt="Actual GeoParquet table preview showing identifiers, geometry, bounding boxes, metrics, and scores">
 ```
@@ -249,7 +249,7 @@ Sources checked 5 October 2026: https://research.taylorgeospatial.org/coarsen/ ;
 About 15 seconds.
 Cloud-optimized GeoTIFFs store probabilities, and GeoParquet stores geometry and attributes.
 PMTiles provides fast map browsing.
-The screenshots show the preview data.
+The PMTiles clip zooms from global coverage summaries to individual field polygons in the live viewer, captured 8 October 2026.
 The field score is not calibrated accuracy.
 The current catalog lists raster and vector collections for 2017–2025.
 Source: preview catalog metadata.

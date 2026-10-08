@@ -100,6 +100,13 @@ now uses MapLibre loading events and waits for the selected layers to finish.
 
 ## Rebuild
 
+The formats slide uses `assets/media/pmtiles-globe-zoom.mp4`, captured from the
+live viewer on 8 October 2026. It follows the 2025 PMTiles coverage layer from
+the globe to Normandy field polygons, centered near 48.88, -1.05. The browser
+recording crops out the controls, speeds up the zoom, and holds at either end.
+Native viewer colors and data are unchanged. H.264 keeps the animation smaller
+than an equivalent GIF. The old PMTiles overview still is no longer on the slide.
+
 1. Run `python3 scripts/prepare_capture.py`. It snapshots the deployed viewer
    into ignored `.capture/web/`, with local presentation styling and loading
    diagnostics. It does not modify the public viewer or adjacent repository.
