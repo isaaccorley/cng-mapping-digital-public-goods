@@ -128,7 +128,7 @@ Source: docs/figures/pipeline-architecture-tg.tex in taylor-geospatial/global-ft
 ## Global FTW 1st edition → 2nd edition {#editions-large-dense .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Sorriso, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261006-data" aria-label="Sorriso, Brazil · Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Flevoland, Netherlands</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261006-data" aria-label="Flevoland, Netherlands · Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261006-data" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Sorriso, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/brazil-editions-poster.jpg?v=20261008-rgb" aria-label="Sorriso, Brazil · Large fields · 2025"><source src="assets/media/brazil-editions.mp4?v=20261008-rgb" type="video/mp4"></video></article><article><h3>Flevoland, Netherlands</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/netherlands-editions-poster.jpg?v=20261008-rgb" aria-label="Flevoland, Netherlands · Dense field network · 2025"><source src="assets/media/netherlands-editions.mp4?v=20261008-rgb" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -143,7 +143,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Mixed and irregular field shapes {#editions-mixed-irregular .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Iowa, United States</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261006-data" aria-label="Iowa, United States · Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Normandy, France</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261006-data" aria-label="Normandy, France · Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261006-data" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Iowa, United States</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/usa-editions-poster.jpg?v=20261008-rgb" aria-label="Iowa, United States · Mixed field sizes · 2024"><source src="assets/media/usa-editions.mp4?v=20261008-rgb" type="video/mp4"></video></article><article><h3>Normandy, France</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/france-editions-poster.jpg?v=20261008-rgb" aria-label="Normandy, France · Irregular fields and hedgerows · 2025"><source src="assets/media/france-editions.mp4?v=20261008-rgb" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -156,7 +156,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Fields along terrain and narrow strips {#editions-terrain-strips .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Overberg, South Africa</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261006-data" aria-label="Overberg, South Africa · Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Mazovia, Poland</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261006-data" aria-label="Mazovia, Poland · Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261006-data" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Overberg, South Africa</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/south-africa-editions-poster.jpg?v=20261008-rgb" aria-label="Overberg, South Africa · Fields following the terrain · 2025"><source src="assets/media/south-africa-editions.mp4?v=20261008-rgb" type="video/mp4"></video></article><article><h3>Mazovia, Poland</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/poland-editions-poster.jpg?v=20261008-rgb" aria-label="Mazovia, Poland · Narrow strip fields · 2025"><source src="assets/media/poland-editions.mp4?v=20261008-rgb" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -171,12 +171,12 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## New field blocks {#change-new-fields .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Matopiba, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/matopiba-change-poster.jpg?v=20261006-data" aria-label="Matopiba, Brazil · New rectangular field blocks"><source src="assets/media/matopiba-change.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Masindi, Uganda</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/masindi-change-poster.jpg?v=20261006-data" aria-label="Masindi, Uganda · New gridded fields"><source src="assets/media/masindi-change.mp4?v=20261006-data" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Matopiba, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/matopiba-change-poster.jpg?v=20261008-rgb" aria-label="Matopiba, Brazil · New rectangular field blocks"><source src="assets/media/matopiba-change.mp4?v=20261008-rgb" type="video/mp4"></video></article><article><h3>Masindi, Uganda</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/masindi-change-poster.jpg?v=20261008-rgb" aria-label="Masindi, Uganda · New gridded fields"><source src="assets/media/masindi-change.mp4?v=20261008-rgb" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
 About 15 seconds.
-Both the imagery and annual outlines show new field blocks.
+The RGB imagery shows new field blocks. We use our predictions to detect field gain and loss over time.
 The viewer uses 2018 as the baseline because the 2017 predictions miss fields in some regions.
 Matopiba uses Q3 in both years to avoid cloud gaps in the viewer’s Q1 example.
 The examples do not estimate crop types or hectare totals.
@@ -187,7 +187,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Expansion of irrigated fields {#change-irrigation .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>Ili Valley, China</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/ili-change-poster.jpg?v=20261006-data" aria-label="Ili Valley, China · New fields across the valley floor"><source src="assets/media/ili-change.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Kura lowland, Azerbaijan</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/kura-change-poster.jpg?v=20261006-data" aria-label="Kura lowland, Azerbaijan · New irrigated field patterns"><source src="assets/media/kura-change.mp4?v=20261006-data" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>Ili Valley, China</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/ili-change-poster.jpg?v=20261008-rgb" aria-label="Ili Valley, China · New fields across the valley floor"><source src="assets/media/ili-change.mp4?v=20261008-rgb" type="video/mp4"></video></article><article><h3>Kura lowland, Azerbaijan</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/kura-change-poster.jpg?v=20261008-rgb" aria-label="Kura lowland, Azerbaijan · New irrigated field patterns"><source src="assets/media/kura-change.mp4?v=20261008-rgb" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -202,7 +202,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Changes in field layout and crop activity {#change-layout-activity .paired .tg-light data-autoslide="15000"}
 
 ```{=html}
-<div class="comparison-pair"><article><h3>West Bahia, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/bahia-layout-change-poster.jpg?v=20261006-data" aria-label="West Bahia, Brazil · Rectangular fields replaced by center pivots"><source src="assets/media/bahia-layout-change.mp4?v=20261006-data" type="video/mp4"></video></article><article><h3>Al-Jawf, Saudi Arabia</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/al-jawf-change-poster.jpg?v=20261006-data" aria-label="Al-Jawf, Saudi Arabia · Fewer green center pivots in 2025"><source src="assets/media/al-jawf-change.mp4?v=20261006-data" type="video/mp4"></video></article></div>
+<div class="comparison-pair"><article><h3>West Bahia, Brazil</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/bahia-layout-change-poster.jpg?v=20261008-rgb" aria-label="West Bahia, Brazil · Rectangular fields replaced by center pivots"><source src="assets/media/bahia-layout-change.mp4?v=20261008-rgb" type="video/mp4"></video></article><article><h3>Al-Jawf, Saudi Arabia</h3><video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/media/al-jawf-change-poster.jpg?v=20261008-rgb" aria-label="Al-Jawf, Saudi Arabia · Fewer green center pivots in 2025"><source src="assets/media/al-jawf-change.mp4?v=20261008-rgb" type="video/mp4"></video></article></div>
 ```
 
 ::: {.notes}
@@ -218,7 +218,7 @@ Reference: FTW · Sentinel-2 / Copernicus / CDSE · Source Cooperative · Select
 ## Tools for large datasets {#processing-tools .tg-light data-autoslide="15000"}
 
 ```{=html}
-<p class="tools-intro">Converting rasters to polygons, simplifying geometry, and extracting fields slowed processing at global scale.</p>
+<p class="tools-intro">Common packages for postprocessing don't scale.</p>
 <div class="processing-tools">
 <article><h3 class="tool-brand"><img src="assets/logos/coarsen.png" alt="coarsen"></h3><p class="tool-language">Rust core · Python / Shapely</p><p>coarsen reduces vertices while keeping shared field boundaries aligned.</p><a href="https://research.taylorgeospatial.org/coarsen/"><img src="assets/qr/coarsen.png" alt="QR code for coarsen"></a></article>
 <article><h3 class="tool-brand"><img src="assets/logos/contourrs.png" alt="contourrs"></h3><p class="tool-language">Rust core · Python / Arrow</p><p>contourrs converts raster regions and contour bands to polygons, with direct Arrow output.</p><a href="https://research.taylorgeospatial.org/contourrs/"><img src="assets/qr/contourrs.png" alt="QR code for contourrs"></a></article>
@@ -273,6 +273,51 @@ The viewer now reads the second-edition product at ftw/global-data-2e.
 FTW maps fields.
 MIND and PFFs study representations that can be reused across products and tasks.
 Sources: https://source.coop/ftw/global-data-2e and https://browser.portolan-sdi.org/#/external/data.source.coop/ftw/global-data-2e/catalog.json.
+:::
+
+## Feature mapping and model evaluation {#research .tg-light data-autoslide="15000"}
+
+```{=html}
+<div class="research-projects research-projects-wide">
+<article><h3>Features of The World</h3><p>We study how to map roads, buildings, solar panels, and trees.</p><small>Active research</small></article>
+<article><h3>Benchmarks of The World</h3><p>We build shared tools to compare models across tasks, sensors, and regions.</p><small>Research and evaluation tools</small></article>
+</div>
+```
+
+::: {.notes}
+About 15 seconds.
+Features of The World extends feature mapping beyond fields.
+Benchmarks of The World develops tools for comparing model quality, geographic generalization, and compute requirements.
+FTW, MIND, and PFFs need the same evaluation standards as the models we compare them with.
+Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/.
+:::
+
+## Evaluating geospatial foundation models {#state-of-the-art .tg-light data-autoslide="15000"}
+
+```{=html}
+<div class="paper-layout">
+<a class="paper-page" href="https://arxiv.org/pdf/2605.12678v3"><img src="assets/research/state-of-the-art-page1.png" alt="First page of No One Knows the State of the Art in Geospatial Foundation Models, arXiv version 3"></a>
+<div class="paper paper-standalone">
+<p class="acceptance">NeurIPS 2026</p>
+<h3>No One Knows the State of the Art in Geospatial Foundation Models</h3>
+<p>Papers use different evaluation code and methods, so reported rankings are hard to compare.</p>
+<p>Performance varies across tasks, sensors, and regions. Strong results on a few benchmarks do not establish generalist capabilities.</p>
+<p>We propose shared evaluation code and comparable tests.</p>
+</div>
+</div>
+```
+
+::: {.notes}
+About 15 seconds.
+Our position paper was accepted at NeurIPS 2026.
+Published evaluations use different code, preprocessing, adaptation methods, and scoring implementations, so reported rankings are difficult to compare.
+Model performance varies across tasks, sensors, and regions.
+Strong results on a few benchmarks do not establish that a model generalizes across those settings.
+We propose shared evaluation code and comparable tests to help people choose models.
+The paper calls for coordinating evaluation across the community, including our own group.
+The screenshot is the first page of arXiv version 3 (10 September 2026).
+The spoken summary omits numerical audit results while revisions are in progress.
+Source: https://arxiv.org/abs/2605.12678.
 :::
 
 ## MIND the Gap {#mind .tg-light .research-detail data-autoslide="15000"}
@@ -342,51 +387,6 @@ Source: Rao et al., Planetary Feature Fields are Scalable Earth Representations,
 Animation supplied by Isaac Corley; credit Arjun Rao, Copernicus Sentinel-2, and Microsoft Planetary Computer as shown in the clip.
 Reference: Rao et al. (2026) · arXiv:2609.37784 (https://arxiv.org/abs/2609.37784) · Compression relative to uncompressed source data; performance on evaluated downstream tasks.
 Figure note: NDVI access demo by Arjun Rao · original 4× animation timing.
-:::
-
-## Feature mapping and model evaluation {#research .tg-light data-autoslide="15000"}
-
-```{=html}
-<div class="research-projects research-projects-wide">
-<article><h3>Features of The World</h3><p>We study how to map roads, buildings, solar panels, and trees.</p><small>Active research</small></article>
-<article><h3>Benchmarks of The World</h3><p>We build shared tools to compare models across tasks, sensors, and regions.</p><small>Research and evaluation tools</small></article>
-</div>
-```
-
-::: {.notes}
-About 15 seconds.
-Features of The World extends feature mapping beyond fields.
-Benchmarks of The World develops tools for comparing model quality, geographic generalization, and compute requirements.
-FTW, MIND, and PFFs need the same evaluation standards as the models we compare them with.
-Sources: https://taylorgeospatial.org/innovation-program/features-of-the-world/ ; https://taylorgeospatial.org/innovation-program/benchmarks-of-the-world/.
-:::
-
-## Evaluating geospatial foundation models {#state-of-the-art .tg-light data-autoslide="15000"}
-
-```{=html}
-<div class="paper-layout">
-<a class="paper-page" href="https://arxiv.org/pdf/2605.12678v3"><img src="assets/research/state-of-the-art-page1.png" alt="First page of No One Knows the State of the Art in Geospatial Foundation Models, arXiv version 3"></a>
-<div class="paper paper-standalone">
-<p class="acceptance">NeurIPS 2026</p>
-<h3>No One Knows the State of the Art in Geospatial Foundation Models</h3>
-<p>Papers use different evaluation code and methods, so reported rankings are hard to compare.</p>
-<p>Performance varies across tasks, sensors, and regions. Strong results on a few benchmarks do not establish generalist capabilities.</p>
-<p>We propose shared evaluation code and comparable tests.</p>
-</div>
-</div>
-```
-
-::: {.notes}
-About 15 seconds.
-Our position paper was accepted at NeurIPS 2026.
-Published evaluations use different code, preprocessing, adaptation methods, and scoring implementations, so reported rankings are difficult to compare.
-Model performance varies across tasks, sensors, and regions.
-Strong results on a few benchmarks do not establish that a model generalizes across those settings.
-We propose shared evaluation code and comparable tests to help people choose models.
-The paper calls for coordinating evaluation across the community, including our own group.
-The screenshot is the first page of arXiv version 3 (10 September 2026).
-The spoken summary omits numerical audit results while revisions are in progress.
-Source: https://arxiv.org/abs/2605.12678.
 :::
 
 ## Built with open-source software {#open-source .tg-light data-autoslide="15000"}

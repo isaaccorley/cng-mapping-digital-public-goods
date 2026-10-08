@@ -4,7 +4,9 @@ The clip library contains 13 clips captured from real FTW data and satellite
 imagery. All map stills, probability masks, annual outlines, videos, and posters
 were refreshed on 6 October 2026 from the corrected exports, using the same
 locations, years, quarters, and cameras. No satellite pixels or field geometries
-are generated. Edition labels and wipe timing are unchanged.
+are generated. On 8 October, edition labels were shortened and the six change
+clips were recaptured as RGB imagery only. Wipe timing is unchanged.
+Capture layer states are in `assets/provenance/rgb-captures-2026-10-08.json`.
 
 ## Current comparisons
 
@@ -16,12 +18,12 @@ are generated. Edition labels and wipe timing are unchanged.
 | Normandy, France | 48.88, -1.05 | 14 | 2025 Q3 | Alpha / 2e PMTiles; field probability / PMTiles |
 | Overberg, South Africa | -34.25, 19.5 | 13.5 | 2025 Q3 | Alpha / 2e PMTiles |
 | Mazovia, Poland | 52.10, 22.14 | 14 | 2025 Q3 | Alpha / 2e PMTiles |
-| Matopiba, Brazil (G07) | -8.025, -44.245 | 13 | 2018 / 2025 Q3 | Annual GeoParquet outlines + imagery |
-| Masindi, Uganda (G08) | 1.575, 31.926 | 13 | 2018 / 2025 Q1 | Annual GeoParquet outlines + imagery |
-| Ili Valley, China (GN02) | 43.625, 81.198 | 13 | 2018 / 2025 Q3 | Annual GeoParquet outlines + imagery |
-| Kura lowland, Azerbaijan (H04) | 39.625, 48.458 | 13 | 2018 / 2025 Q3 | Annual GeoParquet outlines + imagery |
-| West Bahia, Brazil (BG1) | -13.325, -45.711 | 13 | 2018 / 2025 Q1 | Annual GeoParquet outlines + imagery |
-| Al-Jawf, Saudi Arabia (LN06) | 30.525, 38.155 | 13 | 2018 / 2025 Q3 | Annual GeoParquet outlines + imagery |
+| Matopiba, Brazil (G07) | -8.025, -44.245 | 13 | 2018 / 2025 Q3 | RGB imagery only |
+| Masindi, Uganda (G08) | 1.575, 31.926 | 13 | 2018 / 2025 Q1 | RGB imagery only |
+| Ili Valley, China (GN02) | 43.625, 81.198 | 13 | 2018 / 2025 Q3 | RGB imagery only |
+| Kura lowland, Azerbaijan (H04) | 39.625, 48.458 | 13 | 2018 / 2025 Q3 | RGB imagery only |
+| West Bahia, Brazil (BG1) | -13.325, -45.711 | 13 | 2018 / 2025 Q1 | RGB imagery only |
+| Al-Jawf, Saudi Arabia (LN06) | 30.525, 38.155 | 13 | 2018 / 2025 Q3 | RGB imagery only |
 
 The viewer’s curated examples use 2018 as the early year because its notes flag
 under-detection in some 2017 and 2024 predictions. The first four change examples
@@ -42,13 +44,12 @@ and their earlier notes in `assets/provenance/media-notes-earlier-2026-10-03.md`
 ## Rendering and interpretation
 
 Each pair preserves the camera, quarter, bands, and RGB stretch (0–3000
-reflectance × 10,000). Each year uses its own Sentinel-2 quarterly mosaic and
-annual outlines. Undated basemap fallback is disabled. The edition comparisons
+reflectance × 10,000). Each year uses its own Sentinel-2 quarterly mosaic, with no boundary overlays
+in the change clips. Undated basemap fallback is disabled. The edition comparisons
 use the same background image on both sides.
 
 PMTiles uses TG periwinkle (`#80a0d8`), 0.7 CSS-pixel strokes in the current MapLibre viewer, and 7% fill on
-both sides. GeoParquet outlines retain the viewer’s 1.6-pixel strokes with the
-same periwinkle and 7% fill. Geometry, scores, and selection thresholds are
+both sides. Geometry, scores, and selection thresholds are
 unchanged. Field probability uses the viewer threshold of 128/255, about 0.5,
 with a TG brown → periwinkle → light-blue ramp and the original raster opacity.
 
@@ -103,7 +104,7 @@ now uses MapLibre loading events and waits for the selected layers to finish.
    into ignored `.capture/web/`, with local presentation styling and loading
    diagnostics. It does not modify the public viewer or adjacent repository.
 2. Serve this repository on port 8765. At 1280 × 720, navigate to
-   `.capture/web/?kind=outlines&scene=UNIQUE#year=2018&q=Q3&z=13&lat=...&lon=...`.
+   `.capture/web/?kind=image&scene=UNIQUE#year=2018&q=Q3&z=13&lat=...&lon=...`.
    Use the manifest’s camera and `kind=alpha`, `pmtiles`, or `field` for those
    comparisons. Wait for `body[data-capture-ready=true]` and, for outlines,
    `body[data-outlines-ready=true]`; inspect the map, then save to `assets/stills/`.

@@ -1,0 +1,776 @@
+[
+  {
+    "id": "matopiba-image-2018",
+    "state": {
+      "center": {
+        "lat": -8.025,
+        "lng": -44.245
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q3",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            -45.00018310546875,
+            -8.142577171325684,
+            -44.09172821044922,
+            -7.236382484436035
+          ],
+          "epsg": 32723,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif"
+          },
+          "key": "23MNM_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "23"
+        }
+      ],
+      "year": 2018,
+      "zoom": 13
+    },
+    "sha256": "961ccf600b66381691ce80a6ced9e0276cec66ed0c29413d641e7726b6c47f78"
+  },
+  {
+    "id": "matopiba-image-2025",
+    "state": {
+      "center": {
+        "lat": -8.025,
+        "lng": -44.245
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q3",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            -45.00018310546875,
+            -8.142577171325684,
+            -44.09172821044922,
+            -7.236382484436035
+          ],
+          "epsg": 32723,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=23/gzd=23M/23MNM_0_0/23MNM_0_0.tif"
+          },
+          "key": "23MNM_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "23"
+        }
+      ],
+      "year": 2025,
+      "zoom": 13
+    },
+    "sha256": "f35df0d45d2cb25205e91a547e887586ed684b5a2c104a867c2907aaa9c9f08d"
+  },
+  {
+    "id": "masindi-image-2018",
+    "state": {
+      "center": {
+        "lat": 1.575,
+        "lng": 31.926
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q1",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            31.202056884765625,
+            0.9039208889007568,
+            32.10197067260742,
+            1.8095948696136477
+          ],
+          "epsg": 32636,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif"
+          },
+          "key": "36NUG_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "36"
+        }
+      ],
+      "year": 2018,
+      "zoom": 13
+    },
+    "sha256": "65254afd2029bda7a7bb5ca62332d02c39e7c8e75e4efad96796473fb0e6e968"
+  },
+  {
+    "id": "masindi-image-2025",
+    "state": {
+      "center": {
+        "lat": 1.575,
+        "lng": 31.926
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q1",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            31.202056884765625,
+            0.9039208889007568,
+            32.10197067260742,
+            1.8095948696136477
+          ],
+          "epsg": 32636,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=36/gzd=36N/36NUG_0_0/36NUG_0_0.tif"
+          },
+          "key": "36NUG_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "36"
+        }
+      ],
+      "year": 2025,
+      "zoom": 13
+    },
+    "sha256": "e513f1ac645e96076764e7a8b02776631dbfd0d403bb1a3a2859d8bbe05c0a02"
+  },
+  {
+    "id": "ili-image-2018",
+    "state": {
+      "center": {
+        "lat": 43.625,
+        "lng": 81.198
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q3",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            80.99974822998047,
+            43.34564971923828,
+            82.25323486328125,
+            44.25341796875
+          ],
+          "epsg": 32644,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif"
+          },
+          "key": "44TNP_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "44"
+        }
+      ],
+      "year": 2018,
+      "zoom": 13
+    },
+    "sha256": "e81d99b3e673816a9dd4822ae593d33350c01d1822b5fa23fe381ef1ce5b5ed8"
+  },
+  {
+    "id": "ili-image-2025",
+    "state": {
+      "center": {
+        "lat": 43.625,
+        "lng": 81.198
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q3",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            80.99974822998047,
+            43.34564971923828,
+            82.25323486328125,
+            44.25341796875
+          ],
+          "epsg": 32644,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=44/gzd=44T/44TNP_0_0/44TNP_0_0.tif"
+          },
+          "key": "44TNP_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "44"
+        }
+      ],
+      "year": 2025,
+      "zoom": 13
+    },
+    "sha256": "faadae8d1f8f14ffa5c0b693ed3369162e35f7c32f65c8845c5733c53aa880b3"
+  },
+  {
+    "id": "kura-image-2018",
+    "state": {
+      "center": {
+        "lat": 39.625,
+        "lng": 48.458
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q3",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            47.50102233886719,
+            38.7973518371582,
+            48.69677734375,
+            39.72682189941406
+          ],
+          "epsg": 32639,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif"
+          },
+          "key": "39STD_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "39"
+        },
+        {
+          "bbox": [
+            47.30345153808594,
+            38.79734802246094,
+            48.499210357666016,
+            39.7268180847168
+          ],
+          "epsg": 32638,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif"
+          },
+          "key": "38SQJ_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "38"
+        }
+      ],
+      "year": 2018,
+      "zoom": 13
+    },
+    "sha256": "9a4cc7ce61059c906b9ced6a5c543e79ade9a0e95e9cbdb720793f6fa4edbe93"
+  },
+  {
+    "id": "kura-image-2025",
+    "state": {
+      "center": {
+        "lat": 39.625,
+        "lng": 48.458
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q3",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            47.50102233886719,
+            38.7973518371582,
+            48.69677734375,
+            39.72682189941406
+          ],
+          "epsg": 32639,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=39/gzd=39S/39STD_0_0/39STD_0_0.tif"
+          },
+          "key": "39STD_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "39"
+        },
+        {
+          "bbox": [
+            47.30345153808594,
+            38.79734802246094,
+            48.499210357666016,
+            39.7268180847168
+          ],
+          "epsg": 32638,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=38/gzd=38S/38SQJ_0_0/38SQJ_0_0.tif"
+          },
+          "key": "38SQJ_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "38"
+        }
+      ],
+      "year": 2025,
+      "zoom": 13
+    },
+    "sha256": "0cb7ba96acac25272a45624c8a74296598139c1a6af7b1d83cb16aa2ee403a04"
+  },
+  {
+    "id": "bahia-layout-image-2018",
+    "state": {
+      "center": {
+        "lat": -13.325,
+        "lng": -45.711
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q1",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            -45.92463684082031,
+            -13.568994522094728,
+            -44.999629974365234,
+            -12.6624116897583
+          ],
+          "epsg": 32723,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif"
+          },
+          "key": "23LMF_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "23"
+        }
+      ],
+      "year": 2018,
+      "zoom": 13
+    },
+    "sha256": "b7f972e744e85fd29b98aa10b5c7c00539f126be1ff2b17a80b5213f5a68dbb3"
+  },
+  {
+    "id": "bahia-layout-image-2025",
+    "state": {
+      "center": {
+        "lat": -13.325,
+        "lng": -45.711
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q1",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            -45.92463684082031,
+            -13.568994522094728,
+            -44.999629974365234,
+            -12.6624116897583
+          ],
+          "epsg": 32723,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=23/gzd=23L/23LMF_0_0/23LMF_0_0.tif"
+          },
+          "key": "23LMF_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "23"
+        }
+      ],
+      "year": 2025,
+      "zoom": 13
+    },
+    "sha256": "40e33d6117174bdd28dd3d7b2b47f2ae6472a7f84b031e58b31aae89f4c6c621"
+  },
+  {
+    "id": "al-jawf-image-2018",
+    "state": {
+      "center": {
+        "lat": 30.525,
+        "lng": 38.155
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q3",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            37.95505905151367,
+            29.82586669921875,
+            39.00041961669922,
+            30.733070373535156
+          ],
+          "epsg": 32637,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif"
+          },
+          "key": "37RDP_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "37"
+        }
+      ],
+      "year": 2018,
+      "zoom": 13
+    },
+    "sha256": "29e740cc5eebb0b162d03677b94ec4b58f9071225023b830177b352a3c867527"
+  },
+  {
+    "id": "al-jawf-image-2025",
+    "state": {
+      "center": {
+        "lat": 30.525,
+        "lng": 38.155
+      },
+      "errors": 0,
+      "outlines": 0,
+      "quarter": "Q3",
+      "show": {
+        "alpha": false,
+        "boundary": false,
+        "field": false,
+        "lulc": false,
+        "mosaic": true,
+        "outlines": false,
+        "pmtiles": false
+      },
+      "tiles": [
+        {
+          "bbox": [
+            37.95505905151367,
+            29.82586669921875,
+            39.00041961669922,
+            30.733070373535156
+          ],
+          "epsg": 32637,
+          "hrefs": {
+            "2017": "https://data.source.coop/ftw/global-data-2e/raster/2017/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2018": "https://data.source.coop/ftw/global-data-2e/raster/2018/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2019": "https://data.source.coop/ftw/global-data-2e/raster/2019/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2020": "https://data.source.coop/ftw/global-data-2e/raster/2020/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2021": "https://data.source.coop/ftw/global-data-2e/raster/2021/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2022": "https://data.source.coop/ftw/global-data-2e/raster/2022/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2023": "https://data.source.coop/ftw/global-data-2e/raster/2023/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2024": "https://data.source.coop/ftw/global-data-2e/raster/2024/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif",
+            "2025": "https://data.source.coop/ftw/global-data-2e/raster/2025/zone=37/gzd=37R/37RDP_0_0/37RDP_0_0.tif"
+          },
+          "key": "37RDP_0_0",
+          "years": [
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "zone": "37"
+        }
+      ],
+      "year": 2025,
+      "zoom": 13
+    },
+    "sha256": "3bd31bc74c5dab4c856e3df805c17cd9c047be899098cabb93f105519c1027c3"
+  }
+]

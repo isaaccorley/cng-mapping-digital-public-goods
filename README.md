@@ -14,7 +14,8 @@ The Quarto deck has **20 slides with automatic advance**. The talk moves from
 field mapping and agricultural change to reusable geospatial representations
 and model evaluation. FTW occupies 12 slides, including the quarterly mosaic
 mirror, processing tools, formats, and access.
-MIND the Gap and Planetary Feature Fields each have a dedicated 15-second slide.
+MIND the Gap and Planetary Feature Fields each have a dedicated 15-second slide
+after the model-evaluation paper.
 The NeurIPS-accepted *No One Knows the State of the Art in Geospatial Foundation
 Models* paper has its own slide after Features of The World and Benchmarks of
 The World. Open-source acknowledgements precede the final slide, which has
@@ -75,8 +76,8 @@ probability-to-polygons slide was replaced by the pipeline diagram from
 | 2018 → 2025 | 6 | Two examples per slide, three slides |
 
 Change examples come from the current viewer’s curated list: Brazil, Uganda,
-China, Azerbaijan, and Saudi Arabia. Each compares annual GeoParquet outlines
-with the corresponding dated imagery. The viewer uses 2018 because it flags
+China, Azerbaijan, and Saudi Arabia. Each compares RGB imagery across years,
+without field-boundary overlays. The viewer uses 2018 because it flags
 under-detection in some 2017 predictions. The examples distinguish new fields,
 changed field layout, and reduced crop activity; they do not claim area totals.
 

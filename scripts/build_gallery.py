@@ -9,7 +9,7 @@ manifest = json.loads((ROOT / "assets/scenes.json").read_text())
 scenes = manifest["clips"]
 version = manifest.get("media_version", manifest["captured"].replace("-", ""))
 groups = [
-    ("change", "2018 → 2025", {"outlines"}),
+    ("change", "2018 → 2025", {"image"}),
     ("editions", "Global FTW 1st edition → 2nd edition", {"edition"}),
     ("layers", "Probability masks → PMTiles", {"layers"}),
 ]
