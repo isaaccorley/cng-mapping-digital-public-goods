@@ -83,3 +83,4 @@ Portolan's mark and hyparquet's README artwork appear beside their names.
 | Portolan | [Site asset](https://github.com/portolan-sdi/portolan-sdi.org/blob/main/public/logo-mark.svg) | `assets/logos/portolan.svg` |
 | xarray | [Project asset](https://github.com/pydata/xarray/blob/main/doc/_static/logos/Xarray_Logo_RGB_Final.svg) | `assets/logos/xarray.svg` |
 | hyparquet | [README artwork](https://github.com/hyparam/hyparquet/blob/master/hyparquet.jpg) | `assets/logos/hyparquet.jpg` |
+| openEO | [Official site logo](https://github.com/Open-EO/openeo.org/blob/master/public/images/openeo_logo.png) | `assets/logos/openeo.png` |

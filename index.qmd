@@ -408,6 +408,7 @@ Figure note: PFF forward pass; supplied animation timing preserved.
 <a class="oss-name" href="https://rasterio.readthedocs.io/">Rasterio</a>
 <a class="oss-name" href="https://shapely.readthedocs.io/">Shapely</a>
 <a class="oss-named-icon" href="https://github.com/hyparam/hyparquet"><img src="assets/logos/hyparquet.jpg" alt=""><span>hyparquet</span></a>
+<a href="https://openeo.org/"><img src="assets/logos/openeo.png" alt="openEO"></a>
 </div>
 ```
 
