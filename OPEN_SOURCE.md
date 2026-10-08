@@ -69,3 +69,17 @@ Tools without an official logo remain acknowledged in speaker notes.
 The collage uses the official [GEOS wordmark](https://github.com/libgeos/geos/blob/main/web/static/geos-logo/geos-social-black.png)
 in `assets/logos/geos-wordmark.png`. OpenLayers uses its official icon beside
 the project name; its repository provides icon-only logo files.
+
+## Closing credits refresh, 8 October 2026
+
+Coarsen and contourrs remain on the processing-tools slide and are omitted from
+the closing collage. Portolan, Rasterio, Shapely, hyparquet, and xarray are now
+included. Rasterio and Shapely use text names: no logo was found in their main
+repositories, and their GitHub organization avatars are generated identicons.
+Portolan's mark and hyparquet's README artwork appear beside their names.
+
+| Project | Official source | Local file |
+|---|---|---|
+| Portolan | [Site asset](https://github.com/portolan-sdi/portolan-sdi.org/blob/main/public/logo-mark.svg) | `assets/logos/portolan.svg` |
+| xarray | [Project asset](https://github.com/pydata/xarray/blob/main/doc/_static/logos/Xarray_Logo_RGB_Final.svg) | `assets/logos/xarray.svg` |
+| hyparquet | [README artwork](https://github.com/hyparam/hyparquet/blob/master/hyparquet.jpg) | `assets/logos/hyparquet.jpg` |

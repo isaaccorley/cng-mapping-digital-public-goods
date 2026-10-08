@@ -401,10 +401,13 @@ Figure note: PFF forward pass; supplied animation timing preserved.
 <a href="https://arrow.apache.org/"><img src="assets/logos/arrow.svg" alt="Apache Arrow"></a>
 <a href="https://onnxruntime.ai/"><img src="assets/logos/onnxruntime.png" alt="ONNX Runtime"></a>
 <a href="https://proj.org/"><img src="assets/logos/proj.svg" alt="PROJ"></a>
-<a href="https://research.taylorgeospatial.org/coarsen/"><img src="assets/logos/coarsen.png" alt="coarsen"></a>
+<a class="oss-named-icon" href="https://portolan-sdi.org/"><img src="assets/logos/portolan.svg" alt=""><span>Portolan</span></a>
 <a href="https://libgeos.org/"><img src="assets/logos/geos-wordmark.png" alt="GEOS"></a>
 <a class="oss-openlayers" href="https://openlayers.org/"><img src="assets/logos/openlayers.svg" alt=""><span>OpenLayers</span></a>
-<a href="https://research.taylorgeospatial.org/contourrs/"><img src="assets/logos/contourrs.png" alt="contourrs"></a>
+<a href="https://xarray.dev/"><img src="assets/logos/xarray.svg" alt="xarray"></a>
+<a class="oss-name" href="https://rasterio.readthedocs.io/">Rasterio</a>
+<a class="oss-name" href="https://shapely.readthedocs.io/">Shapely</a>
+<a class="oss-named-icon" href="https://github.com/hyparam/hyparquet"><img src="assets/logos/hyparquet.jpg" alt=""><span>hyparquet</span></a>
 </div>
 ```
 
@@ -415,7 +418,8 @@ Thank you to their maintainers and contributors.
 The dependency and import audit is pinned to upstream cbda0b122f12509624d29f9a4ae04dae27485661 in assets/provenance/open-source-tools.json.
 Official logo sources are recorded in OPEN_SOURCE.md.
 MapLibre is now used by the live viewer; OpenLayers supported the earlier viewer.
-Additional dependencies include Rasterio, Shapely, fbp, hyparquet, proj4js, rustac, PMTiles, and tylertoo.
+Additional dependencies include fbp, proj4js, rustac, PMTiles, and tylertoo.
+Portolan provides the catalog browser shown earlier. Rasterio, Shapely, hyparquet, and xarray support data processing and access.
 The coverage simplifier used for this release later became the standalone coarsen package.
 These acknowledgements credit software contributors and do not imply partner endorsement.
 Reference: taylor-geospatial/global-ftw-2e (https://github.com/taylor-geospatial/global-ftw-2e) · Selected tools from the pipeline and viewer

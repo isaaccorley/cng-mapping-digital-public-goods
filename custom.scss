@@ -176,9 +176,9 @@ $presentation-h2-font-size: 1.5em;
 .reveal .paper-standalone h3 { font-size:43px;margin-bottom:28px; }
 .reveal .paper-standalone p { font-size:28px;margin-bottom:25px; }
 
-.reveal .oss-logo-cloud { display:flex;flex-wrap:wrap;justify-content:center;align-content:center;gap:34px 48px;min-height:640px; }
-.reveal .oss-logo-cloud a { display:flex;align-items:center;justify-content:center;width:260px;height:125px; }
-.reveal .oss-logo-cloud img { max-width:250px;max-height:115px;object-fit:contain; }
+.reveal .oss-logo-cloud { display:flex;flex-wrap:wrap;justify-content:center;align-content:center;gap:30px 40px;min-height:610px; }
+.reveal .oss-logo-cloud a { display:flex;align-items:center;justify-content:center;width:230px;height:110px; }
+.reveal .oss-logo-cloud img { max-width:220px;max-height:100px;object-fit:contain; }
 .reveal .oss-logo-cloud img[alt="OpenLayers"],.reveal .oss-logo-cloud img[alt="PROJ"] { max-width:125px; }
 
 .reveal .oss-logo-cloud .oss-openlayers { gap:12px;text-decoration:none;color:#242424;font-size:32px; }
@@ -186,3 +186,7 @@ $presentation-h2-font-size: 1.5em;
 
 .reveal .ftw-viewer-qr { position:absolute;right:64px;bottom:64px;display:block; }
 .reveal .ftw-viewer-qr img { display:block;width:300px;height:300px; }
+
+.reveal .oss-logo-cloud .oss-named-icon { gap:12px;text-decoration:none;color:#242424;font-size:32px; }
+.reveal .oss-logo-cloud .oss-named-icon img { width:60px;height:60px;object-fit:contain; }
+.reveal .oss-logo-cloud .oss-name { font-size:40px;font-weight:600;color:#242424;text-decoration:none; }
