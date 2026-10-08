@@ -142,8 +142,8 @@ $presentation-h2-font-size: 1.5em;
 .reveal .research-copy .research-release,.reveal .research-copy .research-result { border-top:2px solid var(--accent);padding-top:25px;font-size:27px; }
 .reveal .research-detail figure { margin:0;min-width:0; }
 .reveal .mind-figure video { display:block;width:100%;height:535px;object-fit:contain; }
-.reveal .pff-layout { grid-template-columns:.65fr 1.35fr;gap:40px; }
-.reveal .pff-figure video { display:block;width:100%;height:580px;object-fit:contain; }
+.reveal .pff-layout { grid-template-columns:.85fr 1.15fr;gap:55px; }
+.reveal .pff-figure video { display:block;width:100%;height:510px;object-fit:contain; }
 
 /* Data access and project links within the 15-second slide format. */
 .reveal .product-layout { display:grid;grid-template-columns:.7fr 1.3fr;gap:65px;align-items:center; }
