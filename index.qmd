@@ -364,7 +364,7 @@ Each chunk has its own colors, so comparisons should focus on spatial patterns.
 <p class="research-result">In the paper’s tests, reconstructed features retain roughly <strong>90% or more</strong> of the original downstream performance at about <strong>1,800× compression</strong>.</p>
 </div>
 <figure class="pff-figure">
-<video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/pff-animation-poster.jpg" aria-label="NDVI mapping demonstration comparing Microsoft Planetary Computer and Planetary Feature Fields"><source src="assets/research/pff-animation.mp4" type="video/mp4"></video>
+<video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/pff-forward-pass-sparse-poster.jpg" aria-label="Planetary Feature Fields forward pass from location and time through explicit factors and decoders to observations, embeddings, and maps"><source src="assets/research/pff-forward-pass-sparse.mp4" type="video/mp4"></video>
 </figure>
 </div>
 ```
@@ -372,11 +372,8 @@ Each chunk has its own colors, so comparisons should focus on spatial patterns.
 ::: {.notes}
 About 15 seconds.
 PFFs encode several products within local regions and return values for a location and time.
-The clip compares NDVI mapping through Microsoft Planetary Computer and PFFs.
-NDVI is a vegetation index computed from red and near-infrared values.
-The animation keeps its supplied timing and original 4× label.
-The clip demonstrates data access.
-The text at left reports separate compression and downstream-performance results.
+The animation shows location and time indexing explicit factors, followed by product-specific decoders.
+The outputs include observations, embeddings, and maps.
 The compression result is relative to uncompressed source arrays.
 Downstream tests include segmentation, change detection, and classification.
 The percentage measures performance relative to the original features rather than absolute accuracy.
@@ -384,9 +381,9 @@ PFFs can add timesteps and product decoders while preserving existing outputs.
 The slide presents PFF research results without claiming that PFFs distribute the FTW release.
 Evaluations across tasks and regions help establish where a representation is useful.
 Source: Rao et al., Planetary Feature Fields are Scalable Earth Representations, arXiv:2609.37784v1, abstract.
-Animation supplied by Isaac Corley; credit Arjun Rao, Copernicus Sentinel-2, and Microsoft Planetary Computer as shown in the clip.
+Forward-pass animation supplied by Isaac Corley on 8 October 2026.
 Reference: Rao et al. (2026) · arXiv:2609.37784 (https://arxiv.org/abs/2609.37784) · Compression relative to uncompressed source data; performance on evaluated downstream tasks.
-Figure note: NDVI access demo by Arjun Rao · original 4× animation timing.
+Figure note: PFF forward pass; supplied animation timing preserved.
 :::
 
 ## Built with open-source software {#open-source .tg-light data-autoslide="15000"}

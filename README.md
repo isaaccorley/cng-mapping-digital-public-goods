@@ -56,9 +56,9 @@ Keep the whole `docs/` directory when copying the presentation. PDF exports
 use posters; the HTML deck plays videos.
 
 The MIND slide includes a local 30-second embedding-globe clip from the project
-site. The PFF slide plays the supplied 22.3-second NDVI access demonstration.
+site. The PFF slide loops the supplied 3.8-second forward-pass animation.
 Conference mode advances both slides at 15 seconds; manual review allows the
-full clips to play. Clip timing and media files are unchanged.
+full clips to play.
 [RESEARCH.md](RESEARCH.md) records the sources, figure attribution, and clip edit.
 
 ## Comparison library
