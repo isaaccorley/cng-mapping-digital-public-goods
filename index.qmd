@@ -364,7 +364,7 @@ Each chunk has its own colors, so comparisons should focus on spatial patterns.
 <p class="research-result">In the paper’s tests, reconstructed features retain roughly <strong>90% or more</strong> of the original downstream performance at about <strong>1,800× compression</strong>.</p>
 </div>
 <figure class="pff-figure">
-<video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/pff-forward-pass-sparse-poster.jpg" aria-label="Planetary Feature Fields forward pass from location and time through explicit factors and decoders to observations, embeddings, and maps"><source src="assets/research/pff-forward-pass-sparse.mp4" type="video/mp4"></video>
+<video data-autoplay controls muted loop playsinline preload="metadata" poster="assets/research/pff-forward-pass-sparse-poster.jpg?v=20261008-ivory" aria-label="Planetary Feature Fields forward pass from location and time through explicit factors and decoders to observations, embeddings, and maps"><source src="assets/research/pff-forward-pass-sparse.mp4?v=20261008-ivory" type="video/mp4"></video>
 </figure>
 </div>
 ```

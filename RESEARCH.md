@@ -31,7 +31,7 @@ ffmpeg -y -ss 2 -i assets/research/mind-embedding.mp4 \
 
 - Paper: [Rao et al., Planetary Feature Fields are Scalable Earth Representations](https://arxiv.org/abs/2609.37784).
 - Current animation: `pff-forward-pass-sparse.gif`, supplied by Isaac Corley on 8 October 2026.
-- Source preserved at `assets/research/pff-forward-pass-sparse.gif`; SHA-256 `239f195af3e329c8349e880facc6e9d1e63e31c6747050dc9875189dfbfa1050`.
+- Source preserved at `assets/research/pff-forward-pass-sparse.gif`; SHA-256 `04342ffa983b2b131d48ff8e1894fee4ad64eba8cda2a6501a8abdc1b6afd6ea`.
 - The 2160 × 1260 animation shows the forward pass from space/time coordinates through explicit factors and product decoders to observations, embeddings, and maps.
 - H.264 conversion preserves the full frame and supplied 3.8-second timing. Playback is silent and loops on slide entry.
 - The previous NDVI access demonstration remains in `assets/research/pff-animation.gif` but is no longer used in the deck.
