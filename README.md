@@ -28,10 +28,13 @@ uv sync --frozen
 uv run quarto preview index.qmd
 ```
 
-The presentation clock starts when the deck opens. Each slide advances after
-15 seconds, including slides with longer videos. Arrow-key navigation and video
-controls do not disable the timer. The closing slide is reached at 4:45 and
-remains visible; the deck does not loop. Open or reload the normal deck URL on cue.
+Timing follows the [CNG Quarto template](https://github.com/cloudnativegeo/lightning-talk-quarto-TEMPLATE):
+the cover waits until you press Next. Subsequent slides advance every 15 seconds,
+including slides with longer videos. Arrow-key navigation and video controls do
+not disable the timer. The deck has 20 slides including the cover; the closing
+slide remains visible and the deck does not loop.
+
+[Present from the cover](https://isaac.earth/cng-mapping-digital-public-goods/?autoSlide=15000#/cover).
 
 For manual review, use
 [?autoSlide=0](https://isaac.earth/cng-mapping-digital-public-goods/?autoSlide=0).

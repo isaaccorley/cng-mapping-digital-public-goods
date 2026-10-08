@@ -22,7 +22,7 @@ format:
     include-after-body: animations.html
 ---
 
-## Mapping the World as a Digital Public Good {#cover .full .tg-dark data-autoslide="15000"}
+## Mapping the World as a Digital Public Good {#cover .full .tg-dark data-autoslide="0"}
 
 ```{=html}
 <div class="tg-cover">
@@ -39,7 +39,8 @@ About 15 seconds.
 CNG plenary lightning talks use 20 slides at 15 seconds each.
 The agenda entry begins on 8 October 2026 at 15:33 America/Denver.
 The seven-minute agenda slot allows five minutes for the talk.
-Timing starts when the deck opens.
+The cover waits for a manual advance, matching the CNG template.
+Subsequent slides advance every 15 seconds.
 Use ?autoSlide=0 for manual rehearsal.
 Every video loops until the slide advances.
 :::

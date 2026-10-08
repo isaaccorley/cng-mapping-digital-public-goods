@@ -74,11 +74,12 @@ test('manual review disables even explicit per-slide timers', () => {
   assert.equal(config.autoSlide, false);
 });
 
-test('all 20 slides have explicit 15-second timings so longer videos cannot extend them', () => {
+test('CNG timing holds the cover and advances subsequent slides every 15 seconds', () => {
   const deck = readFileSync('index.qmd', 'utf8');
   const headings = deck.match(/^## .+$/gm);
   assert.equal(headings.length, 20);
-  assert.ok(headings.every(heading => heading.includes('data-autoslide="15000"')));
+  assert.ok(headings[0].includes('data-autoslide="0"'));
+  assert.ok(headings.slice(1).every(heading => heading.includes('data-autoslide="15000"')));
   assert.match(deck, /auto-slide: 15000/);
   assert.match(deck, /auto-slide-stoppable: false/);
 });
