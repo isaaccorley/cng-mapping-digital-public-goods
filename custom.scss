@@ -153,8 +153,8 @@ $presentation-h2-font-size: 1.5em;
 .reveal .mosaic-layout { grid-template-columns:.9fr 1.1fr;gap:50px; }
 .reveal .mosaic-layout .mosaic-years { font-size:54px;margin-bottom:20px; }
 .reveal .mosaic-layout .coverage-detail { font-size:22px;color:#6c514e; }
-.reveal .closing-qr { position:absolute;right:120px;top:50%;transform:translateY(-50%);width:360px;text-align:center;font-size:25px;text-decoration:none; }
-.reveal .closing-qr img { width:360px;height:360px;display:block;margin-bottom:16px; }
+.reveal .closing-qr { position:absolute;right:100px;top:50%;transform:translateY(-50%);width:430px;text-align:center;font-size:25px;text-decoration:none; }
+.reveal .closing-qr img { width:430px;height:430px;display:block;margin-bottom:16px; }
 .reveal #processing-tools h2 { margin-bottom:23px; }
 .reveal .tools-intro { font-size:28px;margin:0 0 32px;max-width:1300px; }
 .reveal .processing-tools { display:grid;grid-template-columns:repeat(3,1fr);gap:55px; }
